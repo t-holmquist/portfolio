@@ -4,16 +4,16 @@ import { FaLocationArrow } from "react-icons/fa6"
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div id="projects" className="py-20">
         <h1 className="heading">
             Take a look at some {' '}
             <span className="text-purple">recent projects</span>
         </h1>
-        <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-14 md:mt-24">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
-                <div key={id} className="flex items-center justify-center lg:min-h-[32.5] h-[25rem] sm:w-96 w-[80vw]">
+                <div key={id} className="flex sm:h-[41] h-[32rem] sm:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
                     <PinContainer title={link} href={link}>
-                        <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                             <div className="relative w-hull h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                                 <img src="/bg.png" alt="bg-img" />
                             </div>
