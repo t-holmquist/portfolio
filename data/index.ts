@@ -73,18 +73,18 @@ export const navItems = [
     {
       id: 1,
       title: "My cool project number 1",
-      des: "Simplify your life with this cool project number 1. Seamlessly integrate it in your life.",
+      des: "Simplify your life with this cool project number 1.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/t-holmquist",
     },
     {
       id: 2,
       title: "My cool project number 2",
-      des: "Simplify your life with this cool project number 2. Seamlessly integrate it in your life.",
+      des: "Simplify your life with this cool project number 2.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/t-holmquist",
     },
   ];
   
