@@ -7,7 +7,7 @@ const RecentProjects = () => {
     <div id="projects" className="py-20">
         <h1 className="heading">
             Take a look at some {' '}
-            <span className="text-purple">recent projects</span>
+            <span className="text-[#877EFF]">recent projects</span>
         </h1>
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-14 md:mt-24">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -38,7 +38,7 @@ const RecentProjects = () => {
                             </div>
                             
                             <div className="flex justify-center items-center">
-                                <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check live site</p>
+                                <p className="flex lg:text-xl md:text-xs text-sm text-[#877EFF]">Check live site</p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9"/>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6"
+import { FaEnvelope } from "react-icons/fa6"
 import MagicButton from "./ui/MagicButton"
 import { socialMedia } from "@/data";
 
@@ -10,13 +10,13 @@ const Footer = () => {
     <footer className="w-full mb-[100px] md:mb-5 pb-10" id="contact">
         <div className="flex flex-col items-center">
             <h1 className="heading lg:max-w-[45vw]">Ready to take 
-                <span className="text-purple"> your</span> digital presence to the next level?
+                <span className="text-[#877EFF]"> your</span> digital presence to the next level?
             </h1>
             <p className="text-white-200 md:mt-10 my-5 text-center">Reach out to me today and lets grab a cup of coffee!</p>
             <a href="mailto:tjalfeholmquist@gmail.com">
             <MagicButton
             title="Let's get in touch"
-            icon={<FaLocationArrow/>}
+            icon={<FaEnvelope/>}
             position="right"
             />
             </a>
