@@ -41,8 +41,8 @@ export function BackgroundGradientDemo() {
         <br />Got an ability to connect with people and foster a positive work environment.
         </p>
         <button onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden lg:flex rounded-full pl-4 pr-1 py-1 text-white items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-          <span>Say hello </span>
-          <span className="bg-[#877EFF] animate-bounce rounded-full text-[0.6rem] px-2 py-0 text-white">
+          <span className="text-xs">Say hello</span>
+          <span className="bg-[#877EFF] animate-bounce rounded-full text-[0.6rem] px-4 py-2 text-white">
             here
           </span>
         </button>
