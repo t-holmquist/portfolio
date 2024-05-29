@@ -9,12 +9,19 @@ const Footer = () => {
 
   return (
     <footer className="w-full mb-[100px] md:mb-5 pb-10" id="contact">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center dark:bg-dot-white/[0.2]">
             <BackgroundGradientDemo/>
-            <h1 className="mt-14 heading lg:max-w-[45vw]">Ready to take 
-                <span className="text-[#877EFF]"> your</span> digital presence to the next level?
+            {/* Hidden images reveal on hover*/}
+            <div id="right-hand" className="hidden lg:block opacity-0 w-40 h-40 ml-6 mt-20 self-start absolute z-50">
+                <img className="rounded-3xl" src="/right_hand.webp" alt="hand"/>
+            </div>
+            <div id="left-hand" className="hidden lg:block opacity-0 mt-20 mr-20 w-40 h-40 self-end absolute z-50">
+                <img className="rounded-3xl" src="/left_hand.webp" alt="hand" />
+            </div>
+            <h1 className="mt-14 heading lg:max-w-[45vw]">Feel free to
+                <span className="text-[#877EFF]"> reach out</span> to me
             </h1>
-            <p className="text-white-200 md:mt-10 my-5 text-center">Reach out to me today and lets grab a cup of coffee!</p>
+            <p className="text-white-200 md:mt-10 my-5 text-center">I'm always interested in meeting new people</p>
             <a href="mailto:tjalfeholmquist@gmail.com">
             <MagicButton
             title="Let's get in touch"

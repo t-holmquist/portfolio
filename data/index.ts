@@ -100,21 +100,21 @@ export const navItems = [
     {
       id: 2,
       title: "Creative Agency",
-      desc: "Founder and creator of campaigns with a socially responsible focus",
+      desc: "Former founder and creator of campaigns with a focus on social responsability",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Physiotherapist",
-      desc: "Broad experience within the healthcare system and private clinics",
+      title: "Computer Science - certificate",
+      desc: "Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "SoMe-manager & Videographer",
-      desc: "Managed social media video content for different companies",
+      title: "Full-stack - certificate",
+      desc: "React, Next.js, Databases, Authentication, TypeScript, Redux",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

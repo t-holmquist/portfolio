@@ -141,6 +141,19 @@ const config = {
             transform: "translateY(-50%)",
           },
         },
+        waveHand: {
+          "0%": {
+            transform: "translateX(0%) rotate(-20deg)",
+          },
+          "50%": {
+            transform: "translateX(50%) rotate(20deg)",
+      
+          },
+          "100%": {
+            transform: "translateX(0%) rotate(-20deg)",
+            
+          },
+        },
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
@@ -157,6 +170,7 @@ const config = {
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
+        waving: "waveHand 600ms ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
