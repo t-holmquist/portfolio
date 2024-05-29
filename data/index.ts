@@ -1,10 +1,9 @@
 export const funFacts = [
   'Climbing',
   'Next.js',
-  'Potty training',
+  'Playground',
   'Fingerstrength',
-  'Ramen',
-  ''
+  'Ramen'
 ];
 
 
@@ -20,7 +19,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Full-stack developer",
+      title: "I'm a Full-stack developer",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -31,7 +30,7 @@ export const navItems = [
     {
       id: 2,
       title: "Top 10",
-      description: "Guess my personality from my search history",
+      description: "Who am I? Search history version",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -61,8 +60,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Some things i really enjoy",
-      description: "",
+      title: "Solves ambitious problems in a collaborative and positive environment",
+      description: "I hope to join a team that",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -71,7 +70,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Feel free to reach out to me",
+      title: "Catch me here",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",

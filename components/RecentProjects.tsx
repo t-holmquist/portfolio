@@ -6,9 +6,14 @@ const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
         <h1 className="heading">
-            Take a look at some {' '}
+            My {' '}
             <span className="text-[#877EFF]">recent projects</span>
         </h1>
+        <div className="flex justify-center mt-10">
+            <p className="text-white-200">
+                A few projects to showcase my technical skills
+            </p>
+        </div>
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-14 md:mt-24">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className="flex sm:h-[41] h-[32rem] sm:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">

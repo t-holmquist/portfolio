@@ -8,6 +8,11 @@ const Experience = () => {
             A little about {' '}
             <span className="text-[#877EFF]">me</span>
         </h1>
+        <div className="flex justify-center mt-10">
+            <p className="text-white-200">
+                Some of the stuff that I have been doing
+            </p>
+        </div>
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
             {workExperience.map((card) => (
                 <Button 
