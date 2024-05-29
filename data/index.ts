@@ -19,18 +19,18 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I'm a Full-stack developer",
+      title: "",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/exp1.svg",
+      img: "",
       spareImg: "",
     },
     {
       id: 2,
-      title: "Top 10",
-      description: "Who am I? Search history version",
+      title: "Well, here's my search history",
+      description: "Who am I?",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",

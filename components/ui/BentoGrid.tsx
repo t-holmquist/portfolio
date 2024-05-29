@@ -106,10 +106,13 @@ export const BentoGridItem = ({
         <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
           {description}
         </div>
-        <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+        <div className={`font-sans font-bold text-lg lg:text-3xl max-w-96 z-10`}>
           {title}
-
-          {/* Flipping words component displayed if id is 5 */}
+          {/* Ekstra large title for id 1 */}
+          {id === 1 && (
+            <p className="text-9xl text-[#8aa0ff]">I'm a Full-Stack developer</p>
+          )}
+          {/* Flipping words component */}
           {id === 2 && (
             <div>
               <FlipWords words={funFacts} duration={2000}/>
