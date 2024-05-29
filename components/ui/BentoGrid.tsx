@@ -3,12 +3,13 @@
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { useState } from "react";
 import animationData from '@/data/confetti.json'
 import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { FlipWords } from "./FlipWords";
+import { funFacts } from "@/data";
 
 export const BentoGrid = ({
   className,
@@ -72,7 +73,7 @@ export const BentoGridItem = ({
       }}
     >
 
-      <div className={`${id === 6 && 'flex justify-end'} h-full`}>
+      <div className='flex justify-end'>
         <div className="w-full h-full absolute">
           {img && (
             <img 
@@ -107,6 +108,13 @@ export const BentoGridItem = ({
         </div>
         <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
           {title}
+
+          {/* Flipping words component displayed if id is 5 */}
+          {id === 2 && (
+            <div>
+              <FlipWords words={funFacts} duration={2000}/>
+            </div>
+          )}
         </div>
       
 

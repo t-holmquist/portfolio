@@ -1,3 +1,15 @@
+export const funFacts = [
+  'Climbing',
+  'Next.js',
+  'Potty training',
+  'Fingerstrength',
+  'Ramen',
+  ''
+];
+
+
+
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -8,18 +20,18 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I know the fronts and backs of the web",
+      title: "Full-stack developer",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/exp1.svg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "Remote work is not an issue",
-      description: "",
+      title: "Top 10",
+      description: "Guess my personality from my search history",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -38,7 +50,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "I appreciate time as a limited ressource",
+      title: "I know the fronts and backs of the web",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,8 +61,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "I once created video campaigns for Refugees and people with Dementia",
-      description: "Fun Fact",
+      title: "Some things i really enjoy",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
