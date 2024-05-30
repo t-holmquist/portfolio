@@ -136,9 +136,13 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      alt: 'GitHub',
+      link: 'https://github.com/t-holmquist'
     },
     {
       id: 2,
       img: "/link.svg",
+      alt: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/tjalfe-villads-holmquist-85019315b'
     },
   ];

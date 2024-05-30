@@ -35,9 +35,9 @@ const Footer = () => {
             <p className="md:text-base text-sm md:font-normal font-light">Copyright © {currentYear} Tjalfe Holmquist</p>
             <div className="flex items-center md:gap-3 gap-6">
                 {socialMedia.map((profile) => (
-                    <div className="w-10 h-10 mt-2 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-                        <img src={profile.img} alt={profile.id.toString()} width={20} height={20}/>
-                    </div>
+                    <a href={profile.link} key={profile.id} className="w-10 h-10 mt-2 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+                        <img src={profile.img} alt={profile.alt} width={20} height={20}/>
+                    </a>
                 ))}
             </div>
         </div>
