@@ -87,7 +87,7 @@ export const navItems = [
       title: "My cool project number 1",
       des: "Simplify your life with this cool project number 1.",
       img: "/left_Hand.webp",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "fm.svg"],
       link: "https://github.com/t-holmquist",
     },
     {
