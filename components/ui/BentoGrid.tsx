@@ -110,12 +110,12 @@ export const BentoGridItem = ({
           {title}
           {/* Ekstra large title for id 1 */}
           {id === 1 && (
-            <p className="text-9xl text-[#8aa0ff]">I'm a Full-Stack developer</p>
+            <p className="lg:text-9xl text-6xl text-[#8aa0ff]">I'm a Full-Stack developer</p>
           )}
           {/* Flipping words component */}
           {id === 2 && (
             <div>
-              <FlipWords words={funFacts} duration={2000}/>
+              <FlipWords words={funFacts} duration={1500}/>
             </div>
           )}
         </div>
@@ -133,7 +133,7 @@ export const BentoGridItem = ({
           </div>
           <div className="flex flex-col gap-3 lg:gap-8">
           <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-            {['PostgreSQL', 'Tailwind CSS'].map((item) => (
+            {['Drizzle', 'Tailwind CSS'].map((item) => (
               <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                 {item}
               </span>

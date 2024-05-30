@@ -1,9 +1,10 @@
 export const funFacts = [
   'Climbing',
-  'Next.js',
-  'Playground',
-  'Fingerstrength',
-  'Ramen'
+  'Google-I/O',
+  'Playgrounds',
+  'Ramen',
+  'Morocco',
+  'CPH-Half',
 ];
 
 
@@ -29,12 +30,12 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Well, here's my search history",
+      title: "Here's my search history",
       description: "Who am I?",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
+      imgClassName: "h-full w-full",
       titleClassName: "justify-start",
-      img: "",
+      img: "/bg_stripes.svg",
       spareImg: "",
     },
     {
@@ -85,16 +86,16 @@ export const navItems = [
       id: 1,
       title: "My cool project number 1",
       des: "Simplify your life with this cool project number 1.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      img: "/left_Hand.webp",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/t-holmquist",
     },
     {
       id: 2,
       title: "My cool project number 2",
       des: "Simplify your life with this cool project number 2.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      img: "/right_Hand.webp",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/t-holmquist",
     },
   ];
