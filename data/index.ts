@@ -64,7 +64,7 @@ export const navItems = [
       title: "Solves ambitious problems in a collaborative and positive environment",
       description: "I hope to join a team that",
       className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-80 w-60 rounded-tl-3xl",
+      imgClassName: "absolute right-0 bottom-0 lg:w-80 md:w-60 w-40 rounded-tl-2xl",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/mockCode.png",
       spareImg: "/grid.svg",

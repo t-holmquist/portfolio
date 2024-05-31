@@ -28,7 +28,7 @@ export function BackgroundGradientDemo() {
   }
 
   return (
-    <div>
+    <div className="mt-20 lg:mt-14">
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-[#0B1327]">
         <img className="rounded-3xl" src="./portrait.webp" alt="portrait" />
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
