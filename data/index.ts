@@ -84,10 +84,10 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "My cool project number 1",
-      des: "Simplify your life with this cool project number 1.",
+      title: "PodGen - AI SaaS",
+      des: "Create and listen to podcasts - empowered by next-gen AI",
       img: "/left_Hand.webp",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "fm.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/t-holmquist",
     },
     {
@@ -107,28 +107,28 @@ export const navItems = [
       title: "M.Sc. in Software Design",
       desc: "IT-university of Copenhagen. Applied Computer Science.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/right_Hand.webp",
     },
     {
       id: 2,
       title: "Creative Agency",
       desc: "Former founder and creator of campaigns with a focus on social responsability",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/right_Hand.webp",
     },
     {
       id: 3,
       title: "Computer Science - certificate",
       desc: "Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/right_Hand.webp",
     },
     {
       id: 4,
       title: "Full-stack - certificate",
       desc: "React, Next.js, Databases, Authentication, TypeScript, Redux",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/right_Hand.webp",
     },
   ];
   
