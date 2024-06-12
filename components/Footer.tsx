@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="w-full mb-[100px] md:mb-5 pb-10" id="contact">
         <div className="flex flex-col items-center dark:bg-dot-white/[0.2]">
             <BackgroundGradientDemo/>
-            {/* Hidden images reveal on hover*/}
+            {/* Opacity hidden images reveal on hover - not visible on mobile */}
             <div id="right-hand" className="hidden lg:block opacity-0 w-40 h-40 ml-6 mt-20 self-start absolute z-50">
                 <Image className="rounded-3xl" src="/right_hand.webp" alt="hand" width={150} height={150}/>
             </div>
