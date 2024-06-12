@@ -21,7 +21,7 @@ const Hero = () => {
         <div className='flex justify-center relative my-20 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
             <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-            Great to see you, I'm
+            Great to see you, I`&apos;`m
             </h2>
 
             <TextGenerateEffect 
@@ -29,7 +29,7 @@ const Hero = () => {
             words='Searching for new opportunities'
             />
             <p className='text-center md:tracking-wider mb-4 text-small md:text-large lg:text-2xl'>
-              I'm Tjalfe, a developer looking to break into the industry.
+              I`&apos;`m Tjalfe, a developer looking to break into the industry.
             </p>
             <a className='mt-10' href="#projects">
               <MagicButton 

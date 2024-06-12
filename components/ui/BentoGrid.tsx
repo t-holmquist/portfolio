@@ -10,6 +10,7 @@ import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import { FlipWords } from "./FlipWords";
 import { funFacts } from "@/data";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -76,9 +77,11 @@ export const BentoGridItem = ({
       <div className='flex justify-end'>
         <div className="w-full h-full absolute">
           {img && (
-            <img 
+            <Image 
             src={img}
             alt={img}
+            width={1000}
+            height={1000}
             className={cn(imgClassName, 'object-cover, object-center')}
             />
           )}
@@ -86,10 +89,11 @@ export const BentoGridItem = ({
 
         <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
           {spareImg && (
-            <img
+            <Image
             src={spareImg}
             alt={spareImg}
             className={'object-cover, object-center w-full h-full'}
+            fill
             />
           )}
         </div>
@@ -110,7 +114,7 @@ export const BentoGridItem = ({
           {title}
           {/* Ekstra large title for id 1 */}
           {id === 1 && (
-            <p className="lg:text-9xl text-6xl text-[#8aa0ff]">I'm a Full-Stack developer</p>
+            <p className="lg:text-9xl text-6xl text-[#8aa0ff]">I`&apos;`m a Full-Stack developer</p>
           )}
           {/* Flipping words component */}
           {id === 2 && (
