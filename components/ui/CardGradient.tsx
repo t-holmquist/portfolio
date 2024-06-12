@@ -40,10 +40,10 @@ export function BackgroundGradientDemo() {
         I work across the stack and have a passion for creating seamless user experiences.
         <br></br>
         <br></br>
-        During my startup experimentation phase, I`&apos;`ve gained valuable business knowledge and learned how to facilitate and work in a creative team.
+        During my startup experimentation phase, I&apos;ve gained valuable business knowledge and learned how to facilitate and work in a creative team.
         </p>
         <button onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden lg:flex rounded-full pl-4 pr-1 py-1 text-white items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-          <span className="text-xs">`Hi I'm`</span>
+          <span className="text-xs">Hi I&apos;m</span>
           <span className="bg-[#877EFF] hover:bg-black-100 animate-bounce rounded-full text-[0.6rem] px-4 py-2 text-white">
             Tjalfe
           </span>
