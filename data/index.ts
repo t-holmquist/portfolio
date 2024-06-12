@@ -86,7 +86,7 @@ export const navItems = [
       id: 1,
       title: "PodGen - AI SaaS Wep App",
       des: "Create and listen to podcasts - empowered by AI",
-      img: "/left_Hand.webp",
+      img: "/left_hand.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/t-holmquist",
     },
@@ -94,7 +94,7 @@ export const navItems = [
       id: 2,
       title: "My cool project number 2",
       des: "Simplify your life with this cool project number 2.",
-      img: "/right_Hand.webp",
+      img: "/right_hand.webp",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/t-holmquist",
     },
@@ -107,28 +107,28 @@ export const navItems = [
       title: "Next.js certificate",
       desc: "SSR, Server Actions, Routing, Data fetching, Optimization & Deployment",
       className: "md:col-span-2",
-      thumbnail: "/right_Hand.webp",
+      thumbnail: "/right_hand.webp",
     },
     {
       id: 2,
       title: "Creative Agency",
       desc: "Former founder and creator of campaigns with a focus on social responsability",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/right_Hand.webp",
+      thumbnail: "/right_hand.webp",
     },
     {
       id: 3,
       title: "Computer Science - certificate",
       desc: "Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/right_Hand.webp",
+      thumbnail: "/right_hand.webp",
     },
     {
       id: 4,
       title: "Full-stack - certificate",
       desc: "React, PostgreSQL databases, Authentication, TypeScript, Redux",
       className: "md:col-span-2",
-      thumbnail: "/right_Hand.webp",
+      thumbnail: "/right_hand.webp",
     },
   ];
   
