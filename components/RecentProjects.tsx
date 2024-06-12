@@ -25,7 +25,7 @@ const RecentProjects = () => {
                             <div className="relative w-hull h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                                 <img src="/bg.png" alt="bg-img" />
                             </div>
-                            <img src={img} alt={title} className="z-10 absolute bottom-0"/>
+                            <Image src={img} alt={title} className="z-10 absolute bottom-0" width={500} height={500}/>
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                             {title}

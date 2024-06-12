@@ -22,7 +22,7 @@ const Footer = () => {
             <h1 className="mt-14 heading lg:max-w-[45vw]">Feel free to
                 <span className="text-[#877EFF]"> reach out</span> to me
             </h1>
-            <p className="text-white-200 md:mt-10 my-10 text-center">I`&apos;`m always interested in meeting new people</p>
+            <p className="text-white-200 md:mt-10 my-10 text-center">I&apos;m always interested in meeting new people</p>
             <a href="mailto:tjalfeholmquist@gmail.com">
             <MagicButton
             title="Let's get in touch"
