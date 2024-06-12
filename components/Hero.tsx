@@ -29,7 +29,7 @@ const Hero = () => {
             words='Searching for new opportunities'
             />
             <p className='text-center md:tracking-wider mb-4 text-small md:text-large lg:text-2xl'>
-              I&apos;m Tjalfe, a developer looking to break into the industry.
+              I'm Tjalfe, a developer looking to break into the industry.
             </p>
             <a className='mt-10' href="#projects">
               <MagicButton 

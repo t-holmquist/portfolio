@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { BackgroundGradient } from "../ui/CardGradientSource";
+import Image from "next/image";
 
 export function BackgroundGradientDemo() {
 
@@ -30,7 +31,7 @@ export function BackgroundGradientDemo() {
   return (
     <div className="mt-20 lg:mt-14">
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-[#0B1327]">
-        <img className="rounded-3xl" src="./portrait.webp" alt="portrait" />
+        <Image className="rounded-3xl" src="/portrait.webp" alt="portrait" width={300} height={300}/>
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           A quick note
         </p>
