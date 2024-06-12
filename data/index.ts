@@ -84,8 +84,8 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "PodGen - AI SaaS",
-      des: "Create and listen to podcasts - empowered by next-gen AI",
+      title: "PodGen - AI SaaS Wep App",
+      des: "Create and listen to podcasts - empowered by AI",
       img: "/left_Hand.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/t-holmquist",
@@ -104,8 +104,8 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "M.Sc. in Software Design",
-      desc: "IT-university of Copenhagen. Applied Computer Science.",
+      title: "Next.js certificate",
+      desc: "SSR, Server Actions, Routing, Data fetching, Optimization & Deployment",
       className: "md:col-span-2",
       thumbnail: "/right_Hand.webp",
     },
@@ -126,7 +126,7 @@ export const navItems = [
     {
       id: 4,
       title: "Full-stack - certificate",
-      desc: "React, Next.js, Databases, Authentication, TypeScript, Redux",
+      desc: "React, PostgreSQL databases, Authentication, TypeScript, Redux",
       className: "md:col-span-2",
       thumbnail: "/right_Hand.webp",
     },

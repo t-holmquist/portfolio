@@ -1,18 +1,20 @@
 import { projects } from "@/data"
 import { PinContainer } from "./ui/3d-pin"
-import { FaLocationArrow } from "react-icons/fa6"
+import { FaEye, FaLocationArrow } from "react-icons/fa6"
 
 const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
         <h1 className="heading">
-            My {' '}
-            <span className="text-[#877EFF]">recent projects</span>
+            Project {' '}
+            <span className="text-[#877EFF]">showcase</span>
         </h1>
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center items-center mt-10">
             <p className="text-white-200">
-                A few projects to showcase my technical skills
+                Take a look at some recent projects
             </p>
+            <FaEye className="ml-2 text-white-200"/>
+            <FaEye className="ml-2 text-white-200"/>
         </div>
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-14 md:mt-24">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -43,7 +45,7 @@ const RecentProjects = () => {
                             </div>
                             
                             <div className="flex justify-center items-center">
-                                <p className="flex lg:text-xl md:text-xs text-sm text-[#877EFF]">Check live site</p>
+                                <p className="flex lg:text-xl md:text-xs text-sm text-[#877EFF]">Live site</p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9"/>
                             </div>
                         </div>
