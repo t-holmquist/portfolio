@@ -115,7 +115,7 @@ export const BentoGridItem = ({
           {title}
           {/* Ekstra large title for id 1 */}
           {id === 1 && (
-            <p className="lg:text-9xl text-5xl text-[#8aa0ff]">I&apos;m a Full-Stack developer</p>
+            <p className="lg:text-9xl text-6xl text-[#8aa0ff]">I&apos;m a Full-Stack developer</p>
           )}
           {/* Flipping words component */}
           {id === 2 && (
