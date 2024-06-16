@@ -97,7 +97,7 @@ const config = {
           },
           "100%": {
             opacity: "1",
-            transform: "translate(-50%,-40%) scale(1)",
+            transform: "translate(-30%,-40%) scale(2)",
           },
         },
         shimmer: {
