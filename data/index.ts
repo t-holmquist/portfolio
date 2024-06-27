@@ -84,18 +84,10 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "PodGen - AI SaaS Wep App (In development)",
-      des: "Create and listen to podcasts - empowered by AI",
-      img: "",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-      link: "https://github.com/t-holmquist",
-    },
-    {
-      id: 2,
-      title: "Upcoming project (In development)",
-      des: "This project is in development.",
-      img: "",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      title: "PodGen",
+      des: "AI SaaS Platform. Create and listen to podcasts. Powered by OpenAI",
+      img: "/podGen.jpg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
       link: "https://github.com/t-holmquist",
     },
   ];
