@@ -6,12 +6,12 @@ const Experience = () => {
   return (
     <div id="experience" className="lg:py-14">
         <h1 className="heading">
-            A little about {' '}
-            <span className="text-[#877EFF]">me</span>
+            Technical
+            <span className="text-[#877EFF]"> qualifications</span>
         </h1>
         <div className="flex justify-center mt-10">
             <p className="text-white-200">
-                Some of the stuff that I have been doing
+                An overview of my certifications
             </p>
         </div>
         <div className="w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10">

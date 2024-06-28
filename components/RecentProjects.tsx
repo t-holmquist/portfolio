@@ -36,7 +36,7 @@ const RecentProjects = () => {
 
                         <div className="flex items-center justify-between mt-7 mb-3">
                             <div className="flex items-center">
-                                <p className="text-white-200 mr-2">Built with: </p>
+                                <p className="text-white-200 mr-2">Build with: </p>
                                 {iconLists.map((icon, index) => (
                                     <div style={{
                                         transform: `translateX(-${5 * index * 2}px)

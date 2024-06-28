@@ -11,7 +11,6 @@ export const funFacts = [
 
 
 export const navItems = [
-    { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
@@ -50,7 +49,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "I know the fronts and backs of the web",
+      title: "Former founder of a creative agency startup",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -103,8 +102,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Creative Agency",
-      desc: "Former founder and creator of campaigns with a focus on social responsability",
+      title: "TypeScript",
+      desc: "Interface, Custom types, Union types, Type Narrowing, Functions & Generics ",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/b4.svg",
     },
@@ -118,7 +117,7 @@ export const navItems = [
     {
       id: 4,
       title: "Full-stack - certificate",
-      desc: "React, PostgreSQL databases, Authentication, TypeScript, Redux",
+      desc: "React, PostgreSQL databases, Authentication, Node.js, Web Security",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
     },
