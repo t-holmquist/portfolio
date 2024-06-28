@@ -88,7 +88,7 @@ export const navItems = [
       des: "AI SaaS Platform. Create and listen to podcasts. Powered by OpenAI",
       img: "/podGen.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-      link: "https://github.com/t-holmquist",
+      link: "https://podgen.vercel.app/",
     },
   ];
   
