@@ -84,7 +84,7 @@ export const navItems = [
     {
       id: 1,
       title: "PodGen",
-      des: "AI SaaS Platform. Create and listen to podcasts. Powered by OpenAI",
+      des: "SaaS Platform. Create and listen to podcasts. Powered by OpenAI",
       img: "/podGen.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
       link: "https://podgen.vercel.app/",
@@ -117,7 +117,7 @@ export const navItems = [
     {
       id: 4,
       title: "Full-stack - certificate",
-      desc: "React, PostgreSQL databases, Authentication, Node.js, Web Security",
+      desc: "Express.js, PostgreSQL databases, React, Version Control, Testing, Authentication, Web Security",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
     },
