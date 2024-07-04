@@ -95,10 +95,11 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Next.js certificate",
+      title: "React & Next.js",
       desc: "SSR, Server Actions, Routing, Data fetching, Optimization & Deployment",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
+      year: "2024 Certificate",
     },
     {
       id: 2,
@@ -106,20 +107,39 @@ export const navItems = [
       desc: "Interface, Custom types, Union types, Type Narrowing, Functions & Generics ",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/b4.svg",
+      year: "2024 Certificate",
     },
     {
       id: 3,
-      title: "Computer Science - certificate",
+      title: "Computer Science",
       desc: "Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/b4.svg",
+      year: "2024 Certificate",
     },
     {
       id: 4,
-      title: "Full-stack - certificate",
+      title: "Full-stack",
       desc: "Express.js, PostgreSQL databases, React, Version Control, Testing, Authentication, Web Security",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
+      year: "2024 Certificate",
+    },
+    {
+      id: 5,
+      title: "SoMe - Manager",
+      desc: "Experience managing social media platforms and communication strategy for a medium-sized company",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "2019-2021",
+    },
+    {
+      id: 6,
+      title: "Founder - Creative Agency",
+      desc: "I started my own company and gained valuable business knowledge and learned how to facilitate and work in a creative team.",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "2021-2024",
     },
   ];
   

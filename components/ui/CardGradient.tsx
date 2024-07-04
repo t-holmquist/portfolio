@@ -37,17 +37,17 @@ export function BackgroundGradientDemo() {
         </p>
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-        I specialize in front-end, but work across the stack using the latest technologies like Next.js. I have a great passion for creating seamless user experiences.
+        I specialize in front-end, but work across the stack using the latest technologies like Next.js. I have always had a huge passion for end user experience.
         <br></br>
         <br></br>
-        As a former founder of a creative agency, I&apos;ve gained valuable business knowledge and learned how to facilitate and work in a creative team.
+          Combining my design & business knowledge with my technical skills, I can quickly adapt to the needs of a particular job. 
         <br></br>
         <br></br>
-          Combining my design & business knowledge with my technical skills, I can quickly adapt to the needs of a particular job.
+          I am based in Copenhagen.
         </p>
-        <button onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden lg:flex rounded-full pl-4 pr-1 py-1 text-white items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+        <button onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden lg:flex rounded-lg pl-4 pr-1 py-1 text-white items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span className="text-xs">Hi I&apos;m</span>
-          <span className="bg-[#877EFF] hover:bg-black-100 animate-bounce rounded-full text-[0.6rem] px-4 py-2 text-white">
+          <span className="bg-[#877EFF] hover:bg-black-100 animate-bounce rounded-lg text-[0.6rem] px-3 py-2 text-white">
             Tjalfe
           </span>
         </button>
