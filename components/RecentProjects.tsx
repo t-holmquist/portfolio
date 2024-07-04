@@ -11,10 +11,10 @@ const RecentProjects = () => {
             <span className="text-[#877EFF]">showcase</span>
         </h1>
         <div className="flex flex-col justify-center items-center mt-10">
-            <p className="text-white-200">
+            <p className="text-white-200 text-center">
                 This project utilizes the latest web development technologies
             </p>
-            <div className="flex items-center">
+            <div className="flex items-center mt-2">
                 <p className="text-white-200">Take a look</p>
                 <FaEye className="ml-2 text-white-200"/>
                 <FaEye className="ml-2 text-white-200"/>

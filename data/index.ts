@@ -99,7 +99,8 @@ export const navItems = [
       desc: "SSR, Server Actions, Routing, Data fetching, Optimization & Deployment",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
-      year: "2024 Certificate",
+      year: "2024",
+      hasCertificate: true,
     },
     {
       id: 2,
@@ -107,7 +108,8 @@ export const navItems = [
       desc: "Interface, Custom types, Union types, Type Narrowing, Functions & Generics ",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/b4.svg",
-      year: "2024 Certificate",
+      year: "2024",
+      hasCertificate: true,
     },
     {
       id: 3,
@@ -115,7 +117,8 @@ export const navItems = [
       desc: "Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/b4.svg",
-      year: "2024 Certificate",
+      year: "2023-2024",
+      hasCertificate: true,
     },
     {
       id: 4,
@@ -123,7 +126,8 @@ export const navItems = [
       desc: "Express.js, PostgreSQL databases, React, Version Control, Testing, Authentication, Web Security",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
-      year: "2024 Certificate",
+      year: "2023-2024",
+      hasCertificate: true,
     },
     {
       id: 5,
@@ -132,6 +136,7 @@ export const navItems = [
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "2019-2021",
+      hasCertificate: false,
     },
     {
       id: 6,
@@ -140,6 +145,7 @@ export const navItems = [
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "2021-2024",
+      hasCertificate: false,
     },
   ];
   

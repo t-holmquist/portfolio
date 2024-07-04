@@ -26,9 +26,14 @@ const Experience = () => {
                             <p className="text-white-100">{card.year}</p>
                         </div>
                         <div className="lg:ms-5">
-                            <h1 className="text-start text-xl md:text-2xl font-bold">
-                                {card.title}
-                            </h1>
+                            <div className="flex items-center gap-3">
+                                <h1 className="text-start text-xl md:text-2xl font-bold">
+                                    {card.title}
+                                </h1>
+                                {card.hasCertificate && (
+                                    <p className="px-1 rounded-lg text-[#877EFF] bg-slate-900 border border-slate-700">Certificate</p>
+                                )}
+                            </div>
                             <p className="text-start text-white-100 mt-3 font-semibold">
                                 {card.desc}
                             </p>

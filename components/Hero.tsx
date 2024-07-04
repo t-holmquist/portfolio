@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         {/* Grid background */}
         <div className="h-screen w-full dark:bg-black-100 bg-white  
-        dark:bg-dot-white/[0.3] flex items-center justify-center absolute top-0 left-0">
+         flex items-center justify-center absolute top-0 left-0 dark:bg-dot-white/[0.08]">
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
         </div>
 
@@ -33,7 +33,7 @@ const Hero = () => {
             </p>
             <a className='mt-10' href="#projects">
               <MagicButton 
-              title='See projects'
+              title='See my work'
               icon={<FaWandMagicSparkles/>}
               position='right'
               />
