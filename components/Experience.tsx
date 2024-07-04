@@ -1,8 +1,14 @@
+'use client'
+
 import { workExperience } from "@/data"
 import { Button } from "./ui/MovingBorders"
 import Image from "next/image"
+import { useState } from "react"
 
 const Experience = () => {
+
+    const [openCardId, setOpenCardId] = useState<number | null>(null);
+
   return (
     <div id="experience" className="lg:py-14">
         <h1 className="heading">
@@ -16,7 +22,7 @@ const Experience = () => {
         </div>
         <div className="w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10">
             {workExperience.map((card) => (
-                <Button 
+                <Button
                 key={card.id}
                 duration={Math.floor(Math.random() * 14000 + 6000)}
                 borderRadius="1.75rem"
@@ -31,12 +37,17 @@ const Experience = () => {
                                     {card.title}
                                 </h1>
                                 {card.hasCertificate && (
-                                    <p className="px-1 rounded-lg text-[#877EFF] bg-slate-900 border border-slate-700">Certificate</p>
+                                    <button onClick={() => setOpenCardId(card.id === openCardId ? null : card.id)} className="px-1 rounded-lg text-[#877EFF] bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</button>
                                 )}
                             </div>
                             <p className="text-start text-white-100 mt-3 font-semibold">
                                 {card.desc}
                             </p>
+                            {card.id === openCardId && (
+                                <div className="flex items-center justify-center h-[400px]">
+                                    <Image src={card.certificate} width={450} height={450} alt="certificate" className="rounded-lg"/>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </Button>
