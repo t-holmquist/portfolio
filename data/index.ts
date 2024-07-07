@@ -101,7 +101,7 @@ export const navItems = [
       thumbnail: "/b4.svg",
       year: "2024",
       hasCertificate: true,
-      certificate: '/cs_certificate.png',
+      certificate: '/nextjs_certificate.png',
     },
     {
       id: 2,
@@ -111,7 +111,7 @@ export const navItems = [
       thumbnail: "/b4.svg",
       year: "2024",
       hasCertificate: true,
-      certificate: '/cs_certificate.png',
+      certificate: '/typescript_certificate.png',
     },
     {
       id: 3,
