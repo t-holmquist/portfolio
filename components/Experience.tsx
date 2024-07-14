@@ -31,7 +31,7 @@ const Experience = () => {
                 key={card.id}
                 duration={Math.floor(Math.random() * 14000 + 6000)}
                 borderRadius="1.75rem"
-                className="flex-1 text-white border-neutral-200 dark:border-slate-800">
+                className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-slate-950">
                     <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
                         <div className="flex items-center rounded-lg p-3 bg-slate-800 border border-slate-700">
                             <p className="text-white-100">{card.year}</p>
@@ -48,9 +48,7 @@ const Experience = () => {
                                             <DialogHeader>
                                                 <DialogTitle>Certificate</DialogTitle>
                                             </DialogHeader>
-                                            <div className="flex items-center justify-center">
-                                                <Image src={card.certificate} width={650} height={650} alt="certificate" className="rounded-lg"/>
-                                            </div>
+                                                <Image src={card.certificate} width={550} height={550} alt="certificate" className="rounded-lg"/>
                                         </DialogContent>
                                     </Dialog>
                                 )}
