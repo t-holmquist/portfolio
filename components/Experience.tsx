@@ -1,13 +1,18 @@
-'use client'
-
 import { workExperience } from "@/data"
 import { Button } from "./ui/MovingBorders"
 import Image from "next/image"
-import { useState } from "react"
+
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+  } from "@/components/ui/dialog"
+  
 
 const Experience = () => {
-
-    const [openCardId, setOpenCardId] = useState<number | null>(null);
 
   return (
     <div id="experience" className="lg:py-14">
@@ -37,17 +42,22 @@ const Experience = () => {
                                     {card.title}
                                 </h1>
                                 {card.hasCertificate && (
-                                    <button onClick={() => setOpenCardId(card.id === openCardId ? null : card.id)} className="px-1 rounded-lg text-[#877EFF] bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</button>
+                                    <Dialog>
+                                        <DialogTrigger className="px-1 rounded-lg text-[#877EFF] bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
+                                        <DialogContent className="bg-slate-950">
+                                            <DialogHeader>
+                                                <DialogTitle>Certificate</DialogTitle>
+                                            </DialogHeader>
+                                            <div className="flex items-center justify-center">
+                                                <Image src={card.certificate} width={650} height={650} alt="certificate" className="rounded-lg"/>
+                                            </div>
+                                        </DialogContent>
+                                    </Dialog>
                                 )}
                             </div>
                             <p className="text-start text-white-100 mt-3 font-semibold">
                                 {card.desc}
                             </p>
-                            {card.id === openCardId && (
-                                <div className="flex items-center justify-center h-[400px]">
-                                    <Image src={card.certificate} width={450} height={450} alt="certificate" className="rounded-lg"/>
-                                </div>
-                            )}
                         </div>
                     </div>
                 </Button>
