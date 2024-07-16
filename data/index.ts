@@ -116,7 +116,7 @@ export const navItems = [
     {
       id: 3,
       title: "Computer Science",
-      desc: "Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
+      desc: "Databases, Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/b4.svg",
       year: "2023-2024",
@@ -125,8 +125,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Full-stack",
-      desc: "Express.js, PostgreSQL databases, React, Version Control, Testing, Authentication, Web Security",
+      title: "Front-end",
+      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "2023-2024",

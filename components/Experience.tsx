@@ -48,7 +48,7 @@ const Experience = () => {
                                             <DialogHeader>
                                                 <DialogTitle>Certificate</DialogTitle>
                                             </DialogHeader>
-                                                <Image src={card.certificate} width={550} height={550} alt="certificate" className="rounded-lg"/>
+                                                <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-lg" placeholder="blur" blurDataURL="/5x5-pixel.png"/>
                                         </DialogContent>
                                     </Dialog>
                                 )}
