@@ -65,7 +65,7 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 lg:w-80 md:w-60 w-40 rounded-tl-2xl",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/mockCode.png",
+      img: "/mockCode.webp",
       spareImg: "",
     },
     {
@@ -85,7 +85,7 @@ export const navItems = [
       id: 1,
       title: "PodGen",
       des: "SaaS Platform. Create and listen to podcasts. Powered by OpenAI",
-      img: "/podGen.jpg",
+      img: "/podGen.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
       link: "https://podgen.vercel.app/",
     },
