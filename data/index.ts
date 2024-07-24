@@ -101,7 +101,7 @@ export const navItems = [
       thumbnail: "/b4.svg",
       year: "2024",
       hasCertificate: true,
-      certificate: '/nextjs_certificate.png',
+      certificate: '/nextjs_certificate.webp',
     },
     {
       id: 2,
@@ -111,7 +111,7 @@ export const navItems = [
       thumbnail: "/b4.svg",
       year: "2024",
       hasCertificate: true,
-      certificate: '/typescript_certificate.png',
+      certificate: '/typescript_certificate.webp',
     },
     {
       id: 3,
@@ -121,7 +121,7 @@ export const navItems = [
       thumbnail: "/b4.svg",
       year: "2023-2024",
       hasCertificate: true,
-      certificate: '/cs_certificate.png',
+      certificate: '/cs_certificate.webp',
     },
     {
       id: 4,
@@ -131,7 +131,7 @@ export const navItems = [
       thumbnail: "/b4.svg",
       year: "2023-2024",
       hasCertificate: true,
-      certificate: '/cs_certificate.png',
+      certificate: '/cs_certificate.webp',
     },
     {
       id: 5,
