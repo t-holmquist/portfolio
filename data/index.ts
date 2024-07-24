@@ -3,8 +3,8 @@ export const funFacts = [
   'Google-I/O',
   'Playgrounds',
   'Ramen',
-  'Morocco',
   'CPH-Half',
+  'Morocco',
 ];
 
 
