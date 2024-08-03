@@ -70,7 +70,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Catch me here",
+      title: "Get my email",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -84,7 +84,7 @@ export const navItems = [
     {
       id: 1,
       title: "PodGen",
-      des: "SaaS Platform. Create and listen to podcasts. Powered by OpenAI",
+      des: "Podcast Platform with AI features",
       img: "/podGen.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
       link: "https://podgen.vercel.app/",
@@ -95,7 +95,27 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "React & Next.js",
+      title: "Front-end Engineer",
+      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "2023-2024",
+      hasCertificate: true,
+      certificate: '/frontend-certificate.webp',
+    },
+    {
+      id: 2,
+      title: "Founder - Creative Agency",
+      desc: "I started my own company and gained valuable business knowledge and learned how to facilitate and work in a creative team.",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "2021-2024",
+      hasCertificate: false,
+      certificate: '',
+    },
+    {
+      id: 3,
+      title: "Next.js (React)",
       desc: "SSR, Server Actions, Routing, Data fetching, Optimization & Deployment",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
@@ -104,7 +124,7 @@ export const navItems = [
       certificate: '/nextjs_certificate.webp',
     },
     {
-      id: 2,
+      id: 4,
       title: "TypeScript",
       desc: "Interface, Custom types, Union types, Type Narrowing, Functions & Generics ",
       className: "md:col-span-2", // change to md:col-span-2
@@ -114,7 +134,7 @@ export const navItems = [
       certificate: '/typescript_certificate.webp',
     },
     {
-      id: 3,
+      id: 5,
       title: "Computer Science",
       desc: "Databases, Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
@@ -124,17 +144,7 @@ export const navItems = [
       certificate: '/cs_certificate.webp',
     },
     {
-      id: 4,
-      title: "Front-end",
-      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
-      className: "md:col-span-2",
-      thumbnail: "/b4.svg",
-      year: "2023-2024",
-      hasCertificate: true,
-      certificate: '/cs_certificate.webp',
-    },
-    {
-      id: 5,
+      id: 6,
       title: "SoMe - Manager",
       desc: "Experience managing social media platforms and communication strategy for a medium-sized company",
       className: "md:col-span-2",
@@ -143,16 +153,7 @@ export const navItems = [
       hasCertificate: false,
       certificate: '',
     },
-    {
-      id: 6,
-      title: "Founder - Creative Agency",
-      desc: "I started my own company and gained valuable business knowledge and learned how to facilitate and work in a creative team.",
-      className: "md:col-span-2",
-      thumbnail: "/b4.svg",
-      year: "2021-2024",
-      hasCertificate: false,
-      certificate: '',
-    },
+    
   ];
   
   export const socialMedia = [

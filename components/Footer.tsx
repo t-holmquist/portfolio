@@ -19,7 +19,7 @@ const Footer = () => {
             <div id="left-hand" className="hidden lg:block opacity-0 mt-20 mr-20 w-40 h-40 self-end absolute z-50">
                 <Image className="rounded-3xl" src="/left_hand.webp" alt="hand" width={150} height={150}/>
             </div>
-            <h1 className="mt-14 heading lg:max-w-[45vw]">Feel free to
+            <h1 className="mt-28 heading lg:max-w-[45vw]">Feel free to
                 <span className="text-[#877EFF]"> reach out</span> to me
             </h1>
             <p className="text-white-200 md:mt-10 my-10 text-center">I&apos;m always interested in meeting new people</p>
