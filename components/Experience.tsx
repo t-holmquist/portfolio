@@ -21,7 +21,7 @@ const Experience = () => {
             <span className="text-brandSecondary"> qualifications</span>
         </h1>
         <div className="flex justify-center mt-10">
-            <p className="text-white-200">
+            <p className="text-white-200 text-center">
                 An overview of my experience and certifications
             </p>
         </div>

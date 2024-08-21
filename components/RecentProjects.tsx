@@ -36,7 +36,7 @@ const RecentProjects = () => {
 
                         <div className="flex items-center justify-between mt-7 mb-3">
                             <div className="flex items-center">
-                                <p className="text-white-200 mr-2">Build with: </p>
+                                <p className="text-white-200 mr-2 text-sm">Build with: </p>
                                 {iconLists.map((icon, index) => (
                                     <div style={{
                                         transform: `translateX(-${5 * index * 2}px)
@@ -47,7 +47,7 @@ const RecentProjects = () => {
                             </div>
                             
                             <div className="flex justify-center items-center">
-                                <p className="flex lg:text-xl md:text-xs text-sm text-[#877EFF]">Live site</p>
+                                <p className="hidden sm:flex lg:text-xl md:text-xs text-sm text-[#877EFF]">See live</p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9"/>
                             </div>
                         </div>

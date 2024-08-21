@@ -9,7 +9,7 @@ const Footer = () => {
     let currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full mb-[100px] md:mb-5 pb-10" id="contact">
+    <footer className="w-full mb-[100px] md:mb-5 sm:pb-10" id="contact">
         <div className="flex flex-col items-center dark:bg-dot-white/[0.2]">
             <BackgroundGradientDemo/>
             {/* Opacity hidden images reveal on hover - not visible on mobile */}

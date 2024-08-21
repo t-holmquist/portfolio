@@ -46,7 +46,7 @@ export function BackgroundGradientDemo() {
         <br></br>
           I am based in Copenhagen.
         </p>
-        <div onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden lg:flex rounded-xl pl-4 pr-1 py-1 text-white items-center space-x-1 bg-black text-xs font-bold dark:bg-zinc-800">
+        <div onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden lg:flex rounded-2xl pl-4 pr-1 py-1 text-white items-center space-x-1 bg-brandPrimary hover:bg-[#e38f73] text-xs font-bold">
           <span className="text-xs">Hover to get a proper greeting</span>
           <Image src="/left_hand.webp" width={50} height={50} alt="hand" className="animate-bounce"/>
         </div>
