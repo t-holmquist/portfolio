@@ -25,7 +25,7 @@ const RecentProjects = () => {
                 <div key={id} className="flex sm:h-[41] h-[32rem] sm:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
                     <PinContainer title={link} href={link}>
                         <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                            <Image src={img} alt={title} className="z-10 w-full h-full" width={500} height={500}/>
+                            <Image src={img} alt={title} className="z-10 rounded-xl" width={1163} height={720}/>
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                             {title}
@@ -41,7 +41,7 @@ const RecentProjects = () => {
                                     <div style={{
                                         transform: `translateX(-${5 * index * 2}px)
                                         `}} key={icon} className="flex items-center justify-center border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8">
-                                        <Image src={icon} alt={icon} className="p-2" width={40} height={40}/>
+                                        <Image src={icon} alt={icon} className="p-[6px]" width={40} height={40}/>
                                     </div>
                                 ))}
                             </div>
