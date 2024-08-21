@@ -87,3 +87,18 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+
+@keyframes portrait-animation{
+  0% {
+      box-shadow: 10px -10px 0px #CBACF9, 20px -20px 0px #8aa0ff;
+      transform: translateY(-8px);
+  }
+  100% {
+      box-shadow: -10px 10px 0px #CBACF9, 20px 20px 0px #8aa0ff;
+  }
+}
+
+#portrait {
+animation: portrait-animation 4s ease-in-out 0s infinite alternate none;
+}
