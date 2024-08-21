@@ -38,9 +38,9 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
-        blue: {
-          "100": "#E4ECFF",
-        },
+        brandPrimary: "#D97757",
+        brandSecondary: "#8aa0ff",
+        brandAccent: "#877EFF",
         purple: "#CBACF9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

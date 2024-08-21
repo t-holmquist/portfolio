@@ -18,7 +18,7 @@ const Experience = () => {
     <div id="experience" className="lg:py-14">
         <h1 className="heading">
             My
-            <span className="text-[#877EFF]"> qualifications</span>
+            <span className="text-brandSecondary"> qualifications</span>
         </h1>
         <div className="flex justify-center mt-10">
             <p className="text-white-200">
@@ -43,7 +43,7 @@ const Experience = () => {
                                 </h1>
                                 {card.hasCertificate && (
                                     <Dialog>
-                                        <DialogTrigger className="px-1 rounded-lg text-[#877EFF] bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
+                                        <DialogTrigger className="px-1 rounded-lg text-brandAccent bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
                                         <DialogContent className="bg-slate-950">
                                             <DialogHeader>
                                                 <DialogTitle>Certificate</DialogTitle>

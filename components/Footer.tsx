@@ -20,7 +20,7 @@ const Footer = () => {
                 <Image className="rounded-3xl" src="/left_hand.webp" alt="hand" width={150} height={150}/>
             </div>
             <h1 className="mt-28 heading lg:max-w-[45vw]">Feel free to
-                <span className="text-[#877EFF]"> reach out</span> to me
+                <span className="text-brandPrimary"> reach out</span> to me
             </h1>
             <p className="text-white-200 md:mt-10 my-10 text-center">I&apos;m always interested in meeting new people</p>
             <a href="mailto:tjalfeholmquist@gmail.com">
