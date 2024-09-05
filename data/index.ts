@@ -103,6 +103,16 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
+      title: "Multimedia Design, CPH Business Academy",
+      desc: "UI/UX design principles, Front-end development, Product development",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "Current",
+      hasCertificate: false,
+      certificate: '',
+    },
+    {
+      id: 2,
       title: "Front-end Engineer",
       desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
       className: "md:col-span-2",
@@ -112,7 +122,7 @@ export const navItems = [
       certificate: '/frontend-certificate.webp',
     },
     {
-      id: 2,
+      id: 3,
       title: "Founder - Creative Agency",
       desc: "I started my own company and gained valuable business knowledge and learned how to facilitate and work in a creative team.",
       className: "md:col-span-2",
@@ -122,7 +132,7 @@ export const navItems = [
       certificate: '',
     },
     {
-      id: 3,
+      id: 4,
       title: "Next.js (React)",
       desc: "SSR, Server Actions, Routing, Data fetching, Optimization & Deployment",
       className: "md:col-span-2",
@@ -132,7 +142,7 @@ export const navItems = [
       certificate: '/nextjs_certificate.webp',
     },
     {
-      id: 4,
+      id: 5,
       title: "TypeScript",
       desc: "Interface, Custom types, Union types, Type Narrowing, Functions & Generics ",
       className: "md:col-span-2", // change to md:col-span-2
@@ -142,7 +152,7 @@ export const navItems = [
       certificate: '/typescript_certificate.webp',
     },
     {
-      id: 5,
+      id: 6,
       title: "Computer Science",
       desc: "Databases, Data Structures, Algorithms, SQL, PostgreSQL, Computer Architecture, Discrete Math",
       className: "md:col-span-2", // change to md:col-span-2
@@ -150,16 +160,6 @@ export const navItems = [
       year: "2023-2024",
       hasCertificate: true,
       certificate: '/cs_certificate.webp',
-    },
-    {
-      id: 6,
-      title: "SoMe - Manager",
-      desc: "Experience managing social media platforms and communication strategy for a medium-sized company",
-      className: "md:col-span-2",
-      thumbnail: "/b4.svg",
-      year: "2019-2021",
-      hasCertificate: false,
-      certificate: '',
     },
     
   ];
