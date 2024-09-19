@@ -9,7 +9,6 @@ export const funFacts = [
 
 
 
-
 export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience" },

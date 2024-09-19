@@ -1,11 +1,12 @@
 "use client";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React, { useRef, useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { cn } from "@/utils/cn";
 
 export const PinContainer = ({
   children,
   title,
+  id,
   href,
   className,
   containerClassName,
@@ -13,6 +14,7 @@ export const PinContainer = ({
   children: React.ReactNode;
   title?: string;
   href?: string;
+  id: number;
   className?: string;
   containerClassName?: string;
 }) => {
@@ -27,14 +29,32 @@ export const PinContainer = ({
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
 
-
-
   const handleClick = () => {
     window.open(href, '_blank')
   }
 
+
+  // scrollhooks for creating animations below
+  const ref = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end end"]
+  });
+
+  // getting project div id to decide transform values
+  const leftProjectX = useTransform(scrollYProgress, [0, 0.6, 1], [-160, -100, 0])
+  const rightProjectX = useTransform(scrollYProgress, [0, 0.6, 1], [160, 100, 0])
+  const scale = useTransform(scrollYProgress, [0, 0.3, 1], [1, 1.1, 1])
+  const rotate = useTransform(scrollYProgress, [0, 0.6, 1], [0, 5, 0])
+
+
+
+
   return (
-    <div
+    <motion.div
+    ref={ref}
+    style={{x: id == 1 ? leftProjectX : rightProjectX, scale: scale, rotate: rotate }}
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName
@@ -60,7 +80,7 @@ export const PinContainer = ({
         </div>
       </div>
       <PinPerspective title={title} href={href} />
-    </div>
+    </motion.div>
   );
 };
 
