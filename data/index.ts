@@ -113,7 +113,7 @@ export const navItems = [
     {
       id: 1,
       title: "Multimedia Design, CPH Business Academy",
-      desc: "UI/UX design principles, Front-end development, Product development",
+      desc: "UI/UX design, Figma, Front-end development, Project management, Brand Identity",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "Current",
