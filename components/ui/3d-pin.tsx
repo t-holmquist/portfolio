@@ -23,7 +23,7 @@ export const PinContainer = ({
   );
 
   const onMouseEnter = () => {
-    setTransform("translate(-50%,-50%) rotateX(0deg) scale(0.9)");
+    setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
@@ -43,12 +43,10 @@ export const PinContainer = ({
   });
 
   // getting project div id to decide transform values
-  const leftProjectX = useTransform(scrollYProgress, [0, 0.6, 1], [-160, -100, 0])
-  const rightProjectX = useTransform(scrollYProgress, [0, 0.6, 1], [160, 100, 0])
+  const leftProjectX = useTransform(scrollYProgress, [0, 0.3, 1], [-160, -100, 0])
+  const rightProjectX = useTransform(scrollYProgress, [0, 0.3, 1], [160, 100, 0])
   const scale = useTransform(scrollYProgress, [0, 0.3, 1], [1, 1.1, 1])
   const rotate = useTransform(scrollYProgress, [0, 0.6, 1], [0, 5, 0])
-
-
 
 
   return (
@@ -62,14 +60,8 @@ export const PinContainer = ({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={handleClick}
+      
     >
-      <div
-        style={{
-          perspective: "1000px",
-          transform: "rotateX(70deg) translateZ(0deg)",
-        }}
-        className="absolute left-1/2 top-1/2 ml-[0.09375rem] mt-4 -translate-x-1/2 -translate-y-1/2"
-      >
         <div
           style={{
             transform: transform,
@@ -78,27 +70,17 @@ export const PinContainer = ({
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>
-      </div>
-      <PinPerspective title={title} href={href} />
+      <PinPerspective />
     </motion.div>
   );
 };
 
 
-export const PinPerspective = ({
-  title,
-  href,
-}: {
-  title?: string;
-  href?: string;
-}) => {
+export const PinPerspective = () => {
+
   return (
     <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
-        <div className="absolute top-0 inset-x-0  flex justify-center">
-    
-      
-        </div>
 
         <div
           style={{
@@ -117,7 +99,7 @@ export const PinPerspective = ({
               }}
               animate={{
                 opacity: [0, 1, 0.5, 0],
-                scale: 2,
+                scale: 1.3,
 
                 z: 0,
               }}
@@ -137,7 +119,7 @@ export const PinPerspective = ({
               }}
               animate={{
                 opacity: [0, 1, 0.5, 0],
-                scale: 2,
+                scale: 1.3,
 
                 z: 0,
               }}

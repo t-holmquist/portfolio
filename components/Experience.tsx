@@ -1,3 +1,5 @@
+'use client'
+
 import { workExperience } from "@/data"
 import { Button } from "./ui/MovingBorders"
 import Image from "next/image"
@@ -10,6 +12,7 @@ import {
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
+import { motion } from "framer-motion"
   
 
 const Experience = () => {
@@ -18,14 +21,19 @@ const Experience = () => {
     <div id="experience" className="lg:py-14">
         <h1 className="heading">
             My
-            <span className="text-brandSecondary"> qualifications</span>
+            <span className="text-brandPrimary"> qualifications</span>
         </h1>
         <div className="flex justify-center mt-10">
             <p className="text-white-200 text-center">
                 An overview of my experience and certifications
             </p>
         </div>
-        <div className="w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10">
+        <motion.div className="w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10"
+        initial={{x: 40}}
+        whileInView={{x: 0}}
+        viewport={{margin: "-250px"}}
+        transition={{duration: 0.4}}
+        >
             {workExperience.map((card) => (
                 <Button
                 key={card.id}
@@ -60,7 +68,7 @@ const Experience = () => {
                     </div>
                 </Button>
             ))}
-        </div>
+        </motion.div>
     </div>
   )
 }

@@ -8,6 +8,16 @@ export const funFacts = [
 ];
 
 
+export const floatingItems = [
+  { id: 1, imagePath: "/floatingillustrations/diamond.svg", className: "absolute left-20 top-60 opacity-50"},
+  { id: 2, imagePath: "/floatingillustrations/diamond.svg", className: "absolute right-20 top-80 opacity-50"},
+  { id: 3, imagePath: "/floatingillustrations/star.svg", className: "absolute right-40 top-20 opacity-50"},
+  { id: 4, imagePath: "/floatingillustrations/star.svg", className: "absolute left-40 top-10 opacity-50"},
+  { id: 6, imagePath: "/floatingillustrations/line.svg", className: "absolute left-40 top-96 opacity-50"},
+  { id: 7, imagePath: "/floatingillustrations/line.svg", className: "absolute right-60 top-60 opacity-50"},
+];
+
+
 
 export const navItems = [
     { name: "Projects", link: "#projects" },

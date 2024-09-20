@@ -30,11 +30,11 @@ export function BackgroundGradientDemo() {
 
   return (
     <div className="mt-20 lg:mt-14">
-      <BackgroundGradient animate={false} className="flex flex-col gap-5 items-center rounded-[22px] max-w-sm md:max-w-lg p-4 sm:p-10 bg-white dark:bg-[#0B1327]">
+      <BackgroundGradient className="flex flex-col gap-5 items-center rounded-[22px] max-w-sm md:max-w-lg p-4 sm:p-10 bg-white dark:bg-[#0B1327]">
         <Image id="portrait" className="hidden sm:block rounded-3xl" src="/portrait_tjalfe.webp" alt="portrait" width={350} height={350}/>
         <Image id="portrait" className="mt-6 sm:hidden rounded-3xl" src="/portrait_tjalfe.webp" alt="portrait" width={220} height={220}/>
         <p className="text-base sm:text-xl text-black mb-2 dark:text-neutral-200">
-          About me
+          Hi there
         </p>
 
         <p className="mb-8 sm:mb-0 text-sm text-neutral-600 dark:text-neutral-400">
