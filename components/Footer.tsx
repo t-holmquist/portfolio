@@ -1,7 +1,7 @@
 import { FaEnvelope } from "react-icons/fa6"
 import MagicButton from "./ui/MagicButton"
 import { socialMedia } from "@/data";
-import { BackgroundGradientDemo } from "./ui/CardGradient";
+import { CardGradient } from "./ui/CardGradient";
 import Image from "next/image";
 import FloatingIllustration from "./ui/floatingIllustration";
 
@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="w-full mb-[100px] md:mb-5 sm:pb-10" id="contact">
         <div className="flex relative flex-col items-center dark:bg-dot-white/[0.1]">
-            <BackgroundGradientDemo/>
+            <CardGradient/>
             {/* Opacity hidden images reveal on hover - not visible on mobile */}
             <div id="right-hand" className="hidden lg:block opacity-0 w-40 h-40 top-44 self-start absolute z-50">
                 <Image className="rounded-3xl" src="/right_hand.webp" alt="hand" width={150} height={150}/>
