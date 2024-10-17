@@ -12,7 +12,7 @@ const RecentProjects = () => {
         </h1>
         <div className="flex flex-col justify-center items-center mt-10">
             <p className="text-white-200 text-center">
-                These projects utilizes the latest web development technologies
+                Projects built using the React ecosystem
             </p>
             <div className="flex items-center mt-2">
                 <p className="text-white-200">Take a look</p>
@@ -20,11 +20,11 @@ const RecentProjects = () => {
                 <FaEye className="ml-2 text-white-200"/>
             </div>
         </div>
-        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-14 md:mt-24">
+        <div className="flex xl:flex-row flex-col items-center justify-center p-4 gap-x-24 gap-y-8 md:gap-y-16 lg:gap-y-8 mt-14 md:mt-24">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
-                <div key={id} className="flex sm:h-[41] h-[32rem] sm:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
+                <div key={id} className="flex lg:h-[41] h-[32rem] lg:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
                     <PinContainer id={id} title={link} href={link}>
-                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden lg:h-[40vh] h-[30vh] mb-10">
                             <Image src={img} alt={title} className="z-10 rounded-xl" width={1163} height={720}/>
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
