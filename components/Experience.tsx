@@ -28,9 +28,10 @@ const Experience = () => {
                 An overview of my experience and certifications
             </p>
         </div>
-        <motion.div className="w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10"
+        <motion.div className="w-full mt-20 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 gap-10"
         initial={{y: 40, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
+        transition={{ delay: 0.2}}
         >
             {workExperience.map((card) => (
                 <Button
@@ -38,31 +39,29 @@ const Experience = () => {
                 duration={Math.floor(Math.random() * 14000 + 6000)}
                 borderRadius="1.75rem"
                 className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-slate-950">
-                    <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-                        <div className="flex items-center rounded-lg p-3 bg-slate-800 border border-slate-700">
-                            <p className="text-white-100">{card.year}</p>
+                    <div className="flex items-center rounded-lg p-3 bg-slate-800 border border-slate-700">
+                        <p className="text-white-100">{card.year}</p>
+                    </div>
+                    <div className="lg:ms-5">
+                        <div className="flex items-center gap-3">
+                            <h1 className="text-start text-xl lg:text-2xl font-bold">
+                                {card.title}
+                            </h1>
+                            {card.hasCertificate && (
+                                <Dialog>
+                                    <DialogTrigger className="px-1 rounded-lg text-brandAccent bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
+                                    <DialogContent className="bg-slate-950">
+                                        <DialogHeader>
+                                            <DialogTitle>Certificate</DialogTitle>
+                                        </DialogHeader>
+                                            <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-lg" placeholder="blur" blurDataURL="/5x5-pixel.png"/>
+                                    </DialogContent>
+                                </Dialog>
+                            )}
                         </div>
-                        <div className="lg:ms-5">
-                            <div className="flex items-center gap-3">
-                                <h1 className="text-start text-xl md:text-2xl font-bold">
-                                    {card.title}
-                                </h1>
-                                {card.hasCertificate && (
-                                    <Dialog>
-                                        <DialogTrigger className="px-1 rounded-lg text-brandAccent bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
-                                        <DialogContent className="bg-slate-950">
-                                            <DialogHeader>
-                                                <DialogTitle>Certificate</DialogTitle>
-                                            </DialogHeader>
-                                                <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-lg" placeholder="blur" blurDataURL="/5x5-pixel.png"/>
-                                        </DialogContent>
-                                    </Dialog>
-                                )}
-                            </div>
-                            <p className="text-start text-white-100 mt-3 font-semibold">
-                                {card.desc}
-                            </p>
-                        </div>
+                        <p className="text-start text-white-100 mt-3 font-semibold">
+                            {card.desc}
+                        </p>
                     </div>
                 </Button>
             ))}
