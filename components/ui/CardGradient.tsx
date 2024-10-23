@@ -38,11 +38,11 @@ export function CardGradient() {
         </p>
 
         <p className="mb-8 sm:mb-0 text-sm text-neutral-600 dark:text-neutral-400">
-        I have a huge passion for and a lot of experience working with visual communication. In my prior work, creating commercials through storytelling for multiple companies, I discovered that the most exciting place to be is where the user interacts and feels empowered to take action.
+        I have a huge passion for and a lot of experience working with visual communication. In my prior work, creating commercials through storytelling for multiple companies, I discovered that the most exciting place to work is where the user interacts and feels empowered to take action.
         <br></br>
         <br></br>
         I am also a nerd by heart and have the mindset and structured approach to solve complex problems.
-        That is why I naturally gravitated towards front-end development, where I feel that I can make better use of my technical flair while combining it with my design & communication skills.
+        That is why I naturally transitioned towards front-end development, where I feel that I can make better use of my technical flair while combining it with my design & communication skills.
         </p>
         <div onMouseLeave={handleMouseLeave} onMouseEnter={handleMouseEnter} className="hidden rounded-md lg:flex pl-4 pr-1 py-1 text-white items-center space-x-1 bg-brandAccent hover:bg-[#c766c4] text-xs font-bold">
           <span className="text-xs">Get a proper greeting</span>
