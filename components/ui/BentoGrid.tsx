@@ -9,7 +9,7 @@ import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import { FlipWords } from "./FlipWords";
-import { funFacts } from "@/data";
+import { blackFloatingItems, funFacts } from "@/data";
 import Image from "next/image";
 
 export const BentoGrid = ({
@@ -82,7 +82,7 @@ export const BentoGridItem = ({
             alt={img}
             width={500}
             height={500}
-            className={cn(imgClassName, 'object-cover, object-center')}
+            className={cn(imgClassName, 'object-cover')}
             />
           )}
         </div>
@@ -108,33 +108,39 @@ export const BentoGridItem = ({
       <div className={cn(
         titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
       )}>
-        <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
+        <div className="font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
           {description}
         </div>
-        <div className={`font-sans font-bold text-lg lg:text-3xl max-w-96 z-10`}>
+        <div className={`font-bold text-lg lg:text-3xl max-w-96 z-10`}>
           {title}
           {/* Ekstra large title for id 1 */}
           {id === 1 && (
-            <p className="lg:text-9xl text-6xl text-brandSecondary">I&apos;m a Front-End Developer</p>
+            blackFloatingItems.map(({id, imagePath, className}) => (
+              <div
+              key={id}
+              >
+                <Image src={imagePath} className={`${className} ${id % 2 == 0 ? "animate-illustrationUP" : "animate-illustrationDOWN"}`} width={25} height={25} alt="illustration"/>
+              </div>
+            ))
           )}
           {/* Flipping words component */}
           {id === 2 && (
             <div>
-              <FlipWords words={funFacts} duration={1500}/>
+              <FlipWords words={funFacts} duration={3000}/>
             </div>
           )}
         </div>
       
 
       {id === 3 && (
-        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 lg:bottom-0">
           <div className="flex flex-col gap-3 lg:gap-8">
             {['React.js', 'Next.js', 'TypeScript'].map((item) => (
               <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-xl text-center bg-[#10132E]">
                 {item}
               </span>
             ))}
-            <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
+            
           </div>
           <div className="flex flex-col gap-3 lg:gap-8">
           <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>

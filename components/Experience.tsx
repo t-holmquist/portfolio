@@ -21,10 +21,10 @@ const Experience = () => {
     <div id="experience" className="lg:py-14">
         <h1 className="heading">
             My
-            <span className="text-brandPrimary"> qualifications</span>
+            <span className="text-brandAccent"> qualifications</span>
         </h1>
-        <div className="flex justify-center mt-10">
-            <p className="text-white-200 text-center">
+        <div className="flex mt-10">
+            <p className="text-white-200">
                 An overview of my experience and certifications
             </p>
         </div>
@@ -32,6 +32,7 @@ const Experience = () => {
         initial={{y: 40, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{ delay: 0.2}}
+        viewport={{once: true}}
         >
             {workExperience.map((card) => (
                 <Button

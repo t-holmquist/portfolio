@@ -17,6 +17,18 @@ export const floatingItems = [
   { id: 7, imagePath: "/floatingillustrations/line.svg", className: "absolute right-60 top-60 opacity-50"},
 ];
 
+export const blackFloatingItems = [
+  { id: 1, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute right-20 top-40 opacity-1000"},
+  { id: 2, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute right-20 top-80 opacity-100"},
+  { id: 3, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute right-40 top-20 opacity-100"},
+  { id: 4, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute left-40 top-10 opacity-100"},
+  { id: 6, imagePath: "/floatingillustrations/blackline.svg", className: "absolute right-20 top-10 opacity-100"},
+  { id: 7, imagePath: "/floatingillustrations/blackline.svg", className: "absolute left-14 top-20 opacity-100"},
+  { id: 8, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute left-20 top-60 opacity-100"},
+  { id: 9, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute left-14 top-80 opacity-100"},
+  { id: 10, imagePath: "/floatingillustrations/blackline.svg", className: "absolute right-40 top-60 opacity-100"},
+];
+
 
 
 export const navItems = [
@@ -31,9 +43,9 @@ export const navItems = [
       title: "",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
+      imgClassName: "w-full h-full object-top",
       titleClassName: "justify-end",
-      img: "",
+      img: "/portrait_tjalfe.webp",
       spareImg: "",
     },
     {
@@ -43,7 +55,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "h-full w-full opacity-70",
       titleClassName: "justify-start",
-      img: "/bg_stripes.svg",
+      img: "",
       spareImg: "",
     },
     {
@@ -122,7 +134,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Front-end Engineer",
+      title: "Front-end",
       desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",

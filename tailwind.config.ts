@@ -38,10 +38,9 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
-        brandPrimary: "#D97757",
-        brandSecondary: "#8aa0ff",
-        brandAccent: "#877EFF",
-        purple: "#CBACF9",
+        brandPrimary: "#5F257D",
+        brandSecondary: "#86A1D7",
+        brandAccent: "#EB5AF4",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -98,6 +97,22 @@ const config = {
           "100%": {
             opacity: "1",
             transform: "translate(-30%,-40%) scale(2)",
+          },
+        },
+        illustrationUP: {
+          "0%": {
+            transform: "translateY(-30%) scale(0.8) rotate(30deg)",
+          },
+          "100%": {
+            transform: "translateY(50%) scale(1.1) rotate(0deg)",
+          },
+        },
+        illustrationDOWN: {
+          "0%": {
+            transform: "translateY(30%) scale(1) rotate(-15deg)",
+          },
+          "100%": {
+            transform: "translateY(-50%) scale(1.1) rotate(0deg)",
           },
         },
         shimmer: {
@@ -164,6 +179,8 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        illustrationUP: "illustrationUP 3s ease-in-out infinite alternate",
+        illustrationDOWN: "illustrationDOWN ease-in-out 3s infinite alternate",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",

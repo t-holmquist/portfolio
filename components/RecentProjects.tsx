@@ -7,12 +7,13 @@ const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
         <h1 className="heading">
-            Project {' '}
-            <span className="text-brandPrimary">showcase</span>
+            Some of my {' '}
+            <span className="text-brandAccent">work</span>
         </h1>
-        <div className="flex flex-col justify-center items-center mt-10">
-            <p className="text-white-200 text-center">
-                Projects built using the React ecosystem
+        <div className="flex flex-col justify-center mt-10 max-w-md">
+            <p className="text-white-200">
+                These are some projects I have built using the React ecosystem. 
+                The web apps are configured using the modern metaframework Next.js to get improved performance and dev experience.
             </p>
             <div className="flex items-center mt-2">
                 <p className="text-white-200">Take a look</p>

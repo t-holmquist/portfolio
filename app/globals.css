@@ -80,7 +80,7 @@
 
 @layer utilities {
   .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
+    @apply font-bold text-4xl md:text-5xl;
   }
 
   .black-gradient {
@@ -91,11 +91,11 @@
 
 @keyframes portrait-animation{
   0% {
-      box-shadow: 10px -10px 0px #D97757, 18px -18px 0px #877EFF;
+      box-shadow: 10px -10px 0px #5F257D, 18px -18px 0px #86A1D7;
       transform: translateY(-8px);
   }
   100% {
-      box-shadow: -10px 10px 0px #D97757, 18px 18px 0px #877EFF;
+      box-shadow: -10px 10px 0px #5F257D, 18px 18px 0px #86A1D7;
   }
 }
 
