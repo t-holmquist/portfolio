@@ -1,10 +1,11 @@
 export const funFacts = [
   'Climbing',
-  'Google-I/O',
+  'Next.js-15',
   'Playgrounds',
   'Ramen',
   'CPH-Half',
   'Morocco',
+  'Pour-Over',
 ];
 
 

@@ -4,6 +4,8 @@ import { cn } from "@/utils/cn";
 import { FlipWords } from "./FlipWords";
 import { pinkFloatingItems, funFacts } from "@/data";
 import Image from "next/image";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 export const BentoGrid = ({
   className,
@@ -12,15 +14,30 @@ export const BentoGrid = ({
   className?: string;
   children?: React.ReactNode;
 }) => {
+
+  // scrollhooks for creating animations below
+  const ref = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end end"]
+  });
+
+  const transformY = useTransform(scrollYProgress, [0, 0.8, 1], [0, 0, 50])
+  const rotate = useTransform(scrollYProgress, [0, 0.8, 1], [0, 0, 1])
+
   return (
-    <div
+    <motion.div
+    ref={ref}
+    style={{y: transformY, rotate: rotate, }}
       className={cn(
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto ",
         className
       )}
+      
     >
       {children}
-    </div>
+    </motion.div>
   );
 };
 
