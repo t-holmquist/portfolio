@@ -25,7 +25,7 @@ const Footer = () => {
             <p className="text-white-200 md:mt-10 my-10 text-center">I&apos;m always interested in meeting new people</p>
             <a href="mailto:tjalfeholmquist@gmail.com">
             <MagicButton
-            title="Get in touch"
+            title="Send me an email"
             icon={<FaEnvelope/>}
             position="right"
             />

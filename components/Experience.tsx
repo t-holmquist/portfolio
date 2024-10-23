@@ -18,16 +18,13 @@ import { motion } from "framer-motion"
 const Experience = () => {
 
   return (
-    <div id="experience" className="lg:py-14">
-        <h1 className="heading">
+    <div id="experience" className="lg:mt-40">
+        <h2 className="heading">
             My
             <span className="text-brandAccent"> qualifications</span>
-        </h1>
-        <div className="flex mt-10">
-            <p className="text-white-200">
-                An overview of my experience and certifications
-            </p>
-        </div>
+        </h2>
+        <p className="text-white-200 mt-10 max-w-lg">Here is an overview of my prior experience and my certificates within front-end development.</p>
+
         <motion.div className="w-full mt-20 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 gap-10"
         initial={{y: 40, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}

@@ -5,12 +5,12 @@ import Image from "next/image"
 
 const RecentProjects = () => {
   return (
-    <div id="projects" className="py-20">
+    <div id="projects" className="mt-20 lg:mt-40">
         <h1 className="heading">
             Some of my {' '}
             <span className="text-brandAccent">work</span>
         </h1>
-        <div className="flex flex-col justify-center mt-10 max-w-md">
+        <div className="flex flex-col justify-center mt-10 max-w-lg">
             <p className="text-white-200">
                 These are some projects I have built using the React ecosystem. 
                 The web apps are configured using the modern metaframework Next.js to get improved performance and dev experience.
@@ -21,7 +21,7 @@ const RecentProjects = () => {
                 <FaEye className="ml-2 text-white-200"/>
             </div>
         </div>
-        <div className="flex xl:flex-row flex-col items-center justify-center p-4 gap-x-24 gap-y-8 md:gap-y-16 lg:gap-y-8 mt-14 md:mt-24">
+        <div className="flex xl:flex-row flex-col items-center justify-center p-4 gap-x-24 gap-y-8 md:gap-y-16 lg:gap-y-8 mt-20">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className="flex lg:h-[41] h-[32rem] lg:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
                     <PinContainer id={id} title={link} href={link}>

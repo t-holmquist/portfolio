@@ -17,16 +17,16 @@ export const floatingItems = [
   { id: 7, imagePath: "/floatingillustrations/line.svg", className: "absolute right-60 top-60 opacity-50"},
 ];
 
-export const blackFloatingItems = [
-  { id: 1, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute right-20 top-40 opacity-1000"},
-  { id: 2, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute right-20 top-80 opacity-100"},
-  { id: 3, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute right-40 top-20 opacity-100"},
-  { id: 4, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute left-40 top-10 opacity-100"},
+export const pinkFloatingItems = [
+  { id: 1, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute right-20 top-32 lg:right-20 lg:top-40 opacity-100"},
+  { id: 2, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute right-8 top-20 lg:right-20 lg:top-80 opacity-100"},
+  { id: 3, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute right-10 top-4 lg:right-40 lg:top-20 opacity-100"},
+  { id: 4, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute left-10 top-4 lg:left-40 lg:top-10 opacity-100"},
   { id: 6, imagePath: "/floatingillustrations/blackline.svg", className: "absolute right-20 top-10 opacity-100"},
   { id: 7, imagePath: "/floatingillustrations/blackline.svg", className: "absolute left-14 top-20 opacity-100"},
   { id: 8, imagePath: "/floatingillustrations/blackdiamond.svg", className: "absolute left-20 top-60 opacity-100"},
-  { id: 9, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute left-14 top-80 opacity-100"},
-  { id: 10, imagePath: "/floatingillustrations/blackline.svg", className: "absolute right-40 top-60 opacity-100"},
+  { id: 9, imagePath: "/floatingillustrations/blackstar.svg", className: "absolute lg:left-14 lg:top-80 opacity-100"},
+  { id: 10, imagePath: "/floatingillustrations/blackline.svg", className: "hidden lg:absolute right-40 top-60 opacity-100"},
 ];
 
 
@@ -65,37 +65,6 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 4,
-      title: "Former founder of a creative agency startup",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "",
-      spareImg: "/b4.svg",
-    },
-  
-    {
-      id: 5,
-      title: "Solves ambitious problems in a collaborative and positive environment",
-      description: "I hope to join a team that",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 lg:w-80 md:w-60 w-40 rounded-tl-2xl",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/mockCode.webp",
-      spareImg: "",
-    },
-    {
-      id: 6,
-      title: "Get my email",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-center md:max-w-full w-full text-center",
       img: "",
       spareImg: "",
     },
