@@ -95,7 +95,7 @@ export const navItems = [
     {
       id: 1,
       title: "Multimedia Design, CPH Business Academy",
-      desc: "UI/UX design, Figma, Front-end development, Project management, Brand Identity",
+      desc: "Front-end development, React, UI/UX design, Figma, Project management",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "Current",
@@ -104,16 +104,6 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Front-end",
-      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
-      className: "md:col-span-2",
-      thumbnail: "/b4.svg",
-      year: "2023-2024",
-      hasCertificate: true,
-      certificate: '/frontend-certificate.webp',
-    },
-    {
-      id: 3,
       title: "Founder - Creative Agency",
       desc: "I started my own company and gained valuable business knowledge and learned how to facilitate and work in a creative team.",
       className: "md:col-span-2",
@@ -121,6 +111,16 @@ export const navItems = [
       year: "2021-2024",
       hasCertificate: false,
       certificate: '',
+    },
+    {
+      id: 3,
+      title: "Front-end",
+      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "2023-2024",
+      hasCertificate: true,
+      certificate: '/frontend-certificate.webp',
     },
     {
       id: 4,

@@ -48,11 +48,11 @@ const Experience = () => {
                             {card.hasCertificate && (
                                 <Dialog>
                                     <DialogTrigger className="px-1 rounded-lg text-brandAccent bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
-                                    <DialogContent className="bg-slate-950">
+                                    <DialogContent className="bg-brandPrimary">
                                         <DialogHeader>
                                             <DialogTitle>Certificate</DialogTitle>
                                         </DialogHeader>
-                                            <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-lg" placeholder="blur" blurDataURL="/5x5-pixel.png"/>
+                                            <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-lg"/>
                                     </DialogContent>
                                 </Dialog>
                             )}

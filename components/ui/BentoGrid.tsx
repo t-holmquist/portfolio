@@ -29,7 +29,7 @@ export const BentoGrid = ({
   return (
     <motion.div
     ref={ref}
-    style={{y: transformY, rotate: rotate, }}
+    style={{y: transformY, rotate: rotate }}
       className={cn(
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto ",
         className
@@ -65,9 +65,10 @@ export const BentoGridItem = ({
 }) => {
 
   return (
-    <div
+    <motion.div
+      layout
       className={cn(
-        "row-span-1 bg-slate-950 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input justify-between flex flex-col space-y-4 border border-white/0.1",
+        `row-span-1  ${id === 2 ? "bg-brandSecondary" : "bg-slate-900"} relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input justify-between flex flex-col space-y-4 border border-white/0.1`,
         className
       )}
     >
@@ -101,7 +102,7 @@ export const BentoGridItem = ({
       <div className={cn(
         titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
       )}>
-        <div className="font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
+        <div className="font-extralight text-[#e6e6ec] text-sm md:text-xs lg:text-base z-10">
           {description}
         </div>
         <div className={`font-bold text-lg lg:text-3xl max-w-96 z-10`}>
@@ -146,6 +147,6 @@ export const BentoGridItem = ({
         </div>
       )}
     </div>
-    </div>
+    </motion.div>
   );
 };
