@@ -22,8 +22,8 @@ export const FloatingNav = ({
     >
       <Link 
       href={"/"}
-      className="flex items-center justify-center border-r border-brandBorder px-4 py-3">
-        <p className="font-oswald font-bold text-brandTextWhite">TH</p>
+      className="flex items-center justify-center border-r border-brandBorder px-4 py-3 rounded-l-xl">
+        <p className="font-oswald font-bold text-brandTextWhite hover:text-brandSecondary ">TH</p>
       </Link>
       <div className="flex items-center justify-center px-4 gap-4">
         {navItems.map((navItem: any, idx: number) => (
@@ -32,7 +32,7 @@ export const FloatingNav = ({
           href={navItem.link}
         >
           <span className="block sm:hidden">{navItem.icon}</span>
-          <span className="text-brandTextWhite font-bold font-oswald hover:text-neutral-30">{navItem.name}</span>
+          <span className="text-brandTextWhite font-bold font-oswald hover:text-brandSecondary">{navItem.name}</span>
         </Link>
         ))}
       </div>
