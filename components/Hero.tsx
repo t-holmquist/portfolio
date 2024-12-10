@@ -11,14 +11,7 @@ const Hero = () => {
     <div>
         <div className='pb-20'>
         <Spotlight className='-top-40 -right-10 md:-right-32 md:-top-20 h-screen' fill='#877EFF'/>
-      
         </div>
-        {/* Grid background */}
-        <div className="h-screen w-full dark:bg-black-100 bg-white  
-         flex items-center justify-center absolute top-0 left-0">
-            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
-        </div>
-
         <div className='flex relative mb-20 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-6'>
             <TextGenerateEffect 
