@@ -9,6 +9,50 @@ export const funFacts = [
 ];
 
 
+// Project data
+
+export const ProjectData = [
+  {
+  id: 0,
+  projectLink: "/",
+  imageLink: "/b4.svg",
+  content: {
+    title: "StoryWeaver",
+    Purpose: "An interactive storytellng app",
+    keyFeatures: ["feature 1", "feature 2", "feature 3"],
+    learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+    technologies: ["tech 1", "tech 2", "tech 3"],
+    }
+  },
+  {
+  id: 1,
+  projectLink: "/",
+  imageLink: "/b4.svg",
+  content: {
+    title: "Nespresso",
+    Purpose: "An interactive storytellng app",
+    keyFeatures: ["feature 1", "feature 2", "feature 3"],
+    learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+    technologies: ["tech 1", "tech 2", "tech 3"],
+    }
+  },
+  {
+  id: 2,
+  projectLink: "/",
+  imageLink: "/b4.svg",
+  content: {
+    title: "Sola",
+    Purpose: "An interactive storytellng app",
+    keyFeatures: ["feature 1", "feature 2", "feature 3"],
+    learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+    technologies: ["tech 1", "tech 2", "tech 3"],
+    }
+  },
+];
+
+
+
+
 export const floatingItems = [
   { id: 1, imagePath: "/floatingillustrations/diamond.svg", className: "absolute left-20 top-60 opacity-50"},
   { id: 2, imagePath: "/floatingillustrations/diamond.svg", className: "absolute right-20 top-80 opacity-50"},
