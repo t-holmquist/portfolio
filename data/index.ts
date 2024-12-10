@@ -122,7 +122,7 @@ export const navItems = [
       des: "Podcast Platform with AI features",
       img: "/podGen.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "convex.svg", "openai.svg"],
-      link: "https://podgen.vercel.app/",
+      link: "/cases",
     },
     {
       id: 2,
@@ -130,7 +130,7 @@ export const navItems = [
       des: "Coffee shop and co-working space - simple design",
       img: "/sola.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-      link: "https://solacph.dk/",
+      link: "/cases",
     },
   ];
   
