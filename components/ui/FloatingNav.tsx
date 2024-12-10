@@ -1,8 +1,3 @@
-"use client";
-
-import {
-  motion,
-} from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
@@ -19,24 +14,28 @@ export const FloatingNav = ({
 }) => {
 
   return (
-    <motion.div
+    <div
       className={cn(
-        "flex max-w-fit sticky mt-8 top-2 mx-auto border rounded-xl z-[5000] px-6 py-3 items-center justify-center space-x-4 border-white/[0.2] bg-black-100",
+        "flex max-w-fit sticky mt-8 top-2 mx-auto border rounded-xl z-[5000] items-center justify-center border-brandBorder bg-brandBackgroundBlack",
         className
       )}
     >
-      {navItems.map((navItem: any, idx: number) => (
+      <Link 
+      href={"/"}
+      className="flex items-center justify-center border-r border-brandBorder px-4 py-3">
+        <p className="font-oswald font-bold text-brandTextWhite">TH</p>
+      </Link>
+      <div className="flex items-center justify-center px-4 gap-4">
+        {navItems.map((navItem: any, idx: number) => (
         <Link
           key={`link=${idx}`}
           href={navItem.link}
-          className={cn(
-            "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
-          )}
         >
           <span className="block sm:hidden">{navItem.icon}</span>
-          <span className="text-sm">{navItem.name}</span>
+          <span className="text-brandTextWhite font-bold font-oswald hover:text-neutral-30">{navItem.name}</span>
         </Link>
-      ))}
-    </motion.div>
+        ))}
+      </div>
+    </div>
   );
 };

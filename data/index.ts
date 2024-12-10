@@ -33,7 +33,7 @@ export const pinkFloatingItems = [
 
 
 export const navItems = [
-    { name: "Projects", link: "#projects" },
+    { name: "Cases", link: "/cases" },
     { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
