@@ -1,7 +1,7 @@
 'use client'
 
 import { workExperience } from "@/data"
-import { Button } from "./ui/MovingBorders"
+import { Button } from "./ui/ExperienceCards"
 import Image from "next/image"
 
 import {
@@ -34,7 +34,6 @@ const Experience = () => {
             {workExperience.map((card) => (
                 <Button
                 key={card.id}
-                duration={Math.floor(Math.random() * 14000 + 6000)}
                 borderRadius="1.75rem"
                 className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-slate-950">
                     <div className="flex items-center rounded-lg p-3 bg-slate-800 border border-slate-700">

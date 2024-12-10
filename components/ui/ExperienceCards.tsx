@@ -6,7 +6,6 @@ export function Button({
   as: Component = "div",
   containerClassName,
   borderClassName,
-  duration,
   className,
   ...otherProps
 }: {
@@ -15,7 +14,6 @@ export function Button({
   as?: any;
   containerClassName?: string;
   borderClassName?: string;
-  duration?: number;
   className?: string;
   [key: string]: any;
 }) {
