@@ -1,7 +1,17 @@
-const ProjectDeeperDive = () => {
+'use client'
+
+import { cn } from "@/utils/cn";
+
+const ProjectDeeperDive = ( { className } : 
+    {
+        className?: string;
+    }
+) => {
 
     return (
-        <div>ProjectDeeperDive</div>
+        <div className={cn("", className)}>
+            ProjectDeeperDive
+        </div>
     );
 
 }

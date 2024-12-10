@@ -15,7 +15,7 @@ export const ProjectData = [
   {
   id: 0,
   projectLink: "/",
-  imageLink: "/b4.svg",
+  imageLink: "/podGen.webp",
   content: {
     title: "StoryWeaver",
     Purpose: "An interactive storytellng app",
@@ -30,7 +30,7 @@ export const ProjectData = [
   imageLink: "/b4.svg",
   content: {
     title: "Nespresso",
-    Purpose: "An interactive storytellng app",
+    Purpose: "Recycleable thing",
     keyFeatures: ["feature 1", "feature 2", "feature 3"],
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     technologies: ["tech 1", "tech 2", "tech 3"],
@@ -39,10 +39,10 @@ export const ProjectData = [
   {
   id: 2,
   projectLink: "/",
-  imageLink: "/b4.svg",
+  imageLink: "/sola.webp",
   content: {
     title: "Sola",
-    Purpose: "An interactive storytellng app",
+    Purpose: "Coffee shop",
     keyFeatures: ["feature 1", "feature 2", "feature 3"],
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     technologies: ["tech 1", "tech 2", "tech 3"],
