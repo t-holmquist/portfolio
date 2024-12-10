@@ -18,10 +18,10 @@ export const ProjectData = [
   imageLink: "/podGen.webp",
   content: {
     title: "StoryWeaver",
-    Purpose: "An interactive storytellng app",
-    keyFeatures: ["feature 1", "feature 2", "feature 3"],
+    Purpose: "An interactive storytelling app powered by generative AI",
+    keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-    technologies: ["tech 1", "tech 2", "tech 3"],
+    technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
     }
   },
   {
@@ -31,9 +31,9 @@ export const ProjectData = [
   content: {
     title: "Nespresso",
     Purpose: "Recycleable thing",
-    keyFeatures: ["feature 1", "feature 2", "feature 3"],
+    keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-    technologies: ["tech 1", "tech 2", "tech 3"],
+    technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
     }
   },
   {
@@ -43,9 +43,9 @@ export const ProjectData = [
   content: {
     title: "Sola",
     Purpose: "Coffee shop",
-    keyFeatures: ["feature 1", "feature 2", "feature 3"],
+    keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-    technologies: ["tech 1", "tech 2", "tech 3"],
+    technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
     }
   },
 ];

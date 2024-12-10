@@ -4,11 +4,9 @@ import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 import { useState } from 'react';
 import MagicButton from "./ui/MagicButton";
-import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
 import { ProjectData } from "@/data";
 import Image from 'next/image'
-
 
 const ProjectSummary = ({
     className
@@ -66,7 +64,7 @@ const ProjectSummary = ({
                 transition={{
                 duration: 1,
                 }}
-                className="text-5xl font-bold font-oswald">StoryWeaver</motion.h1>
+                className="text-5xl font-bold font-oswald">{ProjectData[projectId].content.title}</motion.h1>
                 <motion.div
                 initial={{x: -10, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
@@ -107,26 +105,46 @@ const ProjectSummary = ({
                 <motion.div 
                 variants={childItemVariant}
                 className="flex gap-2">
-                    <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="key features"/>
-                    <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Purpose. </span>{ProjectData[projectId].content.Purpose}</p>
+                    <div>
+                        <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="purpose"/>
+                    </div>
+                    <div className="space-y-1">
+                        <h2 className="font-oswald font-bold text-lg leading-none">Purpose.</h2>
+                        <p className="font-sourceSans text-brandTextWhite text-sm">{ProjectData[projectId].content.Purpose}</p>
+                    </div>
                 </motion.div>
-                <motion.div 
+                <motion.div
                 variants={childItemVariant}
-                className="flex gap-2 border">
-                    <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="key features"/>
-                    <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Key features. </span>{ProjectData[projectId].content.keyFeatures}</p>
+                className="flex gap-2">
+                    <div>
+                        <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="purpose"/>
+                    </div>
+                    <div className="space-y-1">
+                        <h2 className="font-oswald font-bold text-lg leading-none">Key Features.</h2>
+                        <p className="font-sourceSans text-brandTextWhite text-sm">{ProjectData[projectId].content.keyFeatures}</p>
+                    </div>
                 </motion.div>
                 <motion.div 
                 variants={childItemVariant}
                 className="flex gap-2">
-                    <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="key features"/>
-                    <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Challenges and learnings </span>{ProjectData[projectId].content.learnings}</p>
+                    <div>
+                        <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="purpose"/>
+                    </div>
+                    <div className="space-y-1">
+                        <h2 className="font-oswald font-bold text-lg leading-none">Challenges and learnings.</h2>
+                        <p className="font-sourceSans text-brandTextWhite text-sm max-w-xs">{ProjectData[projectId].content.learnings}</p>
+                    </div>
                 </motion.div>
                 <motion.div 
                 variants={childItemVariant}
                 className="flex gap-2">
-                    <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="key features"/>
-                    <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Technologies used. </span>{ProjectData[projectId].content.technologies}</p>
+                    <div>
+                        <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="purpose"/>
+                    </div>
+                    <div className="space-y-1">
+                        <h2 className="font-oswald font-bold text-lg leading-none">Technologies used.</h2>
+                        <p className="font-sourceSans text-brandTextWhite text-sm">{ProjectData[projectId].content.technologies}</p>
+                    </div>
                 </motion.div>
             </motion.section>
         </section>
