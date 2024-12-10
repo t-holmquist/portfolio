@@ -132,7 +132,7 @@ const ProjectSummary = ({
                     </div>
                     <div className="space-y-1">
                         <h2 className="font-oswald font-bold text-lg leading-none">Challenges and learnings.</h2>
-                        <p className="font-sourceSans text-brandTextWhite text-sm max-w-xs">{ProjectData[projectId].content.learnings}</p>
+                        <p className="font-sourceSans text-brandTextWhite text-sm max-w-xs md:max-w-none">{ProjectData[projectId].content.learnings}</p>
                     </div>
                 </motion.div>
                 <motion.div 
