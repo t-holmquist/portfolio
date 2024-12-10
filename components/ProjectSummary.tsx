@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useState } from 'react';
 import MagicButton from "./ui/MagicButton";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { LuTarget } from "react-icons/lu";
 import Link from "next/link";
 import { ProjectData } from "@/data";
 import Image from 'next/image'
@@ -79,7 +78,7 @@ const ProjectSummary = ({
                     href={ProjectData[projectId].projectLink}
                     className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
                         <p className="text-xs font-sourceSans">See live project</p>
-                        <FaExternalLinkAlt size={10}/>
+                        <Image src={"/projectIcons/link-solid.svg"} width={20} height={20} alt="key features"/>
                     </Link>
                 </motion.div>
             </div>
@@ -108,25 +107,25 @@ const ProjectSummary = ({
                 <motion.div 
                 variants={childItemVariant}
                 className="flex gap-2">
-                    <LuTarget size={25} className="text-brandAccent"/>
+                    <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="key features"/>
                     <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Purpose. </span>{ProjectData[projectId].content.Purpose}</p>
                 </motion.div>
                 <motion.div 
                 variants={childItemVariant}
-                className="flex gap-2">
-                    <LuTarget size={25} className="text-brandAccent"/>
+                className="flex gap-2 border">
+                    <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="key features"/>
                     <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Key features. </span>{ProjectData[projectId].content.keyFeatures}</p>
                 </motion.div>
                 <motion.div 
                 variants={childItemVariant}
                 className="flex gap-2">
-                    <LuTarget size={25} className="text-brandAccent"/>
+                    <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="key features"/>
                     <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Challenges and learnings </span>{ProjectData[projectId].content.learnings}</p>
                 </motion.div>
                 <motion.div 
                 variants={childItemVariant}
                 className="flex gap-2">
-                    <LuTarget size={25} className="text-brandAccent"/>
+                    <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="key features"/>
                     <p className="font-sourceSans text-brandTextWhite text-sm"><span className="font-oswald text-lg font-bold">Technologies used. </span>{ProjectData[projectId].content.technologies}</p>
                 </motion.div>
             </motion.section>
