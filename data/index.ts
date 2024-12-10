@@ -34,8 +34,8 @@ export const pinkFloatingItems = [
 
 export const navItems = [
     { name: "Cases", link: "/cases" },
-    { name: "Experience", link: "#experience" },
-    { name: "Contact", link: "#contact" },
+    { name: "Experience", link: "/#experience" },
+    { name: "Contact", link: "/#contact" },
   ];
   
   export const gridItems = [
