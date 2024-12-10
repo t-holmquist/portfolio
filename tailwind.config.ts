@@ -26,6 +26,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        oswald: ['var(--oswald)'],
+        sourceSans: ['var(--sourceSans3)'],
+      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -38,9 +42,13 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
-        brandPrimary: "#5F257D",
-        brandSecondary: "#86A1D7",
-        brandAccent: "#EB5AF4",
+        brandPrimary: "#2A1E7F",
+        brandSecondary: "#86B2CE",
+        brandAccent: "#9353FF",
+        brandBackground: "#07161F",
+        brandBackgroundBlack: "#2D4453",
+        brandTextWhite: "#EAF3FA",
+        brandTextBlack: "#0F0E0E",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

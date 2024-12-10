@@ -22,10 +22,10 @@ const Hero = () => {
         <div className='flex relative mb-20 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-6'>
             <TextGenerateEffect 
-            className='text-[40px] md:text-5xl lg:text-5xl'
+            className='text-[40px] md:text-5xl lg:text-5xl font-oswald'
             words='Need help designing & implementing front-end solutions?'
             />
-            <p className='md:tracking-wider mb-4 text-small md:text-large lg:text-xl lg:max-w-lg font-light'>
+            <p className='mb-4 text-small md:text-large lg:text-xl lg:max-w-lg font-sourceSans text-brandTextWhite'>
                I&apos;m Tjalfe, currently studying Web design and Front-end development in Copenhagen.
             </p>
             <div className='flex items-center gap-4'>

@@ -1,12 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Oswald, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Vercel speedindsight imported and added to layout body below
 
-const inter = Inter({ subsets: ["latin"] });
+const oswald = Oswald({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--oswald'
+})
+
+const sourceSans3 = Source_Sans_3({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--sourceSans3',
+})
 
 export const metadata: Metadata = {
   title: "Tjalfe Portfolio",
@@ -20,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${oswald.variable} ${sourceSans3.variable} antialiased`}>
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
