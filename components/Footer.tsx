@@ -22,12 +22,13 @@ const Footer = () => {
             <h1 className="mt-28 heading lg:max-w-[45vw]">Feel free to
                 <span className="text-brandAccent"> reach out</span> to me
             </h1>
-            <p className="text-white-200 md:mt-10 my-10 text-center">I&apos;m always interested in meeting new people</p>
+            <p className="text-white-200 md:mt-10 my-10 text-center font-sourceSans">I&apos;m always interested in meeting new people</p>
             <a href="mailto:tjalfeholmquist@gmail.com">
             <MagicButton
             title="Send me an email"
             icon={<FaEnvelope/>}
             position="right"
+            otherClasses="bg-brandPrimary"
             />
             </a>
         </div>

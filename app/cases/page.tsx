@@ -11,7 +11,7 @@ export default function Home() {
         <Spotlight className='-top-40 -right-10 md:-right-32 md:-top-20 h-screen' fill='#86B2CE'/>
         <FloatingNav navItems={navItems} />
         <ProjectSummary className="w-11/12 lg:w-6/12 mt-16"/>
-        <ProjectDeeperDive className="w-10/12 md:w-7/12"/>
+        <ProjectDeeperDive className="w-11/12 md:w-6/12"/>
       </div>
     );
   }

@@ -10,13 +10,13 @@ const RecentProjects = () => {
             Some of my {' '}
             <span className="text-brandAccent">work</span>
         </h1>
-        <div className="flex flex-col justify-center mt-10 max-w-lg">
-            <p className="text-white-200">
+        <div className="flex flex-col justify-center mt-6 max-w-lg">
+            <p className="text-white-200 font-sourceSans">
                 These are some projects I have built using the React ecosystem. 
                 The web apps are configured using the modern metaframework Next.js to get improved performance and dev experience.
             </p>
             <div className="flex items-center mt-2">
-                <p className="text-white-200">Take a look</p>
+                <p className="text-white-200 font-sourceSans">Take a look</p>
                 <FaEye className="ml-2 text-white-200"/>
                 <FaEye className="ml-2 text-white-200"/>
             </div>
@@ -28,16 +28,16 @@ const RecentProjects = () => {
                         <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden lg:h-[40vh] h-[30vh] mb-10">
                             <Image src={img} alt={title} className="z-10 rounded-xl" width={1163} height={720}/>
                         </div>
-                        <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                        <h1 className="font-bold font-oswald lg:text-2xl md:text-xl text-base line-clamp-1">
                             {title}
                         </h1>
-                        <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                        <p className="lg:text-xl font-sourceSans lg:font-normal font-light text-sm line-clamp-2">
                             {des}
                         </p>
 
                         <div className="flex items-center justify-between mt-7 mb-3">
                             <div className="flex items-center">
-                                <p className="text-white-200 mr-2 text-sm">Build with: </p>
+                                <p className="text-white-200 mr-2 text-sm font-sourceSans">Build with: </p>
                                 {iconLists.map((icon, index) => (
                                     <div style={{
                                         transform: `translateX(-${5 * index * 2}px)
@@ -48,7 +48,7 @@ const RecentProjects = () => {
                             </div>
                             
                             <div className="flex justify-center items-center">
-                                <p className="hidden sm:flex lg:text-xl md:text-xs text-sm text-[#877EFF]">See case</p>
+                                <p className="hidden sm:flex lg:text-xl md:text-xs text-sm text-brandAccent font-sourceSans">See case</p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9"/>
                             </div>
                         </div>

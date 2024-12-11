@@ -3,7 +3,6 @@ import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import Link from 'next/link'
-import MagicSecondaryButton from './ui/MagicSecondaryButton'
 
 
 const Hero = () => {
@@ -27,13 +26,15 @@ const Hero = () => {
                 title='See my work'
                 icon={<FaWandMagicSparkles/>}
                 position='right'
+                otherClasses='bg-brandPrimary'
                 />
               </Link>
               <Link href="#contact">
-                <MagicSecondaryButton 
+                <MagicButton 
                 title='Get in touch'
                 icon={<FaEnvelope/>}
                 position='right'
+                otherClasses='border border-brandBorder'
                 />
               </Link>
             </div>
