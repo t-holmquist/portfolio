@@ -48,7 +48,7 @@ const RecentProjects = () => {
                             </div>
                             
                             <div className="flex justify-center items-center">
-                                <p className="hidden sm:flex lg:text-xl md:text-xs text-sm text-brandAccent font-sourceSans">See case</p>
+                                <p className="hidden sm:flex lg:text-xl md:text-xs text-sm text-brandTextWhite font-sourceSans">See case</p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9"/>
                             </div>
                         </div>

@@ -23,7 +23,7 @@ export const FloatingNav = ({
       <Link 
       href={"/"}
       className="flex items-center justify-center border-r border-brandBorder px-4 py-3 rounded-l-xl">
-        <p className="font-oswald font-bold text-brandTextWhite hover:text-brandSecondary ">TH</p>
+        <p className="font-oswald font-light text-xl text-brandTextWhite hover:text-brandSecondary ">Tjalfe</p>
       </Link>
       <div className="flex items-center justify-center px-4 gap-4">
         {navItems.map((navItem: any, idx: number) => (

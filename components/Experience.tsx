@@ -13,9 +13,40 @@ import {
     DialogTrigger,
   } from "@/components/ui/dialog"
 import { motion } from "framer-motion"
+import { useInView } from "framer-motion"
+import { useRef } from "react"
   
 
 const Experience = () => {
+
+
+    const parentListVariant = {
+        open: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.3,
+                duration: 1,
+            }
+        },
+        closed: {
+            opacity: 0
+        }
+    };
+
+    const childItemVariant = {
+        open: {
+            opacity: 1,
+            x: 0,
+        },
+        closed: {
+            opacity: 0,
+            x: 20,
+        }
+    };
+
+    // Hook for checking if element is in view and then trigger animation exactly at that point.
+    const ref = useRef(null);
+    const isInView = useInView(ref);
 
   return (
     <div id="experience" className="lg:mt-40">
@@ -26,17 +57,21 @@ const Experience = () => {
         <p className="text-white-200 mt-10 max-w-lg font-sourceSans">Here is an overview of my prior experience and my certificates within front-end development.</p>
 
         <motion.div className="w-full mt-20 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 gap-10"
-        initial={{y: 40, opacity: 0}}
-        whileInView={{y: 0, opacity: 1}}
-        transition={{ delay: 0.2}}
-        viewport={{once: true}}
+        ref={ref}
+        variants={parentListVariant}
+        initial={"closed"}
+        animate={isInView && 'open'}
+        transition={{
+            duration: 1,
+        }}
         >
             {workExperience.map((card) => (
                 <Button
+                variants={childItemVariant}
                 key={card.id}
                 borderRadius="1.75rem"
-                className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-slate-950">
-                    <div className="flex items-center rounded-lg p-3 bg-slate-800 border border-slate-700">
+                className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-brandBackgroundBlack">
+                    <div className="flex items-center rounded-lg p-3 bg-brandBackgroundGrey border border-slate-700">
                         <p className="text-white-100 font-sourceSans">{card.year}</p>
                     </div>
                     <div className="lg:ms-5">

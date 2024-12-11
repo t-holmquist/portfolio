@@ -18,7 +18,7 @@ const Hero = () => {
             words='Need help designing & implementing front-end solutions?'
             />
             <p className='mb-4 text-small md:text-large lg:text-xl lg:max-w-lg font-sourceSans text-brandTextWhite'>
-               I&apos;m Tjalfe, currently studying Web design and Front-end development in Copenhagen.
+               I&apos;m Tjalfe Holmquist. A Front-end developer and design engineer based in Copenhagen.
             </p>
             <div className='flex items-center gap-4'>
               <Link href="#projects">

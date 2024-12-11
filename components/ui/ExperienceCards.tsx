@@ -1,9 +1,11 @@
+'use client'
 import { cn } from "@/utils/cn";
+import { motion } from "framer-motion";
 
 export function Button({
+  variants,
   borderRadius = "1.75rem",
   children,
-  as: Component = "div",
   containerClassName,
   borderClassName,
   className,
@@ -19,7 +21,8 @@ export function Button({
 }) {
 
   return (
-    <Component
+    <motion.div
+      variants={variants}
       className={cn(
         "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2",
         containerClassName
@@ -40,6 +43,6 @@ export function Button({
       >
         {children}
       </div>
-    </Component>
+    </motion.div>
   );
 }
