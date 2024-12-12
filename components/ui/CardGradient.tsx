@@ -30,7 +30,7 @@ export function CardGradient() {
 
   return (
     <div className="mt-20 lg:mt-40">
-      <CardGradientSource className="flex flex-col gap-5 items-center rounded-[22px] max-w-sm md:max-w-lg p-4 sm:p-10 bg-white dark:bg-slate-950">
+      <CardGradientSource className="flex flex-col gap-5 items-center rounded-[22px] max-w-sm md:max-w-lg p-4 sm:p-10 bg-brandBackgroundBlack">
         <Image id="portrait" className="hidden sm:block rounded-3xl" src="/portrait-tjalfe2.webp" alt="portrait" width={350} height={350}/>
         <Image id="portrait" className="mt-6 sm:hidden rounded-3xl" src="/portrait-tjalfe2.webp" alt="portrait" width={220} height={220}/>
         <p className="text-base sm:text-xl text-black mb-2 dark:text-neutral-200 font-oswald">
