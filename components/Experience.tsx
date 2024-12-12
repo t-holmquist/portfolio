@@ -24,12 +24,12 @@ const Experience = () => {
         open: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.3,
+                staggerChildren: 0.4,
                 duration: 1,
             }
         },
         closed: {
-            opacity: 0
+            opacity: 1
         }
     };
 
@@ -61,9 +61,7 @@ const Experience = () => {
         variants={parentListVariant}
         initial={"closed"}
         animate={isInView && 'open'}
-        transition={{
-            duration: 1,
-        }}
+        
         >
             {workExperience.map((card) => (
                 <Button

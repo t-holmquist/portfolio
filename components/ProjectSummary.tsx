@@ -23,8 +23,8 @@ const ProjectSummary = ({
         open: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.3,
-                duration: 1,
+                staggerChildren: 0.4,
+                duration: 0.8,
             }
         },
         closed: {
