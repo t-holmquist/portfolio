@@ -2,7 +2,7 @@
 import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 
-export function Button({
+export function ExperienceCard({
   variants,
   borderRadius = "1.75rem",
   children,

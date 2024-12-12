@@ -1,7 +1,7 @@
 'use client'
 
 import { workExperience } from "@/data"
-import { Button } from "./ui/ExperienceCards"
+import { ExperienceCard } from "./ui/ExperienceCards"
 import Image from "next/image"
 
 import {
@@ -36,6 +36,7 @@ const Experience = () => {
     const childItemVariant = {
         open: {
             opacity: 1,
+            scale: 1,
             x: 0,
         },
         closed: {
@@ -64,7 +65,7 @@ const Experience = () => {
         
         >
             {workExperience.map((card) => (
-                <Button
+                <ExperienceCard
                 variants={childItemVariant}
                 key={card.id}
                 borderRadius="1.75rem"
@@ -79,12 +80,12 @@ const Experience = () => {
                             </h1>
                             {card.hasCertificate && (
                                 <Dialog>
-                                    <DialogTrigger className="font-sourceSans px-1 rounded-lg text-brandAccent bg-slate-900 border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
+                                    <DialogTrigger className="font-sourceSans px-2 rounded-xl text-brandAccent bg-brandBackgroundBlack border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
                                     <DialogContent className="bg-brandPrimary">
                                         <DialogHeader>
                                             <DialogTitle>Certificate</DialogTitle>
                                         </DialogHeader>
-                                            <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-lg"/>
+                                            <Image src={card.certificate} width={550} height={430} alt="certificate" className="rounded-xl"/>
                                     </DialogContent>
                                 </Dialog>
                             )}
@@ -93,7 +94,7 @@ const Experience = () => {
                             {card.desc}
                         </p>
                     </div>
-                </Button>
+                </ExperienceCard>
             ))}
         </motion.div>
     </div>

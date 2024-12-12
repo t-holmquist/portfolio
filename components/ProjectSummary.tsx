@@ -20,24 +20,24 @@ const ProjectSummary = ({
 
     // Animation states
     const parentListVariant = {
-        open: {
+        visible: {
             opacity: 1,
             transition: {
                 staggerChildren: 0.4,
                 duration: 0.8,
             }
         },
-        closed: {
+        hidden: {
             opacity: 0
         }
     };
 
     const childItemVariant = {
-        open: {
+        visible: {
             opacity: 1,
             x: 0,
         },
-        closed: {
+        hidden: {
             opacity: 0,
             x: 10,
         }
@@ -96,8 +96,8 @@ const ProjectSummary = ({
             </motion.div>
             <motion.section 
             variants={parentListVariant}
-            initial={"closed"}
-            animate={"open"}
+            initial={"hidden"}
+            animate={"visible"}
             transition={{
                 duration: 1,
             }}
