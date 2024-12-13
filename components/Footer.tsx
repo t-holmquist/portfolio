@@ -1,38 +1,24 @@
 import { FaEnvelope } from "react-icons/fa6"
 import MagicButton from "./ui/MagicButton"
 import { socialMedia } from "@/data";
-import { CardGradient } from "./ui/CardGradient";
 import Image from "next/image";
-import FloatingIllustration from "./ui/floatingIllustration";
 
-const Footer = () => {
+const About = () => {
 
   return (
-    <footer className="w-full mb-[100px] md:mb-5 sm:pb-10" id="contact">
-        <div className="flex relative flex-col items-center dark:bg-dot-white/[0.1]">
-            <CardGradient/>
-            {/* Opacity hidden images reveal on hover - not visible on mobile */}
-            <div id="right-hand" className="hidden lg:block opacity-0 w-40 h-40 top-44 self-start absolute z-50">
-                <Image className="rounded-3xl" src="/right_hand.webp" alt="hand" width={150} height={150}/>
-            </div>
-            <div id="left-hand" className="hidden lg:block opacity-0 top-44 right-20 w-40 h-40 self-end absolute z-50">
-                <Image className="rounded-3xl" src="/left_hand.webp" alt="hand" width={150} height={150}/>
-            </div>
-            <FloatingIllustration />
-            <h1 className="mt-28 heading lg:max-w-[45vw]">Feel free to
-                <span className="text-brandAccent"> reach out</span> to me
-            </h1>
-            <p className="text-white-200 md:mt-10 my-10 text-center font-sourceSans">I&apos;m always interested in meeting new people</p>
-            <a href="mailto:tjalfeholmquist@gmail.com">
-            <MagicButton
-            title="Send me an email"
-            icon={<FaEnvelope/>}
-            position="right"
-            otherClasses="bg-brandPrimary"
-            />
-            </a>
-        </div>
-
+    <footer className="w-full mb-[100px] md:mb-5 sm:pb-10 flex flex-col items-center">
+        <h1 className="mt-28 heading lg:max-w-[45vw]">Feel free to
+            <span className="text-brandAccent"> reach out</span> to me
+        </h1>
+        <p className="text-white-200 md:mt-10 my-10 text-center font-sourceSans">I&apos;m always interested in meeting new people</p>
+        <a href="mailto:tjalfeholmquist@gmail.com">
+        <MagicButton
+        title="Send me an email"
+        icon={<FaEnvelope/>}
+        position="right"
+        otherClasses="bg-brandPrimary"
+        />
+        </a>
         <div className="flex mt-16 md:flex-row flex-col items-center justify-center">
             <div className="flex items-center md:gap-3 gap-6">
                 {socialMedia.map((profile) => (
@@ -46,4 +32,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default About

@@ -12,7 +12,7 @@ const ProjectDeeperDive = ( { className, projectId } :
 ) => {
 
     return (
-        <div className={cn("space-y-6 mt-6", className)}>
+        <section className={cn("space-y-6 mt-6", className)}>
             {/* A deeper dive section */}
             <div className="relative overflow-hidden flex flex-col justify-center items-center border border-brandBorder rounded-xl p-4 gap-1">
                 <h2 className="font-oswald text-3xl">A deeper dive</h2>
@@ -44,7 +44,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                     <p className="font-sourceSans text-sm">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 
 }
