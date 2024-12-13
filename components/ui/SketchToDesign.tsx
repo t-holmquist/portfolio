@@ -6,18 +6,19 @@ import MagicButton from "./MagicButton";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const SketchToDesign = ( { className, sketchLink, designLink } : 
+const SketchToDesign = ( { className, sketchLink, designLink, title } : 
     {
         className?: string;
         sketchLink: string;
         designLink: string;
+        title: string;
     }
 ) => {
 
     const [designVisible, setDesignVisible] = useState<boolean>(false);
 
     return (
-        <div className={cn("space-y-4", className)}>
+        <div className={cn("space-y-3", className)}>
             <div className="flex gap-2 justify-center">
                 <MagicButton
                 title="Sketch"
@@ -45,6 +46,9 @@ const SketchToDesign = ( { className, sketchLink, designLink } :
                 className="rounded-xl aspect-square"
                 />
             </motion.div>
+            <div className="flex justify-center">
+                <p className="font-sourceSans text-xs text-brandTextWhite">{title}</p>
+            </div>
         </div>
     );
 
