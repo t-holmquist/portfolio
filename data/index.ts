@@ -8,7 +8,6 @@ export const funFacts = [
   'Pour-Over',
 ];
 
-
 // Project data
 
 export const ProjectData = [

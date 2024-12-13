@@ -91,11 +91,11 @@
 
 @keyframes portrait-animation{
   0% {
-      box-shadow: 10px -10px 0px #5F257D, 18px -18px 0px #86A1D7;
+      box-shadow: 10px -10px 0px #2A1E7F, 18px -18px 0px #86B2CE;
       transform: translateY(-8px);
   }
   100% {
-      box-shadow: -10px 10px 0px #5F257D, 18px 18px 0px #86A1D7;
+      box-shadow: -10px 10px 0px #2A1E7F, 18px 18px 0px #86B2CE;
   }
 }
 
