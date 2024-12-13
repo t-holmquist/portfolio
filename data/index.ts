@@ -14,7 +14,7 @@ export const ProjectData = [
   {
   id: 0,
   projectLink: "/",
-  imageLink: "/sketches/nespressoflow_finaldesign.png",
+  imageLink: "/typescript_certificate.webp",
   content: {
     title: "Nespresso",
     Purpose: "Recycleable thing",
@@ -35,6 +35,7 @@ export const ProjectData = [
     sketchToDesignDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                 psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
     elementHightlightLink: "/video/Nespresso_5sek.webm",
+    elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
     elementHightlightHeader: "Video campaign - 5 second version",
     elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                   psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
@@ -60,6 +61,7 @@ export const ProjectData = [
     sketchToDesignHeader: "Story creation for kids and their parents",
     sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     elementHightlightLink: "/video/Nespresso_5sek.webm",
+    elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
     elementHightlightHeader: "Animation/Illustration",
     elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }
@@ -83,7 +85,8 @@ export const ProjectData = [
     sketchToDesignTitle: "Guide to return capsules",
     sketchToDesignHeader: "Make it easy to recycle",
     sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-    elementHightlightLink: "",
+    elementHightlightLink: "/video/Nespresso_5sek.webm",
+    elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
     elementHightlightHeader: "Animation/Illustration",
     elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }
