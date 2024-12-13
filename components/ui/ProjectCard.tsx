@@ -52,7 +52,7 @@ export const ProjectCard = ({
       
     >
         <div
-          className="p-4 bg-brandPrimary flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] group-hover/pin:border-white/[0.5] transition duration-300 overflow-hidden"
+          className="p-4 bg-brandPrimary flex justify-start items-start rounded-2xl border border-white/[0.1] group-hover/pin:border-white/[0.5] transition duration-300 overflow-hidden"
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>

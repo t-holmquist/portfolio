@@ -35,7 +35,7 @@ export const ProjectData = [
     sketchToDesignDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                 psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
     elementHightlightLink: "/video/Nespresso_5sek.webm",
-    elementHightlightHeader: "Animation/Illustration",
+    elementHightlightHeader: "Video campaign - 5 second version",
     elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                   psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
     }

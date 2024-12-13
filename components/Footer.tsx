@@ -6,8 +6,8 @@ import Image from "next/image";
 const About = () => {
 
   return (
-    <footer className="w-full mb-[100px] md:mb-5 sm:pb-10 flex flex-col items-center">
-        <h1 className="mt-28 heading lg:max-w-[45vw]">Feel free to
+    <footer className="w-full mt-0 lg:mt-10 mb-[100px] md:mb-5 sm:pb-10 flex flex-col items-center">
+        <h1 className="heading lg:max-w-[45vw]">Feel free to
             <span className="text-brandAccent"> reach out</span> to me
         </h1>
         <p className="text-white-200 md:mt-10 my-10 text-center font-sourceSans">I&apos;m always interested in meeting new people</p>

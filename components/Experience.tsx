@@ -50,7 +50,7 @@ const Experience = () => {
     const isInView = useInView(ref);
 
   return (
-    <div id="experience" className="lg:mt-40">
+    <div id="experience" className="mt-20 lg:mt-40">
         <h2 className="heading">
             My
             <span className="text-brandAccent"> qualifications</span>

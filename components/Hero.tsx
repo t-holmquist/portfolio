@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div>
         <div className='pb-20'>
-        <Spotlight className='-top-40 -right-10 md:-right-32 md:-top-20 h-screen' fill='#877EFF'/>
+        <Spotlight className='-top-40 -right-10 md:-right-32 md:-top-20 h-screen' fill='#86B2CE'/>
         </div>
         <div className='flex relative mb-20 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-6'>
