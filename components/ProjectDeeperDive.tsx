@@ -1,15 +1,31 @@
 import { cn } from "@/utils/cn";
+import Image from "next/image"
+import SketchToDesign from "./ui/SketchToDesign";
 
-const ProjectDeeperDive = ( { className, children } : 
+const ProjectDeeperDive = ( { className, projectId } : 
     {
         className?: string;
-        children: React.ReactNode;
+        projectId: number;
     }
 ) => {
 
     return (
-        <div className={cn("bg-brandBackgroundGrey rounded-xl h-96 flex flex-col items-center justify-center mt-10", className)}>
-            {children}
+        <div className={cn("space-y-6 mt-6", className)}>
+            {/* A deeper dive section */}
+            <div className="relative overflow-hidden flex flex-col justify-center items-center border border-brandBorder rounded-xl p-4 gap-1">
+                <h2 className="font-oswald text-3xl">A deeper dive</h2>
+                <p className="font-sourceSans text-sm">Learn more about how this project came to be</p>
+                <Image src={"/floatingillustrations/line.svg"} width={200} height={200} alt="illustration" className="absolute left-0 opacity-10"/>
+                <Image src={"/floatingillustrations/diamond.svg"} width={200} height={200} alt="illustration" className="absolute right-0 opacity-10"/>
+            </div>
+            {/* Content section */}
+            <div className="bg-brandBackgroundGrey rounded-xl flex flex-col items-center justify-center p-4">
+                <SketchToDesign 
+                sketchLink="/sketches/nespressoflow.png"
+                designLink="/sketches/nespressoflow_finaldesign.png"
+                title="Guide to return capsules"
+                />
+            </div>
         </div>
     );
 

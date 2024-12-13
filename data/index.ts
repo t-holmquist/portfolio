@@ -21,6 +21,18 @@ export const ProjectData = [
     keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    },
+  deeperDiveContent: {
+    aboutProjectHeader: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    aboutProjectDescription: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    sketchLink: "/sketches/nespressoflow.png",
+    designLink: "/sketches/nespressoflow_finaldesign.png",
+    sketchToDesignTitle: "Guide to return capsules",
+    sketchToDesignHeader: "Make it easy to recycle",
+    sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+    elementHightligtLink: "",
+    elementHightlightHeader: "Animation/Illustration",
+    elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }
   },
   {
@@ -33,6 +45,18 @@ export const ProjectData = [
     keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    },
+  deeperDiveContent: {
+    aboutProjectHeader: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    aboutProjectDescription: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    sketchLink: "/sketches/nespressoflow.png",
+    designLink: "/sketches/nespressoflow_finaldesign.png",
+    sketchToDesignTitle: "Guide to return capsules",
+    sketchToDesignHeader: "Make it easy to recycle",
+    sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+    elementHightligtLink: "",
+    elementHightlightHeader: "Animation/Illustration",
+    elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }
   },
   {
@@ -45,6 +69,18 @@ export const ProjectData = [
     keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
     learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    },
+  deeperDiveContent: {
+    aboutProjectHeader: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    aboutProjectDescription: "Ipsum dolor sit amet, consectetur adipiscing elit",
+    sketchLink: "/sketches/nespressoflow.png",
+    designLink: "/sketches/nespressoflow_finaldesign.png",
+    sketchToDesignTitle: "Guide to return capsules",
+    sketchToDesignHeader: "Make it easy to recycle",
+    sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+    elementHightligtLink: "",
+    elementHightlightHeader: "Animation/Illustration",
+    elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }
   },
 ];
