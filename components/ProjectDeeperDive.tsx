@@ -1,6 +1,8 @@
 import { cn } from "@/utils/cn";
 import Image from "next/image"
 import SketchToDesign from "./ui/SketchToDesign";
+import { ProjectData } from "@/data";
+import { Video } from "./ui/video";
 
 const ProjectDeeperDive = ( { className, projectId } : 
     {
@@ -19,12 +21,28 @@ const ProjectDeeperDive = ( { className, projectId } :
                 <Image src={"/floatingillustrations/diamond.svg"} width={200} height={200} alt="illustration" className="absolute right-0 opacity-10"/>
             </div>
             {/* Content section */}
-            <div className="bg-brandBackgroundGrey rounded-xl flex flex-col items-center justify-center p-4">
+            <div className="bg-brandBackgroundGrey rounded-xl flex flex-col items-center justify-center p-6 gap-12">
+                <div className="w-full space-y-2">
+                    <h3 className="font-oswald text-xl">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
+                    <p className="font-sourceSans text-sm">{ProjectData[projectId].deeperDiveContent.aboutProjectDescription}</p>
+                </div>
                 <SketchToDesign 
-                sketchLink="/sketches/nespressoflow.png"
-                designLink="/sketches/nespressoflow_finaldesign.png"
+                sketchLink={ProjectData[projectId].deeperDiveContent.sketchLink}
+                designLink={ProjectData[projectId].deeperDiveContent.designLink}
                 title="Guide to return capsules"
                 />
+                <div className="w-full space-y-2">
+                    <h3 className="font-oswald text-xl">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
+                    <p className="font-sourceSans text-sm">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
+                </div>
+                <Video
+                key={projectId}
+                elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
+                />
+                <div className="w-full space-y-2">
+                    <h3 className="font-oswald text-xl">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                    <p className="font-sourceSans text-sm">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                </div>
             </div>
         </div>
     );
