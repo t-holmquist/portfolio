@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Oswald, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
-// Vercel speedindsight imported and added to layout body below
 
 const oswald = Oswald({
   subsets: ['latin'],
@@ -20,7 +17,7 @@ const sourceSans3 = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: "Tjalfe Portfolio",
-  description: "Modern Next.js powered portfolio",
+  description: "Front-end Developer",
 };
 
 export default function RootLayout({
@@ -38,7 +35,6 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
-            <SpeedInsights/>
           </ThemeProvider>
       </body>
     </html>
