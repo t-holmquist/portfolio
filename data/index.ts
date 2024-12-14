@@ -36,6 +36,7 @@ export const ProjectData = [
                                 psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
     elementHightlightLink: "/video/Nespresso_5sek.webm",
     elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
+    thumbnail: "/video/thumbnailNespresso.webp",
     elementHightlightHeader: "Video campaign - 5 second version",
     elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                   psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
@@ -62,6 +63,7 @@ export const ProjectData = [
     sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     elementHightlightLink: "/video/Nespresso_5sek.webm",
     elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
+    thumbnail: "/video/thumbnailNespresso.webp",
     elementHightlightHeader: "Animation/Illustration",
     elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }
@@ -87,6 +89,7 @@ export const ProjectData = [
     sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
     elementHightlightLink: "/video/Nespresso_5sek.webm",
     elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
+    thumbnail: "/video/thumbnailNespresso.webp",
     elementHightlightHeader: "Animation/Illustration",
     elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
     }

@@ -20,7 +20,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 <Image src={"/floatingillustrations/line.svg"} width={200} height={200} alt="illustration" className="absolute left-0 opacity-10"/>
                 <Image src={"/floatingillustrations/diamond.svg"} width={200} height={200} alt="illustration" className="absolute right-0 opacity-10"/>
             </div>
-            {/* Content section */}
+            {/* Content */}
             <div className="bg-brandBackgroundGrey rounded-xl flex flex-col items-center justify-center p-6 gap-12">
                 <div className="w-full space-y-2">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
@@ -39,6 +39,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 key={projectId}
                 elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
                 elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
+                thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
 
                 />
                 <div className="w-full space-y-2">
