@@ -93,8 +93,9 @@ const ProjectSummary = ({
                 transition={{
                 duration: 1,
                 }}
-                className="aspect-video w-fit rounded-xl overflow-hidden">
-                    <Image src={ProjectData[projectId].imageLink} alt={"project"} width={1000} height={400} className="rounded-xl" />
+                className="rounded-xl">
+                    {/* Project image */}
+                    <Image src={ProjectData[projectId].imageLink} alt={"project"} width={1280} height={720} className="rounded-xl w-full" />
                 </motion.div>
 
                 <motion.section 
@@ -152,7 +153,7 @@ const ProjectSummary = ({
                 </motion.section>
             </section>
             {/* A deeper dive section */}
-            <ProjectDeeperDive projectId={projectId} className="w-11/12 lg:w-5/12" />
+            <ProjectDeeperDive projectId={projectId} className="w-11/12 lg:w-5/12 z-10" />
         </>
     );
 

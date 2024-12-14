@@ -22,7 +22,7 @@ const About = () => {
         <div className="flex mt-16 md:flex-row flex-col items-center justify-center">
             <div className="flex items-center md:gap-3 gap-6">
                 {socialMedia.map((profile) => (
-                    <a href={profile.link} key={profile.id} className="w-10 h-10 mt-2 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-brandBackgroundGrey rounded-lg border border-black-300">
+                    <a href={profile.link} key={profile.id} className="w-10 h-10 mt-2 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-brandBackgroundGrey rounded-lg border border-black-300 hover:bg-brandBackgroundBlack">
                         <Image src={profile.img} alt={profile.alt} width={20} height={20}/>
                     </a>
                 ))}

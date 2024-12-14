@@ -14,7 +14,7 @@ export const ProjectData = [
   {
   id: 0,
   projectLink: "/",
-  imageLink: "/typescript_certificate.webp",
+  imageLink: "/video/thumbnailNespresso.webp",
   content: {
     title: "Nespresso",
     Purpose: "Recycleable thing",
