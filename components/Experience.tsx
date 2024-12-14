@@ -24,8 +24,7 @@ const Experience = () => {
         open: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.4,
-                duration: 1,
+                staggerChildren: 0.3,
             }
         },
         closed: {
@@ -47,10 +46,10 @@ const Experience = () => {
 
     // Hook for checking if element is in view and then trigger animation exactly at that point.
     const ref = useRef(null);
-    const isInView = useInView(ref);
+    const isInView = useInView(ref, { once: true, amount: 0.3, });
 
   return (
-    <div id="experience" className="mt-20 lg:mt-40">
+    <div id="experience" className="mt-20 lg:mt-28">
         <h2 className="heading">
             My
             <span className="text-brandAccent"> qualifications</span>

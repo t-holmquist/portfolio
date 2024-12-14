@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const RecentProjects = () => {
   return (
-    <div id="projects" className="mt-20 lg:mt-40">
+    <div id="projects" className="mt-20 lg:mt-28">
         <h1 className="heading">
             Some of my {' '}
             <span className="text-brandAccent">work</span>
