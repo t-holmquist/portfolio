@@ -55,7 +55,7 @@ const Experience = () => {
             My
             <span className="text-brandAccent"> qualifications</span>
         </h2>
-        <p className="text-white-200 mt-10 max-w-lg font-sourceSans">Here is an overview of my prior experience and my certificates within front-end development.</p>
+        <p className="text-white-200 mt-10 max-w-lg font-sourceSans text-lg">Here is an overview of my prior experience and my certificates within front-end development.</p>
 
         <motion.div className="w-full mt-20 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 gap-10"
         ref={ref}
@@ -75,9 +75,9 @@ const Experience = () => {
                     </div>
                     <div className="lg:ms-5">
                         <div className="flex items-center gap-3">
-                            <h1 className="text-start text-xl lg:text-2xl font-bold font-oswald">
+                            <h2 className="text-start text-xl lg:text-2xl font-bold font-oswald">
                                 {card.title}
-                            </h1>
+                            </h2>
                             {card.hasCertificate && (
                                 <Dialog>
                                     <DialogTrigger className="font-sourceSans px-2 rounded-xl text-brandAccent bg-brandBackgroundBlack border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
@@ -90,7 +90,7 @@ const Experience = () => {
                                 </Dialog>
                             )}
                         </div>
-                        <p className="text-start text-white-100 mt-3 font-semibold font-sourceSans">
+                        <p className="text-start text-white-100 mt-3 font-sourceSans text-lg">
                             {card.desc}
                         </p>
                     </div>

@@ -55,7 +55,7 @@ const ProjectSummary = ({
                         key={id}
                         title={content?.title}
                         handleClick={() => setProjectId(id)}
-                        otherClasses={`${projectId == id ? 'bg-brandPrimary' : 'border border-brandBorder'}`}
+                        otherClasses={`${projectId == id ? 'bg-brandAccent' : 'border border-brandBorder'}`}
                         />
                     ))}
                 </div>
@@ -105,7 +105,7 @@ const ProjectSummary = ({
                 transition={{
                     duration: 1,
                 }}
-                className="flex flex-col justify-center w-full bg-brandPrimary rounded-xl p-6 gap-6">
+                className="flex flex-col justify-center w-full bg-brandPrimary rounded-xl p-6 md:p-8 gap-6">
                     <motion.div 
                     variants={childItemVariant}
                     className="flex gap-2">
@@ -113,8 +113,8 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="purpose"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-lg leading-none">Purpose.</h2>
-                            <p className="font-sourceSans text-brandTextWhite text-sm">{ProjectData[projectId].content.Purpose}</p>
+                            <h2 className="font-oswald font-bold text-xl leading-none">Purpose.</h2>
+                            <p className="font-sourceSans text-brandTextWhite text-lg">{ProjectData[projectId].content.Purpose}</p>
                         </div>
                     </motion.div>
                     <motion.div
@@ -124,8 +124,8 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="purpose"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-lg leading-none">Key Features.</h2>
-                            <p className="font-sourceSans text-brandTextWhite text-sm">{ProjectData[projectId].content.keyFeatures}</p>
+                            <h2 className="font-oswald font-bold text-xl leading-none">Key Features.</h2>
+                            <p className="font-sourceSans text-brandTextWhite text-lg">{ProjectData[projectId].content.keyFeatures}</p>
                         </div>
                     </motion.div>
                     <motion.div 
@@ -135,8 +135,8 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="purpose"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-lg leading-none">Challenges and learnings.</h2>
-                            <p className="font-sourceSans text-brandTextWhite text-sm max-w-xs md:max-w-none">{ProjectData[projectId].content.learnings}</p>
+                            <h2 className="font-oswald font-bold text-xl leading-none">Challenges and learnings.</h2>
+                            <p className="font-sourceSans text-brandTextWhite text-lg max-w-xs md:max-w-none">{ProjectData[projectId].content.learnings}</p>
                         </div>
                     </motion.div>
                     <motion.div 
@@ -146,14 +146,14 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="purpose"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-lg leading-none">Technologies used.</h2>
-                            <p className="font-sourceSans text-brandTextWhite text-sm">{ProjectData[projectId].content.technologies}</p>
+                            <h2 className="font-oswald font-bold text-xl leading-none">Technologies used.</h2>
+                            <p className="font-sourceSans text-brandTextWhite text-lg">{ProjectData[projectId].content.technologies}</p>
                         </div>
                     </motion.div>
                 </motion.section>
             </section>
             {/* A deeper dive section */}
-            <ProjectDeeperDive projectId={projectId} className="w-11/12 lg:w-5/12 z-10" />
+            <ProjectDeeperDive projectId={projectId} className="w-11/12 lg:w-6/12 z-10" />
         </>
     );
 

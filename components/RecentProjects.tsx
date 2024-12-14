@@ -11,12 +11,12 @@ const RecentProjects = () => {
             <span className="text-brandAccent">work</span>
         </h1>
         <div className="flex flex-col justify-center mt-6 max-w-lg">
-            <p className="text-white-200 font-sourceSans">
+            <p className="text-white-200 font-sourceSans text-lg">
                 These are some projects I have built using the React ecosystem. 
                 The web apps are configured using the modern metaframework Next.js to get improved performance and dev experience.
             </p>
             <div className="flex items-center mt-2">
-                <p className="text-white-200 font-sourceSans">Take a look</p>
+                <p className="text-white-200 font-sourceSans text-lg">Take a look</p>
                 <FaEye className="ml-2 text-white-200"/>
                 <FaEye className="ml-2 text-white-200"/>
             </div>

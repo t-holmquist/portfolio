@@ -10,13 +10,13 @@ const About = () => {
         <h1 className="heading lg:max-w-[45vw]">Feel free to
             <span className="text-brandAccent"> reach out</span> to me
         </h1>
-        <p className="text-white-200 md:mt-10 my-10 text-center font-sourceSans">I&apos;m always interested in meeting new people</p>
+        <p className="text-white-200 md:mt-10 my-10 text-center font-sourceSans text-lg">I&apos;m always interested in meeting new people</p>
         <a href="mailto:tjalfeholmquist@gmail.com">
         <MagicButton
         title="Send me an email"
         icon={<FaEnvelope/>}
         position="right"
-        otherClasses="bg-brandPrimary"
+        otherClasses="bg-brandAccent"
         />
         </a>
         <div className="flex mt-16 md:flex-row flex-col items-center justify-center">

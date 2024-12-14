@@ -26,7 +26,7 @@ const Hero = () => {
                 title='See my work'
                 icon={<FaWandMagicSparkles/>}
                 position='right'
-                otherClasses='bg-brandPrimary'
+                otherClasses='bg-brandAccent'
                 />
               </Link>
               <Link href="#contact">

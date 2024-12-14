@@ -22,12 +22,12 @@ const SketchToDesign = ( { className, sketchLink, designLink, title } :
             <div className="flex gap-2 justify-center">
                 <MagicButton
                 title="Sketch"
-                otherClasses={designVisible ? 'border border-slate-600' : 'bg-brandPrimary'}
+                otherClasses={designVisible ? 'border border-slate-600' : 'bg-brandAccent'}
                 handleClick={() => setDesignVisible(false)}
                 />
                 <MagicButton
                 title="Final"
-                otherClasses={designVisible ? 'bg-brandPrimary' : 'border border-slate-600'}
+                otherClasses={designVisible ? 'bg-brandAccent' : 'border border-slate-600'}
                 handleClick={() => setDesignVisible(true)}
                 />
             </div>
