@@ -1,7 +1,7 @@
 import { cn } from "@/utils/cn";
 import Image from "next/image"
 import SketchToDesign from "./ui/SketchToDesign";
-import { ProjectData } from "@/data";
+import { ProjectData } from "@/data/projectData";
 import { Video } from "./ui/video";
 
 const ProjectDeeperDive = ( { className, projectId } : 

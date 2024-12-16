@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useState } from 'react';
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
-import { ProjectData } from "@/data";
+import { ProjectData } from "@/data/projectData";
 import Image from 'next/image'
 import ProjectDeeperDive from "./ProjectDeeperDive";
 
@@ -49,7 +49,7 @@ const ProjectSummary = ({
         // key prop gives React info about which element to render and passes to framer motion to trigger animation when projectId changes
         <>
             <section className={cn("flex flex-col gap-6 text-brandTextWhite", className)} key={projectId}>
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-wrap">
                     {ProjectData.map(({ id, content }) => (
                         <MagicButton
                         key={id}
