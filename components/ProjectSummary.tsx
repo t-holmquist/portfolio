@@ -75,9 +75,10 @@ const ProjectSummary = ({
                     }}
                     >
                         <Link
+                        target="_blank"
                         href={ProjectData[projectId].projectLink}
                         className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
-                            <p className="text-xs font-sourceSans">See live project</p>
+                            <p className="text-xs font-sourceSans">See prototype</p>
                             <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
                         </Link>
                     </motion.div>

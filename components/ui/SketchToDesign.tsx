@@ -18,7 +18,7 @@ const SketchToDesign = ( { className, sketchLink, designLink, title } :
     const [designVisible, setDesignVisible] = useState<boolean>(false);
 
     return (
-        <div className={cn("space-y-3", className)}>
+        <div className={cn("space-y-5", className)}>
             <div className="flex gap-2 justify-center">
                 <MagicButton
                 title="Sketch"
@@ -40,9 +40,9 @@ const SketchToDesign = ( { className, sketchLink, designLink, title } :
             >
                 <Image 
                 src={designVisible ? designLink : sketchLink}
-                width={200}
-                height={100}
-                alt="sketch"
+                width={300}
+                height={300}
+                alt="illustration"
                 className="rounded-xl aspect-square"
                 />
             </motion.div>

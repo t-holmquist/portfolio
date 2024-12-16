@@ -22,7 +22,7 @@ const ProjectDeeperDive = ( { className, projectId } :
             </div>
             {/* Content */}
             <div className="bg-brandBackgroundBlack border border-brandBorder rounded-xl flex flex-col items-center justify-center p-6 md:py-8 md:px-10 gap-12">
-                <div className="space-y-2">
+                <div className="space-y-2 self-start">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.aboutProjectDescription}</p>
                 </div>
@@ -31,7 +31,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 designLink={ProjectData[projectId].deeperDiveContent.designLink}
                 title={ProjectData[projectId].deeperDiveContent.sketchToDesignTitle}
                 />
-                <div className="w-full space-y-2">
+                <div className="w-full space-y-2 self-start">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
                 </div>
@@ -43,7 +43,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                         elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
                         thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
                         />
-                        <div className="w-full space-y-2">
+                        <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
                             <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
                         </div>
@@ -52,7 +52,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 <div className="p-8 bg-brandSecondary rounded-xl">
                     <Image src={ProjectData[projectId].deeperDiveContent.illustrationLink} width={250} height={250} alt="illustration" className="rounded-xl"/>
                 </div>
-                <div className="w-full space-y-2">
+                <div className="w-full space-y-2 self-start">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>
                 </div>

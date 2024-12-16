@@ -3,7 +3,7 @@
 export const ProjectData = [
     {
     id: 0,
-    projectLink: "/",
+    projectLink: "https://www.figma.com/proto/QkaDsn4A6AWOmav5n3DXc5/festival-(Copy)?node-id=0-1&t=OaWuta4YCI5L7Bau-1",
     imageLink: "/caseImages/cspaaholmen/cspaaholmen.webp",
     content: {
       title: "C's på Holmen. 1-day Festival",
@@ -37,7 +37,7 @@ export const ProjectData = [
       illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
       illustrationHeader: "Choosing the visual identity",
       illustrationDescription: `We decided to go with some warmer colors to get a vibrant and youthful look for the festival. 
-                                A few variants of the logo`,
+                                The logos were created in different variations, but the warmer red color was choosen as the final version`,
       }
     },
     {
