@@ -15,7 +15,7 @@ const CaseIllustration = () => {
     <motion.div className="absolute -left-20 top-4 lg:-left-96 lg:top-72 opacity-5"
     style={{y: y, rotate: rotate}}
     >
-        <Image src={"/floatingillustrations/line.svg"} className="" width={2000} height={2000} alt="illustration"/>
+        <Image src={"/floatingillustrations/line.svg"} className="hidden sm:block" width={2000} height={2000} alt="illustration"/>
     </motion.div>
   )
 }

@@ -16,7 +16,7 @@ const ProjectDeeperDive = ( { className, projectId } :
             {/* A deeper dive section */}
             <div className="relative overflow-hidden flex flex-col justify-center items-center border border-brandBorder rounded-xl p-4 gap-2 bg-brandBackgroundBlack">
                 <h2 className="font-oswald text-4xl font-bold">A deeper dive</h2>
-                <p className="font-sourceSans">Learn more about how this project came to be</p>
+                <p className="font-sourceSans">And a few project highlights</p>
                 <Image src={"/floatingillustrations/line.svg"} width={200} height={200} alt="illustration" className="absolute left-0 opacity-10"/>
                 <Image src={"/floatingillustrations/diamond.svg"} width={200} height={200} alt="illustration" className="absolute -right-20 md:right-0 opacity-10"/>
             </div>
@@ -29,22 +29,32 @@ const ProjectDeeperDive = ( { className, projectId } :
                 <SketchToDesign 
                 sketchLink={ProjectData[projectId].deeperDiveContent.sketchLink}
                 designLink={ProjectData[projectId].deeperDiveContent.designLink}
-                title="Guide to return capsules"
+                title={ProjectData[projectId].deeperDiveContent.sketchToDesignTitle}
                 />
                 <div className="w-full space-y-2">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
                 </div>
-                <Video
-                key={projectId}
-                elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
-                elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
-                thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
-
-                />
+                {projectId == 3 && (
+                    <>
+                        <Video
+                        key={projectId}
+                        elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
+                        elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
+                        thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
+                        />
+                        <div className="w-full space-y-2">
+                            <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                        </div>
+                    </>
+                )}
+                <div className="p-8 bg-brandSecondary rounded-xl">
+                    <Image src={ProjectData[projectId].deeperDiveContent.illustrationLink} width={250} height={250} alt="illustration" className="rounded-xl"/>
+                </div>
                 <div className="w-full space-y-2">
-                    <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
-                    <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                    <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
+                    <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>
                 </div>
             </div>
         </section>
