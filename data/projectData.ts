@@ -72,9 +72,9 @@ export const ProjectData = [
                                   with design associations that gave us a sense of common understanding of what we were designing.
                                   We also created reusable Figma components and typography design rules to keep the work consistant.`,
       sketchToDesignSize: 600,
-      elementHightlightLink: "/video/Nespresso_5sek.webm",
-      elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
-      thumbnail: "/video/thumbnailNespresso.webp",
+      elementHightlightLink: "/caseImages/ludovico/ludovico_tour.webm",
+      elementHightlightFallBackLink: "/caseImages/ludovico/ludovico_tour.mp4",
+      thumbnail: "/caseImages/ludovico/hero.webp",
       elementHightlightHeader: "The products",
       elementHighlightDescription: "A short walkthrough of the landingpage, and various digital products.", 
       illustrationLink: "/caseImages/ludovico/spotify_after.webp",
@@ -90,14 +90,18 @@ export const ProjectData = [
     imageLink: "/sola.webp",
     content: {
       title: "Politician",
-      Purpose: "Coffee shop",
-      keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
-      learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-      technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+      Purpose: "Promote a politicians and their political values and topics.",
+      keyFeatures: "Landingpage design and coded with html/css. CSS animations.",
+      learnings: "Practiced CSS animations",
+      technologies: "Figma, Visual Studio",
       },
     deeperDiveContent: {
-      aboutProjectHeader: "In depth about the Sola project",
-      aboutProjectDescription: "Ipsum dolor sit amet, consectetur adipiscing elit",
+      aboutProjectHeader: "About the project",
+      aboutProjectDescription: `I was assigned to create a landingpage for a politician of choice. I selected Rosa Lund
+                                from Enhedslisten for the project. The core values of the politician and her political party
+                                was an important element to highlight. So my focus was to create a simple and stylewise on brand
+                                portrait page of the Rosa Lund. The main goal of the school project was to develop an understanding
+                                of html and css and make a responsive design.`,
       sketchLink: "/sketches/nespressoflow.png",
       designLink: "/sketches/nespressoflow_finaldesign.png",
       sketchToDesignTitle: "Guide to return capsules",
