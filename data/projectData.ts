@@ -6,7 +6,7 @@ export const ProjectData = [
     projectLink: "https://www.figma.com/proto/QkaDsn4A6AWOmav5n3DXc5/festival-(Copy)?node-id=0-1&t=OaWuta4YCI5L7Bau-1",
     imageLink: "/caseImages/cspaaholmen/cspaaholmen.webp",
     content: {
-      title: "C's på Holmen. 1-day Festival",
+      title: "C's på Holmen",
       Purpose: "Improving the study environment for cphbusiness students.",
       keyFeatures: `Landingpage to buy tickets for a 1 day festival for cphbusiness students.`,
       learnings: `Structuring the content with the inverse pyramid and AIDA in mind was a challenge. 
@@ -29,6 +29,7 @@ export const ProjectData = [
       sketchToDesignDescription: `Initially the activity icons were identical, but after adding all the activities, we decided to make it easier to
                                   quickly differenciate between the categories. It would also be beneficial to add further icons e.g concerts, 
                                   activities and maybe type of activity.`,
+      sketchToDesignSize: 300,
       elementHightlightLink: "",
       elementHightlightFallBackLink: "",
       thumbnail: "",
@@ -42,31 +43,32 @@ export const ProjectData = [
     },
     {
     id: 1,
-    projectLink: "/",
-    imageLink: "/b4.svg",
+    projectLink: "https://www.figma.com/proto/535Jfyn82s73XZiEgF2OUX/Figma-Landingpage?node-id=133-441&t=Y6fdxO4Iu9guMCyZ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=63%3A83",
+    imageLink: "/caseImages/ludovico/hero.webp",
     content: {
       title: "Ludovico",
-      Purpose: "An interactive storytelling app powered by generative AI",
-      keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
+      Purpose: "Designing and promoting a fictive anniversary Vinyl for Ludovico Einaudi with a focus on sustainability.",
+      keyFeatures: "Landingpage, Vinyl design, Instagram AD. Mockups on Spotify & Public traffic.",
       learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-      technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+      technologies: "Figma, Premiere Pro, Illustrator, Photoshop.",
       },
     deeperDiveContent: {
-      aboutProjectHeader: "In depth about the StoryWeaver project",
+      aboutProjectHeader: "About the Ludovico Project",
       aboutProjectDescription: "Ipsum dolor sit amet, consectetur adipiscing elit",
-      sketchLink: "/sketches/nespressoflow.png",
-      designLink: "/sketches/nespressoflow_finaldesign.png",
-      sketchToDesignTitle: "Whatever sketch title",
+      sketchLink: "/caseImages/ludovico/styleTile_before.webp",
+      designLink: "/caseImages/ludovico/styleTile_after.webp",
+      sketchToDesignTitle: "StyleTile versions",
       sketchToDesignHeader: "Story creation for kids and their parents",
       sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+      sketchToDesignSize: 600,
       elementHightlightLink: "/video/Nespresso_5sek.webm",
       elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
       thumbnail: "/video/thumbnailNespresso.webp",
       elementHightlightHeader: "Animation/Illustration",
       elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
       illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-      illustrationHeader: "",
-      illustrationDescription: "",
+      illustrationHeader: "Header",
+      illustrationDescription: "text",
         }
     },
     {
@@ -88,14 +90,15 @@ export const ProjectData = [
       sketchToDesignTitle: "Guide to return capsules",
       sketchToDesignHeader: "Make it easy to recycle",
       sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+      sketchToDesignSize: 450,
       elementHightlightLink: "/video/Nespresso_5sek.webm",
       elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
       thumbnail: "/video/thumbnailNespresso.webp",
       elementHightlightHeader: "Animation/Illustration",
       elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
       illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-      illustrationHeader: "",
-      illustrationDescription: "",
+      illustrationHeader: "Header",
+      illustrationDescription: "Text",
     }
     },
     {
@@ -121,6 +124,7 @@ export const ProjectData = [
         sketchToDesignHeader: "Make it easy to recycle",
         sketchToDesignDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                     psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
+        sketchToDesignSize: 450,
         elementHightlightLink: "/video/Nespresso_5sek.webm",
         elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
         thumbnail: "/video/thumbnailNespresso.webp",
@@ -128,8 +132,8 @@ export const ProjectData = [
         elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                     psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
         illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-        illustrationHeader: "",
-        illustrationDescription: "",
+        illustrationHeader: "Header",
+        illustrationDescription: "Text",
     }
     },
     {
@@ -155,6 +159,7 @@ export const ProjectData = [
         sketchToDesignHeader: "Make it easy to recycle",
         sketchToDesignDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                     psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
+        sketchToDesignSize: 450,
         elementHightlightLink: "/video/Nespresso_5sek.webm",
         elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
         thumbnail: "/video/thumbnailNespresso.webp",
@@ -162,8 +167,8 @@ export const ProjectData = [
         elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
                                     psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
         illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-        illustrationHeader: "",
-        illustrationDescription: "",
+        illustrationHeader: "Header",
+        illustrationDescription: "Text",
     }
     },
   ];

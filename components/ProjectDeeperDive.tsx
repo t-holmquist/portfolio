@@ -26,16 +26,28 @@ const ProjectDeeperDive = ( { className, projectId } :
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.aboutProjectDescription}</p>
                 </div>
+                {projectId == 1 && (
+                    <>
+                        <div className="p-8 rounded-xl">
+                            <Image src={"/caseImages/ludovico/brainstorm.png"} width={450} height={450} alt="illustration" className="rounded-xl"/>
+                        </div>
+                        <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
+                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>
+                        </div>
+                    </>
+                )}
                 <SketchToDesign 
                 sketchLink={ProjectData[projectId].deeperDiveContent.sketchLink}
                 designLink={ProjectData[projectId].deeperDiveContent.designLink}
                 title={ProjectData[projectId].deeperDiveContent.sketchToDesignTitle}
+                size={ProjectData[projectId].deeperDiveContent.sketchToDesignSize}
                 />
                 <div className="w-full space-y-2 self-start">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
                 </div>
-                {projectId == 3 && (
+                {projectId > 0 && (
                     <>
                         <Video
                         key={projectId}

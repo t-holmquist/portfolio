@@ -8,7 +8,7 @@ export function Video( { elementHighlightLink, elementHighlightFallbackLink, thu
     return (
       <video
       className="rounded-xl "
-      width="420" height="340" loop playsInline muted preload="none" controls poster={thumbnail}>
+      width="620" height="440" loop playsInline muted preload="none" controls poster={thumbnail}>
         <source src={elementHighlightLink} type="video/webm" />
         <source src={elementHighlightFallbackLink} type="video/mp4" />
         Your browser does not support the video tag.
