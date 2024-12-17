@@ -60,6 +60,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                         elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
                         elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
                         thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
+                        videowidth={ProjectData[projectId].deeperDiveContent.videowidth}
                         />
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>

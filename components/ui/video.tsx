@@ -1,14 +1,15 @@
-export function Video( { elementHighlightLink, elementHighlightFallbackLink, thumbnail  } : {
+export function Video( { elementHighlightLink, elementHighlightFallbackLink, thumbnail, videowidth=620  } : {
 
     elementHighlightLink: string;
     elementHighlightFallbackLink: string;
     thumbnail: string;
+    videowidth?: number;
 
 } ) {
     return (
       <video
       className="rounded-xl "
-      width="620" height="440" loop playsInline muted preload="none" controls poster={thumbnail}>
+      width={videowidth} height="440" autoPlay loop playsInline muted preload="none" controls poster={thumbnail}>
         <source src={elementHighlightLink} type="video/webm" />
         <source src={elementHighlightFallbackLink} type="video/mp4" />
         Your browser does not support the video tag.
