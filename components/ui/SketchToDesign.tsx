@@ -36,7 +36,6 @@ const SketchToDesign = ( { className, sketchLink, designLink, title, size } :
             key={designVisible ? 1 : 0}
             initial={{opacity: 0, y: designVisible ? 20 : -20}}
             animate={{opacity: 1, y: 0}}
-            transition={{ delay: 0.3 }}
             
             
             className="relative"
@@ -45,7 +44,7 @@ const SketchToDesign = ( { className, sketchLink, designLink, title, size } :
                 src={designLink}
                 width={size}
                 height={size}
-                
+                priority
                 alt="illustration"
                 className={`${designVisible ? 'block' : 'hidden'} rounded-xl`}
                 />
@@ -53,7 +52,7 @@ const SketchToDesign = ( { className, sketchLink, designLink, title, size } :
                 src={sketchLink}
                 width={size}
                 height={size}
-                
+                priority
                 alt="illustration"
                 className={`${designVisible ? 'hidden' : 'block'} rounded-xl`}
                 />
