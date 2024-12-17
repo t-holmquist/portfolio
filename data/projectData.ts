@@ -105,18 +105,23 @@ export const ProjectData = [
       sketchLink: "/caseImages/politician/sketch.webp",
       designLink: "/caseImages/politician/rosalund.webp",
       sketchToDesignTitle: "The small containers animates up/down",
-      sketchToDesignHeader: "Make it easy to recycle",
-      sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+      sketchToDesignHeader: "A sketch came to live",
+      sketchToDesignDescription: `I thought about how to make a simplistic portrait with css animations that
+                                  could easily be responsive. I build the
+                                  whole page with flexboxes to effectively change the flex direction to accomodate
+                                  various screen sizes.`,
       sketchToDesignSize: 450,
       elementHightlightLink: "/caseImages/politician/animation.webm",
       elementHightlightFallBackLink: "/caseImages/politician/animation.mp4",
       thumbnail: "/caseImages/politician/rosalund.webp",
       videowidth: 440,
-      elementHightlightHeader: "Animation/Illustration",
-      elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
-      illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-      illustrationHeader: "Header",
-      illustrationDescription: "Text",
+      elementHightlightHeader: "Then the box animations",
+      elementHighlightDescription: `I added a simple css animation to some offset containers to get a more
+                                  organic look to the site and draw attention to a very important element of the page
+                                  - the politician herself.`,
+      illustrationLink: "/caseImages/politician/responsive.webp",
+      illustrationHeader: "Fully responsive",
+      illustrationDescription: "I designed different versions in Figma before coding the final version to ensure that I was able to make it responsive in a non-problematic way.",
     }
     },
     {
