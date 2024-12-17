@@ -21,7 +21,7 @@ const Hero = () => {
                I&apos;m Tjalfe Holmquist. A Front-end developer and design engineer based in Copenhagen.
             </p>
             <div className='flex items-center gap-4'>
-              <Link href="#projects">
+              <Link href="/cases">
                 <MagicButton 
                 title='See my work'
                 icon={<FaWandMagicSparkles/>}

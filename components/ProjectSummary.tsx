@@ -91,7 +91,7 @@ const ProjectSummary = ({
                         }}
                         >
                             <div
-                            className="flex gap-1 items-center w-fit border border-brandSecondary py-1 px-3 rounded-xl hover:bg-brandPrimary">
+                            className="flex gap-1 items-center w-fit border border-brandSecondary cursor-default py-1 px-3 rounded-xl">
                                 <p className="text-xs font-sourceSans">School project</p>
                             </div>
                         </motion.div>

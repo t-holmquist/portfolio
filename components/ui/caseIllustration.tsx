@@ -8,7 +8,7 @@ const CaseIllustration = () => {
 
     const { scrollYProgress } = useScroll();
 
-    const y = useTransform(scrollYProgress, [0, 0.8, 1], [0, 800, 1000])
+    const y = useTransform(scrollYProgress, [0, 0.5, 1], [0, 900, 2000])
     const rotate = useTransform(scrollYProgress, [0, 0.5, 1], [0, 10, 30])
 
   return (

@@ -87,7 +87,7 @@ export const ProjectData = [
     {
     id: 2,
     projectLink: "/",
-    imageLink: "/sola.webp",
+    imageLink: "/caseImages/politician/hero.png",
     content: {
       title: "Politician",
       Purpose: "Promote a politicians and their political values and topics.",
@@ -104,7 +104,7 @@ export const ProjectData = [
                                 of html and css and make a responsive design.`,
       sketchLink: "/caseImages/politician/sketch.webp",
       designLink: "/caseImages/politician/rosalund.webp",
-      sketchToDesignTitle: "The containers animates up/down",
+      sketchToDesignTitle: "The pink containers animates up/down",
       sketchToDesignHeader: "Make it easy to recycle",
       sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
       sketchToDesignSize: 450,
