@@ -36,6 +36,8 @@ const SketchToDesign = ( { className, sketchLink, designLink, title, size } :
             key={designVisible ? 1 : 0}
             initial={{opacity: 0, y: designVisible ? 20 : -20}}
             animate={{opacity: 1, y: 0}}
+            transition={{ delay: 0.3 }}
+            
             
             className="relative"
             >
