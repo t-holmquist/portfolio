@@ -115,7 +115,7 @@ export const ProjectData = [
       elementHightlightFallBackLink: "/caseImages/politician/animation.mp4",
       thumbnail: "/caseImages/politician/rosalund.webp",
       videowidth: 440,
-      elementHightlightHeader: "Then the box animations",
+      elementHightlightHeader: "Notice the box animations",
       elementHighlightDescription: `I added a simple css animation to some offset containers to get a more
                                   organic look to the site and draw attention to a very important element of the page
                                   - the politician herself.`,
