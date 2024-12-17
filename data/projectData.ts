@@ -48,27 +48,40 @@ export const ProjectData = [
     content: {
       title: "Ludovico",
       Purpose: "Designing and promoting a fictive anniversary Vinyl for Ludovico Einaudi with a focus on sustainability.",
-      keyFeatures: "Landingpage, Vinyl design, Instagram AD. Mockups on Spotify & Public traffic.",
-      learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+      keyFeatures: "Visual concept, Landingpage, Vinyl design, Instagram AD. Spotify art & public banner ads.",
+      learnings: `Trying to fit two products and main user actions into one landingpage led to interesting discussions. 
+                  Ultimately we decided one product was sufficient for the goals of the project`,
       technologies: "Figma, Premiere Pro, Illustrator, Photoshop.",
       },
     deeperDiveContent: {
       aboutProjectHeader: "About the Ludovico Project",
-      aboutProjectDescription: "Ipsum dolor sit amet, consectetur adipiscing elit",
+      aboutProjectDescription: `Our student team were assigned the task of creating a visual design concept for an artist 
+                                for an upcoming musical release. Using the design tools at our disposal, we choose Ludovico Einaudi
+                                as our artist, since we wanted to focus on sustainability. He has a connection to Greenpeace and 
+                               we wanted decided to create the fictive scenario that he created a Anniversary Vinyl with
+                              all the profits going to Greenpeace and other sustainability partners. We created a landingpage and Instagram AD
+                              that primarily targeted Ludovico fans and also people who valued sustainability.
+                              As part of the campaign, we designed the Vinyl he wanted to sell, the Instagram AD that leads to our landingpage and
+                              Spotify cover/banner and ads in the public space.`,
       sketchLink: "/caseImages/ludovico/styleTile_before.webp",
       designLink: "/caseImages/ludovico/styleTile_after.webp",
       sketchToDesignTitle: "StyleTile versions",
-      sketchToDesignHeader: "Story creation for kids and their parents",
-      sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+      sketchToDesignHeader: "The visual concept",
+      sketchToDesignDescription: `We immediately choose natural colors, since we thought it was a great fit for Ludovicos
+                                  personality and our focus on sustainability. During our process we updated our styleTile
+                                  with design associations that gave us a sense of common understanding of what we were designing.
+                                  We also created reusable Figma components and typography design rules to keep the work consistant.`,
       sketchToDesignSize: 600,
       elementHightlightLink: "/video/Nespresso_5sek.webm",
       elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
       thumbnail: "/video/thumbnailNespresso.webp",
-      elementHightlightHeader: "Animation/Illustration",
-      elementHighlightDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet", 
-      illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-      illustrationHeader: "Header",
-      illustrationDescription: "text",
+      elementHightlightHeader: "The products",
+      elementHighlightDescription: "A short walkthrough of the landingpage, and various digital products.", 
+      illustrationLink: "/caseImages/ludovico/spotify_after.webp",
+      illustrationHeader: "Spotify Mockup",
+      illustrationDescription: `We went with the Vinyl flower design on our Spotify art. We went through multiple versions,
+                                but ultimately went with the version above that wasn't too different from the flower design. 
+                                Other designs were less recognizable. Besides the banner, we also created avatar design and an album cover.`,
         }
     },
     {

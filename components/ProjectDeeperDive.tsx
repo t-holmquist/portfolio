@@ -32,8 +32,14 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <Image src={"/caseImages/ludovico/brainstorm.png"} width={450} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
-                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>
+                            <h3 className="font-oswald text-xl font-bold">Our process</h3>
+                            <p className="font-sourceSans text-lg">
+                                Above is a quick view of our brainstorm who led to artist and focus on sustainability.
+                                Initially we also wanted to an anniversary concert tour to be part of the campaign. Ultimately
+                                we felt that this idea grabbed to much focus from the Vinyl product, which was the main
+                                product to purchase. The landingpage also became cluttered with concerts and losts it simplicity
+                                with two competing actions the user should take - buy the vinal or buy the concert.
+                            </p>
                         </div>
                     </>
                 )}
@@ -61,9 +67,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
-                <div className="p-8 bg-brandSecondary rounded-xl">
-                    <Image src={ProjectData[projectId].deeperDiveContent.illustrationLink} width={250} height={250} alt="illustration" className="rounded-xl"/>
-                </div>
+                <Image src={ProjectData[projectId].deeperDiveContent.illustrationLink} width={500} height={350} alt="illustration" className="rounded-xl"/>
                 <div className="w-full space-y-2 self-start">
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>

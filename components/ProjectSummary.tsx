@@ -82,6 +82,18 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
                         </Link>
                     </motion.div>
+                    <motion.div
+                    initial={{x: -10, opacity: 0}}
+                    animate={{x: 0, opacity: 1}}
+                    transition={{
+                    duration: 1,
+                    }}
+                    >
+                        <div
+                        className="flex gap-1 items-center w-fit border border-brandSecondary py-1 px-3 rounded-xl hover:bg-brandPrimary">
+                            <p className="text-xs font-sourceSans">School project</p>
+                        </div>
+                    </motion.div>
                 </div>
 
                 
