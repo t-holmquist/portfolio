@@ -102,9 +102,9 @@ export const ProjectData = [
                                 was an important element to highlight. So my focus was to create a simple and stylewise on brand
                                 portrait page of the Rosa Lund. The main goal of the school project was to develop an understanding
                                 of html and css and make a responsive design.`,
-      sketchLink: "/sketches/nespressoflow.png",
-      designLink: "/sketches/nespressoflow_finaldesign.png",
-      sketchToDesignTitle: "Guide to return capsules",
+      sketchLink: "/caseImages/politician/sketch.webp",
+      designLink: "/caseImages/politician/rosalund.webp",
+      sketchToDesignTitle: "The containers animates up/down",
       sketchToDesignHeader: "Make it easy to recycle",
       sketchToDesignDescription: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
       sketchToDesignSize: 450,

@@ -67,33 +67,35 @@ const ProjectSummary = ({
                     duration: 1,
                     }}
                     className="text-5xl font-bold font-oswald">{ProjectData[projectId].content.title}</motion.h1>
-                    <motion.div
-                    initial={{x: -10, opacity: 0}}
-                    animate={{x: 0, opacity: 1}}
-                    transition={{
-                    duration: 1,
-                    }}
-                    >
-                        <Link
-                        target="_blank"
-                        href={ProjectData[projectId].projectLink}
-                        className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
-                            <p className="text-xs font-sourceSans">See prototype</p>
-                            <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
-                        </Link>
-                    </motion.div>
-                    <motion.div
-                    initial={{x: -10, opacity: 0}}
-                    animate={{x: 0, opacity: 1}}
-                    transition={{
-                    duration: 1,
-                    }}
-                    >
-                        <div
-                        className="flex gap-1 items-center w-fit border border-brandSecondary py-1 px-3 rounded-xl hover:bg-brandPrimary">
-                            <p className="text-xs font-sourceSans">School project</p>
-                        </div>
-                    </motion.div>
+                    <div className="flex gap-2">
+                        <motion.div
+                        initial={{x: -10, opacity: 0}}
+                        animate={{x: 0, opacity: 1}}
+                        transition={{
+                        duration: 1,
+                        }}
+                        >
+                            <Link
+                            target="_blank"
+                            href={ProjectData[projectId].projectLink}
+                            className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
+                                <p className="text-xs font-sourceSans">See prototype</p>
+                                <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
+                            </Link>
+                        </motion.div>
+                        <motion.div
+                        initial={{x: -10, opacity: 0}}
+                        animate={{x: 0, opacity: 1}}
+                        transition={{
+                        duration: 1,
+                        }}
+                        >
+                            <div
+                            className="flex gap-1 items-center w-fit border border-brandSecondary py-1 px-3 rounded-xl hover:bg-brandPrimary">
+                                <p className="text-xs font-sourceSans">School project</p>
+                            </div>
+                        </motion.div>
+                    </div>
                 </div>
 
                 
