@@ -29,7 +29,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 {projectId == 1 && (
                     <>
                         <div className="p-8 rounded-xl">
-                            <Image src={"/caseImages/ludovico/brainstorm.png"} width={450} height={450} alt="illustration" className="rounded-xl"/>
+                            <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-xl font-bold">Our process</h3>

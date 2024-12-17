@@ -43,6 +43,7 @@ const SketchToDesign = ( { className, sketchLink, designLink, title, size } :
                 src={designVisible ? designLink : sketchLink}
                 width={size}
                 height={size}
+                
                 alt="illustration"
                 className="rounded-xl"
                 />
