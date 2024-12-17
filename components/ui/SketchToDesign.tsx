@@ -40,12 +40,20 @@ const SketchToDesign = ( { className, sketchLink, designLink, title, size } :
             className="relative"
             >
                 <Image 
-                src={designVisible ? designLink : sketchLink}
+                src={designLink}
                 width={size}
                 height={size}
                 
                 alt="illustration"
-                className="rounded-xl"
+                className={`${designVisible ? 'block' : 'hidden'} rounded-xl`}
+                />
+                <Image 
+                src={sketchLink}
+                width={size}
+                height={size}
+                
+                alt="illustration"
+                className={`${designVisible ? 'hidden' : 'block'} rounded-xl`}
                 />
             </motion.div>
             <div className="flex justify-center">
