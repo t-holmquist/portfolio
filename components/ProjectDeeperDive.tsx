@@ -11,6 +11,8 @@ const ProjectDeeperDive = ( { className, projectId } :
     }
 ) => {
 
+
+
     return (
         <section className={cn("space-y-6 mt-6", className)}>
             {/* A deeper dive section */}
@@ -27,6 +29,23 @@ const ProjectDeeperDive = ( { className, projectId } :
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.aboutProjectDescription}</p>
                 </div>
                 {projectId == 1 && (
+                    <>
+                        <div className="p-8 rounded-xl">
+                            <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>
+                        </div>
+                        <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-xl font-bold">Our process</h3>
+                            <p className="font-sourceSans text-lg">
+                                Above is a quick view of our brainstorm who led to artist and focus on sustainability.
+                                Initially we also wanted to an anniversary concert tour to be part of the campaign. Ultimately
+                                we felt that this idea grabbed to much focus from the Vinyl product, which was the main
+                                product to purchase. The landingpage also became cluttered with concerts and losts it simplicity
+                                with two competing actions the user should take - buy the vinal or buy the concert.
+                            </p>
+                        </div>
+                    </>
+                )}
+                {projectId == 3 && (
                     <>
                         <div className="p-8 rounded-xl">
                             <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>

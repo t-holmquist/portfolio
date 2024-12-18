@@ -127,7 +127,7 @@ export const ProjectData = [
     {
     id: 3,
     projectLink: "/",
-    imageLink: "/video/thumbnailNespresso.webp",
+    imageLink: "/caseImages/nespresso/hero.webp",
     content: {
         title: "Nespresso",
         Purpose: "Recycleable thing",
