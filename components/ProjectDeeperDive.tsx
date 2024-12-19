@@ -55,7 +55,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <p className="font-sourceSans text-lg">
                                 Initially we considered that Nespresso could have invented a new reusable capsule that could be swapped at a local return points.
                                 Another idea was to upgrade their machines with a recyclable feature to refill a reusable, so the user only had to buy the coffee
-                                and Nespresso didn't have to produce all those aluminium capsules. Ultimately we decided that it would be too unrealistic unviable, so instead
+                                and Nespresso didn&apos;t have to produce all those aluminium capsules. Ultimately we decided that it would be too unrealistic unviable, so instead
                                 we chose to promote their existing solution in a better may with the introduction of the aforementioned Nespresso points reward system.
                             </p>
                         </div>
