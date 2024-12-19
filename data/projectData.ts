@@ -132,7 +132,7 @@ export const ProjectData = [
         title: "Nespresso",
         Purpose: `Brandawareness campaign for Nespresso Capsule Recycling and the introduction of a new recycle points system.`,
         keyFeatures: "Landingpage design, video production.",
-        learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
+        learnings: `Designing the landingpage and ads to be targeting Nespresso users and avoid communicating to a too wide audience which would decrease the effectiveness of our campaign.`,
         technologies: "Figma, Premiere Pro, Photoshop",
         },
     deeperDiveContent: {
