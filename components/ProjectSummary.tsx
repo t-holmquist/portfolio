@@ -17,7 +17,7 @@ const ProjectSummary = ({
 }
 ) => {
 
-    const [projectId, setProjectId ] = useState(3);
+    const [projectId, setProjectId ] = useState(4);
 
     // Animation states
     const parentListVariant = {
@@ -79,7 +79,7 @@ const ProjectSummary = ({
                             target="_blank"
                             href={ProjectData[projectId].projectLink}
                             className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
-                                <p className="text-xs font-sourceSans">See prototype</p>
+                                <p className="text-xs font-sourceSans">See Figma prototype</p>
                                 <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
                             </Link>
                         </motion.div>
@@ -112,7 +112,7 @@ const ProjectSummary = ({
                 }}
                 className="rounded-xl">
                     {/* Project image */}
-                    <Image src={ProjectData[projectId].imageLink} alt={"project"} width={1280} height={720} className="rounded-xl w-full" />
+                    <Image src={ProjectData[projectId].imageLink} alt={"project"} width={1280} height={720} className="rounded-xl w-full border border-brandBorder" />
                 </motion.div>
 
                 <motion.section 

@@ -163,36 +163,37 @@ export const ProjectData = [
     {
     id: 4,
     projectLink: "https://www.figma.com/design/Mx6CDs98oZ8XRhaKJVCMTw/Design---Case-overblik?node-id=0-1&t=sQmQ84iHW2sZf8Yq-1",
-    imageLink: "/video/thumbnailNespresso.webp",
+    imageLink: "/caseImages/portfolio/hero.webp",
     content: {
         title: "Portfolio",
-        Purpose: "Recycleable thing",
-        keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
-        learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-        technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+        Purpose: "Creating this portfolio to show my design and front-end development skills",
+        keyFeatures: "Designed from scratch with React. Utilizing the newest technology with Next.js to improve Core Web Vitals and dev experience",
+        learnings: "I faced many challenges building custom components, rendering server content, designing the dynamic dataflow, navigationdesign and animations",
+        technologies: "TypeScript, React, Next.js, Motion for React (formerly Framer motion), Tailwind. Illustrator.",
         },
     deeperDiveContent: {
-        aboutProjectHeader: "In depth about the Nespresso project",
-        aboutProjectDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
-                                psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.
-                                Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc. Fusce tristique nisi mattis nunc.
-                                Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
-        sketchLink: "/sketches/nespressoflow.png",
-        designLink: "/sketches/nespressoflow_finaldesign.png",
-        sketchToDesignTitle: "Guide to return capsules",
-        sketchToDesignHeader: "Make it easy to recycle",
-        sketchToDesignDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
-                                    psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
+        aboutProjectHeader: "About this portfolio",
+        aboutProjectDescription: `I wanted my portfolio to reflect my skills within webdesign and front-end development. That is why I prioritized creating my own React components and
+                                  my own personal style. I thought it would be interesting to showcase the design and development of the portfolio itself
+                                  as it is a pretty comprehensive project on its own. Below are a few highlight from the process and how this site came to be.`,
+        sketchLink: "/caseImages/portfolio/sketch.webp",
+        designLink: "/caseImages/portfolio/final.webp",
+        sketchToDesignTitle: "Global and local navigation design",
+        sketchToDesignHeader: "Navigationsdesign",
+        sketchToDesignDescription: `A highlight of a design choice i made around the navigation of the site. I wanted to avoid too many user clicks to
+                                    get to the individual cases, so instead I choose to create a dynamic React component that serves as a local navigation 
+                                    on the case subpage. This makes it easy to quickly get an overview of the different projects and saves a lot of back-and-forth. 
+                                    I think it came out pretty elegantly.`,
         sketchToDesignSize: 450,
         elementHightlightLink: "/video/Nespresso_5sek.webm",
         elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
         thumbnail: "/video/thumbnailNespresso.webp",
-        elementHightlightHeader: "Video campaign - 5 second version",
-        elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
-                                    psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
-        illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-        illustrationHeader: "Header",
-        illustrationDescription: "Text",
+        elementHightlightHeader: "Multiple video clips about the design, coding, etc. process",
+        elementHighlightDescription: `text.`, 
+        illustrationLink: "/caseImages/portfolio/designelements.webp",
+        illustrationHeader: "Design elements",
+        illustrationDescription: `I chose to design some simple shapes to be part of my personal branding. It adds the extra touch and acts as a 5. element of my design. I also included my hands as a fun little
+                                  gimmick. Have you found it yet?`,
     }
     },
   ];

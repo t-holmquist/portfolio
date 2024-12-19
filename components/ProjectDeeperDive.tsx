@@ -61,6 +61,20 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
+                {projectId == 4 && (
+                    <>
+                        <div className="md:p-8 rounded-xl">
+                            <Image src={"/caseImages/portfolio/projectmanagement.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
+                        </div>
+                        <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-xl font-bold">My design process</h3>
+                            <p className="font-sourceSans text-lg">
+                                I used Trello as my tool for project management as it fits the size of this project very well.
+                                Figma was of course an essential tool for brainstorming and making my designs come to live before diving into in development.
+                            </p>
+                        </div>
+                    </>
+                )}
                 <SketchToDesign 
                 sketchLink={ProjectData[projectId].deeperDiveContent.sketchLink}
                 designLink={ProjectData[projectId].deeperDiveContent.designLink}
@@ -71,6 +85,22 @@ const ProjectDeeperDive = ( { className, projectId } :
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
                 </div>
+                {projectId == 4 && (
+                    <>
+                        <div className="md:p-8 rounded-xl">
+                            <Image src={"/caseImages/portfolio/dataflow.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
+                        </div>
+                        <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-xl font-bold">Dataflow</h3>
+                            <p className="font-sourceSans text-lg">
+                                I created the data structure above to serve the different projects with the data needed to dynamically render a project page. I then only have one page that
+                                renders all the different data instead of one page per project, which would be very repetitive and redundant. Since I only plan to show my top 3 projects, I didn&apos;t
+                                worry about setting up a CMS, because this way obviously doesn&apos;t scale very well, if there are too many projects. It is also an efficient way of retrieving data,
+                                since I have access to the project id and object property, so it will always have a constant runtime.
+                            </p>
+                        </div>
+                    </>
+                )}
                 {projectId > 0 && (
                     <>
                         <Video
