@@ -74,18 +74,18 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "PodGen",
-      des: "Podcast Platform with AI features",
-      img: "/podGen.webp",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "convex.svg", "openai.svg"],
-      link: "/cases",
-    },
-    {
-      id: 2,
       title: "SOLA",
       des: "Coffee shop and co-working space - simple design",
       img: "/sola.webp",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/figma-icon.svg"],
+      link: "https://www.solacph.dk/",
+    },
+    {
+      id: 2,
+      title: "Portfolio",
+      des: "The creation of this portfolio",
+      img: "/caseImages/portfolio/hero.webp",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/figma-icon.svg"],
       link: "/cases",
     },
   ];
