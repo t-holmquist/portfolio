@@ -188,8 +188,8 @@ export const ProjectData = [
         elementHightlightLink: "/caseImages/portfolio/portfolio.webm",
         elementHightlightFallBackLink: "/caseImages/portfolio/portfolio.mp4",
         thumbnail: "/caseImages/portfolio/hero.webp",
-        elementHightlightHeader: "Multiple video clips about the design, coding, etc. process",
-        elementHighlightDescription: `text.`, 
+        elementHightlightHeader: "A quick video tour",
+        elementHighlightDescription: `Above is a quick tour of the different sections and elements on this portfolio.`, 
         illustrationLink: "/caseImages/portfolio/designelements.webp",
         illustrationHeader: "Design elements",
         illustrationDescription: `I chose to design some simple shapes to be part of my personal branding. It adds the extra touch and acts as a 5. element of my design. I also included my hands as a fun little

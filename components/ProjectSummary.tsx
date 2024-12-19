@@ -127,7 +127,7 @@ const ProjectSummary = ({
                     variants={childItemVariant}
                     className="flex gap-2">
                         <div>
-                            <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="purpose"/>
+                            <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
                             <h2 className="font-oswald font-bold text-xl leading-none">Purpose.</h2>
@@ -138,7 +138,7 @@ const ProjectSummary = ({
                     variants={childItemVariant}
                     className="flex gap-2">
                         <div>
-                            <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="purpose"/>
+                            <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
                             <h2 className="font-oswald font-bold text-xl leading-none">Key Features.</h2>
@@ -149,7 +149,7 @@ const ProjectSummary = ({
                     variants={childItemVariant}
                     className="flex gap-2">
                         <div>
-                            <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="purpose"/>
+                            <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
                             <h2 className="font-oswald font-bold text-xl leading-none">Challenges and learnings.</h2>
@@ -160,7 +160,7 @@ const ProjectSummary = ({
                     variants={childItemVariant}
                     className="flex gap-2">
                         <div>
-                            <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="purpose"/>
+                            <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
                             <h2 className="font-oswald font-bold text-xl leading-none">Technologies used.</h2>
