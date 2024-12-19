@@ -112,7 +112,7 @@ const ProjectSummary = ({
                 }}
                 className="rounded-xl">
                     {/* Project image */}
-                    <Image src={ProjectData[projectId].imageLink} alt={"project"} width={1280} height={720} className="rounded-xl w-full border border-brandBorder" />
+                    <Image src={ProjectData[projectId].imageLink} alt={"project"} width={1280} height={720} priority className="rounded-xl w-full border border-brandBorder" />
                 </motion.div>
 
                 <motion.section 

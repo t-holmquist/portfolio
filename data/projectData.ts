@@ -185,9 +185,9 @@ export const ProjectData = [
                                     on the case subpage. This makes it easy to quickly get an overview of the different projects and saves a lot of back-and-forth. 
                                     I think it came out pretty elegantly.`,
         sketchToDesignSize: 450,
-        elementHightlightLink: "/video/Nespresso_5sek.webm",
-        elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
-        thumbnail: "/video/thumbnailNespresso.webp",
+        elementHightlightLink: "/caseImages/portfolio/portfolio.webm",
+        elementHightlightFallBackLink: "/caseImages/portfolio/portfolio.mp4",
+        thumbnail: "/caseImages/portfolio/hero.webp",
         elementHightlightHeader: "Multiple video clips about the design, coding, etc. process",
         elementHighlightDescription: `text.`, 
         illustrationLink: "/caseImages/portfolio/designelements.webp",
