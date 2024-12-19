@@ -3,7 +3,7 @@
 export const ProjectData = [
     {
     id: 0,
-    projectLink: "https://www.figma.com/proto/QkaDsn4A6AWOmav5n3DXc5/festival-(Copy)?node-id=0-1&t=OaWuta4YCI5L7Bau-1",
+    projectLink: "https://www.figma.com/proto/QkaDsn4A6AWOmav5n3DXc5/festival-(Copy)?node-id=2-5&t=N7T5V5944rI57wkQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A5",
     imageLink: "/caseImages/cspaaholmen/cspaaholmen.webp",
     content: {
       title: "C's på Holmen",
@@ -43,7 +43,7 @@ export const ProjectData = [
     },
     {
     id: 1,
-    projectLink: "https://www.figma.com/proto/535Jfyn82s73XZiEgF2OUX/Figma-Landingpage?node-id=133-441&t=Y6fdxO4Iu9guMCyZ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=63%3A83",
+    projectLink: "https://www.figma.com/proto/535Jfyn82s73XZiEgF2OUX/Figma-Landingpage?node-id=133-441&t=IXiQ5lKB8LyzHmg4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=63%3A83",
     imageLink: "/caseImages/ludovico/hero.webp",
     content: {
       title: "Ludovico",
@@ -86,7 +86,7 @@ export const ProjectData = [
     },
     {
     id: 2,
-    projectLink: "/",
+    projectLink: "https://www.figma.com/design/9Ptv3LIZH3uCkk8ATJEkKd/Landingpage?node-id=0-1&t=EKmWHmSGXTjju5s7-1",
     imageLink: "/caseImages/politician/hero.png",
     content: {
       title: "Politician",
@@ -126,7 +126,7 @@ export const ProjectData = [
     },
     {
     id: 3,
-    projectLink: "/",
+    projectLink: "https://www.figma.com/proto/AgnqomYuSKn7JXW2W1dKOE/Landingpage?node-id=120-55&t=B74QNSVlbtYUQghX-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     imageLink: "/caseImages/nespresso/hero.webp",
     content: {
         title: "Nespresso",
@@ -162,7 +162,7 @@ export const ProjectData = [
     },
     {
     id: 4,
-    projectLink: "/",
+    projectLink: "https://www.figma.com/design/Mx6CDs98oZ8XRhaKJVCMTw/Design---Case-overblik?node-id=0-1&t=sQmQ84iHW2sZf8Yq-1",
     imageLink: "/video/thumbnailNespresso.webp",
     content: {
         title: "Portfolio",
