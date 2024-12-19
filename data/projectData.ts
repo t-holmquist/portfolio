@@ -93,7 +93,7 @@ export const ProjectData = [
       Purpose: "Promote a politicians and their political values and topics.",
       keyFeatures: "Landingpage design and coded with html/css. CSS animations.",
       learnings: "Practiced CSS animations",
-      technologies: "Figma, Visual Studio",
+      technologies: "Figma, Visual Studio Code",
       },
     deeperDiveContent: {
       aboutProjectHeader: "About the project",
@@ -130,33 +130,34 @@ export const ProjectData = [
     imageLink: "/caseImages/nespresso/hero.webp",
     content: {
         title: "Nespresso",
-        Purpose: "Recycleable thing",
-        keyFeatures: "Ipsum dolor sit amet, consectetur adipiscing elit",
+        Purpose: `Brandawareness campaign for Nespresso Capsule Recycling and the introduction of a new recycle points system.`,
+        keyFeatures: "Landingpage design, video production.",
         learnings: "Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet",
-        technologies: "Ipsum dolor sit amet, consectetur adipiscing elit",
+        technologies: "Figma, Premiere Pro, Photoshop",
         },
     deeperDiveContent: {
         aboutProjectHeader: "In depth about the Nespresso project",
-        aboutProjectDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
-                                psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.
-                                Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc. Fusce tristique nisi mattis nunc.
-                                Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
+        aboutProjectDescription: `Our team of students were assigned to choose a company that had, or could have had, a circular product and economy, so we chose Nespresso.
+                                  Nespresso wants to recycle their coffee capsules and have specific goals they want to achieve. So we created a set of advertisements and redesigned their recycling webpage
+                                  to create a significant better user experience. We also invented a new Nespresso points reward system targeted and incentivized towards users already in the Nespresso ecosystem.
+                                  The more you return and recycle, the more points and discount you get off your favorite products - that was the idea. With a better UX-design and specific ads that leads to our redesigned landingpage, 
+                                  the last step was to test our product against real users. This was out of scope for the current school project, although we did adjust our design and ads based on internal feedback.`,
         sketchLink: "/sketches/nespressoflow.png",
         designLink: "/sketches/nespressoflow_finaldesign.png",
         sketchToDesignTitle: "Guide to return capsules",
         sketchToDesignHeader: "Make it easy to recycle",
-        sketchToDesignDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
-                                    psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`,
-        sketchToDesignSize: 450,
+        sketchToDesignDescription: `It was vital to make it clear to the users how they should recycle and emphasize that it was easy and simple. So I created a recycle flow diagram to quickly
+                                    visualize the steps to return the capsules.`,
+        sketchToDesignSize: 400,
         elementHightlightLink: "/video/Nespresso_5sek.webm",
         elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
         thumbnail: "/video/thumbnailNespresso.webp",
-        elementHightlightHeader: "Video campaign - 5 second version",
-        elementHighlightDescription: `psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc dignissim, sit amet. 
-                                    psum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.  Ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique nisi mattis nunc.`, 
-        illustrationLink: "/caseImages/cspaaholmen/styleTile.webp",
-        illustrationHeader: "Header",
-        illustrationDescription: "Text",
+        elementHightlightHeader: "Video campaign",
+        elementHighlightDescription: `This 5 second ad were boiled down to the essential message to the Nespresso users. Recycle, get points, get discount. We also created 30 and 15 second versions showing the decision process of choosing to recycle the capsules.`, 
+        illustrationLink: "/caseImages/nespresso/styleGuide.webp",
+        illustrationHeader: "Style guide",
+        illustrationDescription: `We needed to get the visual concept right, so our landingpage felt on brand for the Nespresso fans. We made our designs strictly following the design guide from Nespresso. 
+                                  We might have kept it even more on brand than Nespresso itself, since some of their pages were oddly off brand, which might be due to an upcoming update of their visual identity`,
     }
     },
     {

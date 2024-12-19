@@ -30,7 +30,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 </div>
                 {projectId == 1 && (
                     <>
-                        <div className="p-8 rounded-xl">
+                        <div className="md:p-8 rounded-xl">
                             <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
@@ -47,17 +47,16 @@ const ProjectDeeperDive = ( { className, projectId } :
                 )}
                 {projectId == 3 && (
                     <>
-                        <div className="p-8 rounded-xl">
-                            <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>
+                        <div className="md:p-8 rounded-xl">
+                            <Image src={"/caseImages/nespresso/brainstorm.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-xl font-bold">Our process</h3>
                             <p className="font-sourceSans text-lg">
-                                Above is a quick view of our brainstorm who led to artist and focus on sustainability.
-                                Initially we also wanted to an anniversary concert tour to be part of the campaign. Ultimately
-                                we felt that this idea grabbed to much focus from the Vinyl product, which was the main
-                                product to purchase. The landingpage also became cluttered with concerts and losts it simplicity
-                                with two competing actions the user should take - buy the vinal or buy the concert.
+                                Initially we considered that Nespresso could have invented a new reusable capsule that could be swapped at a local return points.
+                                Another idea was to upgrade their machines with a recyclable feature to refill a reusable, so the user only had to buy the coffee
+                                and Nespresso didn't have to produce all those aluminium capsules. Ultimately we decided that it would be too unrealistic unviable, so instead
+                                we chose to promote their existing solution in a better may with the introduction of the aforementioned Nespresso points reward system.
                             </p>
                         </div>
                     </>
@@ -80,6 +79,20 @@ const ProjectDeeperDive = ( { className, projectId } :
                         elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
                         thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
                         videowidth={ProjectData[projectId].deeperDiveContent.videowidth}
+                        />
+                        <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                        </div>
+                    </>
+                )}
+                {projectId == 3 && (
+                    <>
+                        <Video
+                        key={projectId}
+                        elementHighlightLink={"/caseImages/nespresso/nespresso.webm"}
+                        elementHighlightFallbackLink={"/caseImages/nespresso/nespresso.mp4"}
+                        thumbnail={"/caseImages/nespresso/hero.webp"}
                         />
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>

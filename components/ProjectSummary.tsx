@@ -83,6 +83,7 @@ const ProjectSummary = ({
                                 <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
                             </Link>
                         </motion.div>
+                        {projectId != 4 && (
                         <motion.div
                         initial={{x: -10, opacity: 0}}
                         animate={{x: 0, opacity: 1}}
@@ -95,6 +96,7 @@ const ProjectSummary = ({
                                 <p className="text-xs font-sourceSans">School project</p>
                             </div>
                         </motion.div>
+                        )}
                     </div>
                 </div>
 
