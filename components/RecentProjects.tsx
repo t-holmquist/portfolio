@@ -2,26 +2,31 @@ import { projects } from "@/data"
 import { ProjectCard } from "./ui/ProjectCard"
 import { FaEye, FaLocationArrow } from "react-icons/fa6"
 import Image from "next/image"
+import MagicButton from "./ui/MagicButton"
+import Link from "next/link"
 
 const RecentProjects = () => {
   return (
     <div id="projects" className="mt-20 lg:mt-28">
         <h1 className="heading">
-            Some of my {' '}
-            <span className="text-brandAccent">work</span>
+            Project {' '}
+            <span className="text-brandAccent">highlight</span>
         </h1>
-        <div className="flex flex-col justify-center mt-6 max-w-lg">
+        <div className="flex flex-col justify-center mt-6 max-w-lg gap-4">
             <p className="text-white-200 font-sourceSans text-lg">
                 These are some projects I have built using the React ecosystem. 
-                The web apps are configured using the modern metaframework Next.js to get improved performance and dev experience.
+                The web apps are also configured with Next.js to improve performance and SEO.
+                I also use Tailwind CSS for styling and Framer Motion for animations.
+                The projects are built with a mobile-first approach and are responsive on all devices. 
             </p>
-            <div className="flex items-center mt-2">
-                <p className="text-white-200 font-sourceSans text-lg">Take a look</p>
-                <FaEye className="ml-2 text-white-200"/>
-                <FaEye className="ml-2 text-white-200"/>
-            </div>
+            <Link href={`/cases`} className="w-fit">
+                <MagicButton
+                title="See more projects"
+                otherClasses='bg-brandAccent'
+                />
+            </Link>
         </div>
-        <div className="flex xl:flex-row flex-col items-center justify-center p-4 gap-x-24 gap-y-8 md:gap-y-16 lg:gap-y-8 mt-16">
+        <div className="flex xl:flex-row flex-col items-center justify-center p-4 gap-x-24 gap-y-8 md:gap-y-16 lg:gap-y-8 mt-24">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className="flex lg:h-[41] lg:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
                     <ProjectCard id={id} title={link} href={link}>

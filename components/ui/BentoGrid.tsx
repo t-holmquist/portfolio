@@ -66,14 +66,14 @@ export const BentoGridItem = ({
               alt={img}
               width={1080}
               height={1080}
-              className={cn(imgClassName, 'object-cover hidden sm:block')}
+              className={cn(imgClassName, 'object-cover hidden md:block')}
               />
               <Image 
               src={img}
               alt={img}
               width={250}
               height={250}
-              className={cn(imgClassName, 'object-cover sm:hidden')}
+              className={cn(imgClassName, 'object-cover md:hidden')}
               />
             </>
           )}
