@@ -54,7 +54,7 @@ const Experience = () => {
             My
             <span className="text-brandAccent"> qualifications</span>
         </h2>
-        <p className="text-white-200 mt-10 max-w-lg font-sourceSans text-lg">Here is an overview of my prior experience and my certificates within front-end development.</p>
+        <p className="text-white-200 mt-6 max-w-lg font-sourceSans text-lg">Here is an overview of my prior experience and my certificates within front-end development.</p>
 
         <motion.div className="w-full mt-20 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 gap-10"
         ref={ref}

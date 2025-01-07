@@ -187,7 +187,7 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        spotlight: "spotlight 1.5s ease .5s 1 forwards",
+        spotlight: "spotlight 2s ease .5s 1 forwards",
         illustrationUP: "illustrationUP 3s ease-in-out infinite alternate",
         illustrationDOWN: "illustrationDOWN ease-in-out 3s infinite alternate",
         shimmer: "shimmer 2s linear infinite",
