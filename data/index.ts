@@ -46,7 +46,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 md:min-h-[40vh] lg:min-h-[60vh]",
       imgClassName: "w-full h-full object-top",
       titleClassName: "justify-end",
-      img: "/portrait_tjalfe.png",
+      img: "/tjalfe_hero.webp",
       spareImg: "",
     },
     {

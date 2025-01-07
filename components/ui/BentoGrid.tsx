@@ -57,16 +57,25 @@ export const BentoGridItem = ({
       )}
     >
 
-      <div className='flex justify-end'>
-        <div className="w-full h-full absolute">
+      <div className='flex justify-center'>
+        <div className="absolute">
           {img && (
-            <Image 
-            src={img}
-            alt={img}
-            width={500}
-            height={500}
-            className={cn(imgClassName, 'object-cover')}
-            />
+            <>
+              <Image 
+              src={img}
+              alt={img}
+              width={1080}
+              height={1080}
+              className={cn(imgClassName, 'object-cover hidden sm:block')}
+              />
+              <Image 
+              src={img}
+              alt={img}
+              width={250}
+              height={250}
+              className={cn(imgClassName, 'object-cover sm:hidden')}
+              />
+            </>
           )}
         </div>
 
@@ -110,7 +119,7 @@ export const BentoGridItem = ({
       
 
       {id === 3 && (
-        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 lg:bottom-0">
+        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-2 lg:-right-2 lg:bottom-0">
           <div className="flex flex-col gap-3 lg:gap-8">
             {['React.js', 'Figma', 'TypeScript'].map((item) => (
               <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-80 lg:opacity-100 rounded-xl text-center bg-brandBackgroundGrey">
@@ -121,7 +130,7 @@ export const BentoGridItem = ({
           </div>
           <div className="flex flex-col gap-3 lg:gap-8">
           <span className="py-4 px-3 rounded-lg text-center"/>
-            {['Next.js', 'Tailwind CSS'].map((item) => (
+            {['Next.js', 'Tailwind'].map((item) => (
               <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-80 lg:opacity-100 rounded-xl text-center bg-brandSecondary">
                 {item}
               </span>
