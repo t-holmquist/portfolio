@@ -149,9 +149,9 @@ export const ProjectData = [
         sketchToDesignDescription: `It was vital to make it clear to the users how they should recycle and emphasize that it was easy and simple. So I created a recycle flow diagram to quickly
                                     visualize the steps to return the capsules.`,
         sketchToDesignSize: 400,
-        elementHightlightLink: "/video/Nespresso_5sek.webm",
-        elementHightlightFallBackLink: "/video/Nespresso_5sek.mp4",
-        thumbnail: "/video/thumbnailNespresso.webp",
+        elementHightlightLink: "/caseImages/nespresso/Nespresso_5sek.webm",
+        elementHightlightFallBackLink: "/caseImages/nespresso/Nespresso_5sek.mp4",
+        thumbnail: "/caseImages/nespresso/thumbnailNespresso.webp",
         elementHightlightHeader: "Video campaign",
         elementHighlightDescription: `This 5 second ad were boiled down to the essential message to the Nespresso users. Recycle, get points, get discount. We also created 30 and 15 second versions showing the decision process of choosing to recycle the capsules.`, 
         illustrationLink: "/caseImages/nespresso/styleGuide.webp",

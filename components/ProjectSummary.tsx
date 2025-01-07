@@ -17,7 +17,7 @@ const ProjectSummary = ({
 }
 ) => {
 
-    const [projectId, setProjectId ] = useState(4);
+    const [projectId, setProjectId ] = useState(0);
 
     // Animation states
     const parentListVariant = {
