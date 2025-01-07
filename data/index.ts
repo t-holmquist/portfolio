@@ -105,7 +105,7 @@ export const navItems = [
     {
       id: 2,
       title: "Founder - Creative Agency",
-      desc: "I started my own company and gained valuable business knowledge and learned how to facilitate and work in a creative team.",
+      desc: "As a founder of my own creative agency, focusing on video production, I have gained valuable business knowledge and learned how to facilitate and work in a creative team",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "2021-2024",
@@ -115,7 +115,7 @@ export const navItems = [
     {
       id: 3,
       title: "Front-end",
-      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment DSA",
+      desc: "React, Web Design, Animations (Framer), State Management, Web Security, Deployment, DSA",
       className: "md:col-span-2",
       thumbnail: "/b4.svg",
       year: "2023-2024",

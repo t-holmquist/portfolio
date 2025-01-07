@@ -50,7 +50,7 @@ export const ProjectData = [
       Purpose: "Designing and promoting a fictive anniversary Vinyl for Ludovico Einaudi with a focus on sustainability.",
       keyFeatures: "Visual concept, Landingpage, Vinyl design, Instagram AD. Spotify art & public banner ads.",
       learnings: `Trying to fit two products and main user actions into one landingpage led to interesting discussions. 
-                  Ultimately we decided one product was sufficient for the goals of the project`,
+                  Ultimately we decided one product was sufficient for the goals of the project.`,
       technologies: "Figma, Premiere Pro, Illustrator, Photoshop.",
       },
     deeperDiveContent: {
@@ -92,7 +92,7 @@ export const ProjectData = [
       title: "Politician",
       Purpose: "Promote a politicians and their political values and topics.",
       keyFeatures: "Landingpage design and coded with html/css. CSS animations.",
-      learnings: "Practiced CSS animations",
+      learnings: "Practiced CSS animations.",
       technologies: "Figma, Visual Studio Code",
       },
     deeperDiveContent: {
@@ -166,9 +166,9 @@ export const ProjectData = [
     imageLink: "/caseImages/portfolio/hero.webp",
     content: {
         title: "Portfolio",
-        Purpose: "Creating this portfolio to show my design and front-end development skills",
-        keyFeatures: "Designed from scratch with React. Utilizing the newest technology with Next.js to improve Core Web Vitals and dev experience",
-        learnings: "I faced many challenges building custom components, rendering server content, designing the dynamic dataflow, navigationdesign and animations",
+        Purpose: "Creating this portfolio to show my design and front-end development skills.",
+        keyFeatures: "Designed from scratch with React. Utilizing the newest technology with Next.js to improve Core Web Vitals and dev experience.",
+        learnings: "I faced many challenges building custom components, rendering server content, designing the dynamic dataflow, navigationdesign and animations.",
         technologies: "TypeScript, React, Next.js, Motion for React (formerly Framer motion), Tailwind. Illustrator.",
         },
     deeperDiveContent: {
