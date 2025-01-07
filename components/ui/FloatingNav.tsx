@@ -1,5 +1,8 @@
+'use client'
+
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const FloatingNav = ({
   navItems,
@@ -8,10 +11,11 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
   }[];
   className?: string;
 }) => {
+
+  const currentPath = usePathname();
 
   return (
     <div
@@ -27,13 +31,12 @@ export const FloatingNav = ({
       </Link>
       <div className="flex items-center justify-center px-4 gap-4">
         {navItems.map((navItem: any, idx: number) => (
-        <Link
-          key={`link=${idx}`}
-          href={navItem.link}
-        >
-          <span className="block sm:hidden">{navItem.icon}</span>
-          <span className="text-brandTextWhite font-bold font-oswald hover:text-brandSecondary">{navItem.name}</span>
-        </Link>
+          <Link
+            key={`link=${idx}`}
+            href={navItem.link}
+          >
+            <span className={`font-bold font-oswald hover:text-brandSecondary ${navItem.link == currentPath ? "text-brandSecondary" : "text-brandTextWhite"}`}>{navItem.name}</span>
+          </Link>
         ))}
       </div>
     </div>
