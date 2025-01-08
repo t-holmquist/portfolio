@@ -175,12 +175,12 @@ export const ProjectData = [
         aboutProjectHeader: "About this portfolio",
         aboutProjectDescription: `I wanted my portfolio to reflect my skills within webdesign and front-end development. That is why I prioritized creating my own React components and
                                   my own personal style. I thought it would be interesting to showcase the design and development of the portfolio itself
-                                  as it is a pretty comprehensive project on its own. Below are a few highlight from the process and how this site came to be.`,
+                                  as it is a pretty interesting project on its own. Below are a few highlight from the process and how this site came to be.`,
         sketchLink: "/caseImages/portfolio/sketch.webp",
         designLink: "/caseImages/portfolio/final.webp",
         sketchToDesignTitle: "Global and local navigation design",
         sketchToDesignHeader: "Navigationsdesign",
-        sketchToDesignDescription: `A highlight of a design choice i made around the navigation of the site. I wanted to avoid too many user clicks to
+        sketchToDesignDescription: `A highlight of a design choice I made around the navigation of the site. I wanted to avoid too many user clicks to
                                     get to the individual cases, so instead I choose to create a dynamic React component that serves as a local navigation 
                                     on the case subpage. This makes it easy to quickly get an overview of the different projects and saves a lot of back-and-forth. 
                                     I think it came out pretty elegantly.`,

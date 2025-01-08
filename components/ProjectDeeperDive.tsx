@@ -3,6 +3,8 @@ import Image from "next/image"
 import SketchToDesign from "./ui/SketchToDesign";
 import { ProjectData } from "@/data/projectData";
 import { Video } from "./ui/video";
+import Link from "next/link";
+import MagicButton from "./ui/MagicButton";
 
 const ProjectDeeperDive = ( { className, projectId } : 
     {
@@ -135,6 +137,16 @@ const ProjectDeeperDive = ( { className, projectId } :
                     <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>
                 </div>
+                <Link href={"/cases"} className="relative my-6">
+                    <MagicButton
+                    title="See another project"
+                    otherClasses="border border-brandBorder"
+                    >
+                        <Image src={"/floatingillustrations/blackstar.svg"} alt="illustration" width={15} height={15} className="absolute -right-8 pointer-events-none"/>
+                        <Image src={"/floatingillustrations/blackline.svg"} alt="illustration" width={15} height={15} className="absolute -left-8 pointer-events-none"/>
+                        <Image src={"/floatingillustrations/blackdiamond.svg"} alt="illustration" width={15} height={15} className="absolute -bottom-4 -left-4 pointer-events-none"/>
+                    </MagicButton>
+                </Link>
             </div>
         </section>
     );
