@@ -8,8 +8,8 @@ const CaseIllustration = () => {
 
     const { scrollYProgress } = useScroll();
 
-    const y = useTransform(scrollYProgress, [0, 0.5, 1], [0, 900, 2000])
-    const rotate = useTransform(scrollYProgress, [0, 0.5, 1], [0, 10, 30])
+    const y = useTransform(scrollYProgress, [0, 0.5, 1], [0, 1200, 2000])
+    const rotate = useTransform(scrollYProgress, [0, 0.5, 1], [0, 10, 35])
 
   return (
     <motion.div className="absolute -left-20 top-4 lg:-left-96 lg:top-72 opacity-5"
