@@ -70,7 +70,7 @@ const Experience = () => {
                 borderRadius="1.75rem"
                 className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-brandBackgroundBlack">
                     <div className="flex items-center rounded-lg p-3 bg-brandBackgroundGrey border border-slate-700">
-                        <p className="text-white-100 font-sourceSans">{card.year}</p>
+                        <p className="text-brandTextWhite font-sourceSans">{card.year}</p>
                     </div>
                     <div className="lg:ms-5">
                         <div className="flex items-center gap-3">
@@ -89,7 +89,7 @@ const Experience = () => {
                                 </Dialog>
                             )}
                         </div>
-                        <p className="text-start text-white-100 mt-3 font-sourceSans text-lg">
+                        <p className="text-start text-brandTextWhite mt-3 font-sourceSans text-lg">
                             {card.desc}
                         </p>
                     </div>

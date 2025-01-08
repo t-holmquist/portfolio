@@ -3,7 +3,7 @@
 export const ProjectData = [
     {
     id: 0,
-    projectLink: "https://www.figma.com/proto/QkaDsn4A6AWOmav5n3DXc5/festival-(Copy)?node-id=2-5&t=N7T5V5944rI57wkQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A5",
+    projectLink: "https://www.figma.com/proto/QkaDsn4A6AWOmav5n3DXc5/festival-(Copy)?node-id=2-5&p=f&t=CDNO39zCYou9j3Vo-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A5",
     imageLink: "/caseImages/cspaaholmen/cspaaholmen.webp",
     content: {
       title: "C's på Holmen",
@@ -167,7 +167,7 @@ export const ProjectData = [
     content: {
         title: "Portfolio",
         Purpose: "Creating this portfolio to show my design and front-end development skills.",
-        keyFeatures: "Designed from scratch with React. Utilizing the newest technology with Next.js to improve Core Web Vitals and dev experience.",
+        keyFeatures: "Designed from scratch with Figma and built with React.js. Utilizing the newest technology with Next.js to improve performance. Built using a mobile-first approach and fully responsive.",
         learnings: "I faced many challenges building custom components, rendering server content, designing the dynamic dataflow, navigationdesign and animations.",
         technologies: "TypeScript, React, Next.js, Motion for React (formerly Framer motion), Tailwind. Illustrator.",
         },
