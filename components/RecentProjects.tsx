@@ -30,19 +30,19 @@ const RecentProjects = () => {
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className="flex lg:h-[41] lg:w-[570px] items-center justify-center lg:min-h-[32.5] w-[80vw]">
                     <ProjectCard id={id} title={link} href={link}>
-                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden lg:h-[40vh] h-[30vh] mb-10">
+                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden lg:h-[40vh] h-[30vh] sm:mb-4">
                             <Image src={img} alt={title} className="z-10 rounded-xl" width={1163} height={720}/>
                         </div>
-                        <h1 className="font-bold font-oswald lg:text-2xl md:text-xl text-base line-clamp-1">
+                        <h1 className="font-bold font-oswald lg:text-2xl md:text-xl text-lg line-clamp-1">
                             {title}
                         </h1>
-                        <p className="lg:text-xl font-sourceSans lg:font-normal font-light text-sm line-clamp-2">
+                        <p className="lg:text-xl font-sourceSans lg:font-normal line-clamp-2">
                             {des}
                         </p>
 
                         <div className="flex items-center justify-between mt-7 mb-3">
                             <div className="flex items-center">
-                                <p className="text-white-200 mr-2 text-sm font-sourceSans">Build with: </p>
+                                <p className="text-brandTextWhite mr-2 text-sm font-sourceSans">Build with: </p>
                                 {iconLists.map((icon, index) => (
                                     <div style={{
                                         transform: `translateX(-${5 * index * 2}px)

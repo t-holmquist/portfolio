@@ -45,16 +45,16 @@ export const ProjectCard = ({
     ref={ref}
     style={{x: id == 1 ? leftProjectX : rightProjectX, scale: scale, rotate: rotate }}
       className={cn(
-        "relative group/pin z-50 h-full cursor-pointer",
+        "relative group/card z-50 h-full cursor-pointer",
         containerClassName
       )}
       onClick={handleClick}
       
     >
         <div
-          className="p-4 bg-brandPrimary flex justify-start items-start rounded-2xl border border-white/[0.1] group-hover/pin:border-white/[0.5] transition duration-300 overflow-hidden"
+          className="p-4 bg-brandPrimary flex justify-start items-start rounded-2xl border border-white/[0.1] sm:group-hover/card:border-white/[0.5] transition duration-300 overflow-hidden"
         >
-          <div className={cn(" relative z-50 ", className)}>{children}</div>
+          <div className={cn(" relative z-50", className)}>{children}</div>
         </div>
         
     </motion.div>
