@@ -1,6 +1,6 @@
 "use client";
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, LayoutGroup } from "framer-motion";
+import React, { useCallback, useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 
 export const FlipWords = ({
@@ -54,7 +54,7 @@ export const FlipWords = ({
         exit={{
           opacity: 0,
           y: -20,
-          filter: "blur(8px)",
+          filter: "blur(0px)",
           scale: 1.1,
           position: "absolute",
         }}
@@ -67,7 +67,7 @@ export const FlipWords = ({
         {currentWord.split("").map((letter, index) => (
           <motion.span
             key={currentWord + index}
-            initial={{ opacity: 0, y: 0, filter: "blur(4px)" }}
+            initial={{ opacity: 0, y: 0, filter: "blur(0px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{
               delay: index * 0.08,
