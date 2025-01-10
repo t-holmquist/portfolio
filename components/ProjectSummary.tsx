@@ -170,7 +170,7 @@ const ProjectSummary = ({
                 </motion.section>
             </section>
             {/* A deeper dive section */}
-            <ProjectDeeperDive projectId={projectId} className="w-11/12 lg:w-7/12 z-10" />
+            <ProjectDeeperDive projectId={projectId} className="w-11/12 lg:w-7/12 xl:w-6/12 z-10" />
         </>
     );
 
