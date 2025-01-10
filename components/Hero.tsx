@@ -15,7 +15,7 @@ const Hero = () => {
             className='text-[40px] md:text-5xl lg:text-5xl font-oswald'
             words='Need help designing & implementing front-end solutions?'
             />
-            <p className='mb-4 text-small md:text-large lg:text-xl lg:max-w-lg font-sourceSans text-brandTextWhite'>
+            <p className='mb-4 text-small md:text-lg lg:max-w-lg font-sourceSans text-brandTextWhite'>
                I&apos;m Tjalfe Holmquist. A Front-end developer and design engineer based in Copenhagen.
             </p>
             <div className='flex items-center gap-4'>

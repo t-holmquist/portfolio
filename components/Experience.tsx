@@ -70,7 +70,7 @@ const Experience = () => {
                 borderRadius="1.75rem"
                 className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-brandBackgroundBlack">
                     <div className="flex items-center rounded-lg p-3 bg-brandBackgroundGrey border border-slate-700">
-                        <p className="text-brandTextWhite font-sourceSans">{card.year}</p>
+                        <p className="text-brandTextWhite font-sourceSans text-xs">{card.year}</p>
                     </div>
                     <div className="lg:ms-5">
                         <div className="flex items-center gap-3">
@@ -79,7 +79,7 @@ const Experience = () => {
                             </h2>
                             {card.hasCertificate && (
                                 <Dialog>
-                                    <DialogTrigger className="font-sourceSans px-2 rounded-xl text-brandAccent bg-brandBackgroundBlack border hover:bg-slate-800 border-slate-700">See certificate</DialogTrigger>
+                                    <DialogTrigger className="font-sourceSans px-2 rounded-xl text-brandAccent bg-brandBackgroundBlack border hover:bg-slate-800 border-slate-700 text-xs">See certificate</DialogTrigger>
                                     <DialogContent className="bg-brandPrimary">
                                         <DialogHeader>
                                             <DialogTitle>Certificate</DialogTitle>

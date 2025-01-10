@@ -98,7 +98,7 @@ export const BentoGridItem = ({
         <div className="font-extralight font-sourceSans text-brandTextWhite text-lg z-10">
           {description}
         </div>
-        <div className={`font-bold text-lg font-oswald lg:text-3xl max-w-96 z-10`}>
+        <div className={`font-bold text-lg font-oswald lg:text-2xl max-w-96 z-10`}>
           {title}
           {id === 1 && (
             pinkFloatingItems.map(({id, imagePath, className}) => (

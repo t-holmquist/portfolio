@@ -130,7 +130,7 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/bullseye-solid.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-xl leading-none">Purpose.</h2>
+                            <h3 className="font-oswald font-bold text-2xl leading-none">Purpose.</h3>
                             <p className="font-sourceSans text-brandTextWhite text-lg">{ProjectData[projectId].content.Purpose}</p>
                         </div>
                     </motion.div>
@@ -141,7 +141,7 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/check-solid.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-xl leading-none">Key Features.</h2>
+                            <h3 className="font-oswald font-bold text-2xl leading-none">Key Features.</h3>
                             <p className="font-sourceSans text-brandTextWhite text-lg">{ProjectData[projectId].content.keyFeatures}</p>
                         </div>
                     </motion.div>
@@ -152,7 +152,7 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/book-solid.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-xl leading-none">Challenges and learnings.</h2>
+                            <h3 className="font-oswald font-bold text-2xl leading-none">Challenges and learnings.</h3>
                             <p className="font-sourceSans text-brandTextWhite text-lg max-w-xs md:max-w-none">{ProjectData[projectId].content.learnings}</p>
                         </div>
                     </motion.div>
@@ -163,7 +163,7 @@ const ProjectSummary = ({
                             <Image src={"/projectIcons/stack-overflow.svg"} width={20} height={20} alt="purpose" className="min-w-5"/>
                         </div>
                         <div className="space-y-1">
-                            <h2 className="font-oswald font-bold text-xl leading-none">Technologies used.</h2>
+                            <h3 className="font-oswald font-bold text-2xl leading-none">Technologies used.</h3>
                             <p className="font-sourceSans text-brandTextWhite text-lg">{ProjectData[projectId].content.technologies}</p>
                         </div>
                     </motion.div>

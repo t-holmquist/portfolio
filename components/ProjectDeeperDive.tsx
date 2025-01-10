@@ -27,7 +27,7 @@ const ProjectDeeperDive = ( { className, projectId } :
             {/* Content */}
             <div className="bg-brandBackgroundBlack border border-brandBorder rounded-xl flex flex-col items-center justify-center p-6 md:py-8 md:px-10 gap-12">
                 <div className="space-y-2 self-start">
-                    <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
+                    <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.aboutProjectDescription}</p>
                 </div>
                 {projectId == 1 && (
@@ -36,7 +36,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">Our process</h3>
+                            <h3 className="font-oswald text-2xl font-bold">Our process</h3>
                             <p className="font-sourceSans text-lg">
                                 Above is a quick view of our brainstorm who led to artist and focus on sustainability.
                                 Initially we also wanted to an anniversary concert tour to be part of the campaign. Ultimately
@@ -53,7 +53,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <Image src={"/caseImages/nespresso/brainstorm.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">Our process</h3>
+                            <h3 className="font-oswald text-2xl font-bold">Our process</h3>
                             <p className="font-sourceSans text-lg">
                                 Initially we considered that Nespresso could have invented a new reusable capsule that could be swapped at a local return points.
                                 Another idea was to upgrade their machines with a recyclable feature to refill a reusable, so the user only had to buy the coffee
@@ -69,7 +69,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <Image src={"/caseImages/portfolio/projectmanagement.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">My design process</h3>
+                            <h3 className="font-oswald text-2xl font-bold">My design process</h3>
                             <p className="font-sourceSans text-lg">
                                 I used Trello as my tool for project management as it fits the size of this project very well.
                                 Figma was of course an essential tool for brainstorming and making my designs come to live before diving into in development.
@@ -84,7 +84,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 size={ProjectData[projectId].deeperDiveContent.sketchToDesignSize}
                 />
                 <div className="w-full space-y-2 self-start">
-                    <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
+                    <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
                 </div>
                 {projectId == 4 && (
@@ -93,7 +93,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <Image src={"/caseImages/portfolio/dataflow.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">Dataflow</h3>
+                            <h3 className="font-oswald text-2xl font-bold">Dataflow</h3>
                             <p className="font-sourceSans text-lg">
                                 I created the data structure above to serve the different projects with the data needed to dynamically render a project page. I then only have one page that
                                 renders all the different data instead of one page per project, which would be very repetitive and redundant. Since I only plan to show my top 3 projects, I didn&apos;t
@@ -113,7 +113,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                         videowidth={ProjectData[projectId].deeperDiveContent.videowidth}
                         />
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                            <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
                             <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
                         </div>
                     </>
@@ -127,14 +127,14 @@ const ProjectDeeperDive = ( { className, projectId } :
                         thumbnail={"/caseImages/nespresso/hero.webp"}
                         />
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                            <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
                             <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
                         </div>
                     </>
                 )}
                 <Image src={ProjectData[projectId].deeperDiveContent.illustrationLink} width={500} height={350} alt="illustration" className="rounded-xl"/>
                 <div className="w-full space-y-2 self-start">
-                    <h3 className="font-oswald text-xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
+                    <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.illustrationHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.illustrationDescription}</p>
                 </div>
                 <Link href={"/cases"} className="relative my-6">
