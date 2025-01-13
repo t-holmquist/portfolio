@@ -127,8 +127,8 @@ const ProjectDeeperDive = ( { className, projectId } :
                         thumbnail={"/caseImages/nespresso/hero.webp"}
                         />
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
-                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                            <h3 className="font-oswald text-2xl font-bold">Landingpage</h3>
+                            <p className="font-sourceSans text-lg">The video above gives a quick view of the landingpage design and the different features that we have implemented.</p>
                         </div>
                     </>
                 )}

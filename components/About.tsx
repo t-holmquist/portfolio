@@ -5,7 +5,7 @@ import FloatingIllustration from "./ui/floatingIllustration";
 const About = () => {
 
   return (
-    <section className="w-full mb-[100px] md:mb-5 sm:pb-10 bg-dot-white/[0.1]" id="contact">
+    <section className="w-full mb-[100px] md:mb-5 sm:pb-10 bg-dot-white/[0.1]">
         <div className="flex relative flex-col items-center">
             <CardGradient/>
             {/* Opacity hidden images reveal on hover - not visible on mobile */}
