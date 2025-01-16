@@ -1,7 +1,7 @@
 'use client'
 
 import { floatingItems } from "@/data";
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion, useScroll, useTransform } from "motion/react"
 import Image from "next/image";
 import { useRef } from "react";
 

@@ -4,7 +4,7 @@ import { cn } from "@/utils/cn";
 import { useState } from "react";
 import MagicButton from "./MagicButton";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const SketchToDesign = ( { className, sketchLink, designLink, title, size } : 
     {

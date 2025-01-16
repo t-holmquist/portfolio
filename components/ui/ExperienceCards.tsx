@@ -1,6 +1,6 @@
 'use client'
 import { cn } from "@/utils/cn";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 export function ExperienceCard({
   variants,

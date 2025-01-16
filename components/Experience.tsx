@@ -12,8 +12,8 @@ import {
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
-import { motion } from "framer-motion"
-import { useInView } from "framer-motion"
+import { motion } from "motion/react"
+import { useInView } from "motion/react"
 import { useRef } from "react"
   
 
