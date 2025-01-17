@@ -33,24 +33,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 {projectId == 1 && (
                     <>
                         <div className="md:p-8 rounded-xl">
-                            <Image src={"/caseImages/ludovico/brainstorm.webp"} width={450} height={450} alt="illustration" className="rounded-xl"/>
-                        </div>
-                        <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-2xl font-bold">Our process</h3>
-                            <p className="font-sourceSans text-lg">
-                                Above is a quick view of our brainstorm who led to artist and focus on sustainability.
-                                Initially we also wanted to an anniversary concert tour to be part of the campaign. Ultimately
-                                we felt that this idea grabbed to much focus from the Vinyl product, which was the main
-                                product to purchase. The landingpage also became cluttered with concerts and losts it simplicity
-                                with two competing actions the user should take - buy the vinal or buy the concert.
-                            </p>
-                        </div>
-                    </>
-                )}
-                {projectId == 3 && (
-                    <>
-                        <div className="md:p-8 rounded-xl">
-                            <Image src={"/caseImages/nespresso/brainstorm.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
+                            <Image src={"/caseAssets/nespresso/brainstorm.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-2xl font-bold">Our process</h3>
@@ -63,10 +46,10 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
-                {projectId == 4 && (
+                {projectId == 0 && (
                     <>
                         <div className="md:p-8 rounded-xl">
-                            <Image src={"/caseImages/portfolio/projectmanagement.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
+                            <Image src={"/caseAssets/portfolio/projectmanagement.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-2xl font-bold">My design process</h3>
@@ -87,10 +70,10 @@ const ProjectDeeperDive = ( { className, projectId } :
                     <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.sketchToDesignHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.sketchToDesignDescription}</p>
                 </div>
-                {projectId == 4 && (
+                {projectId == 0 && (
                     <>
                         <div className="md:p-8 rounded-xl">
-                            <Image src={"/caseImages/portfolio/dataflow.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
+                            <Image src={"/caseAssets/portfolio/dataflow.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-2xl font-bold">Dataflow</h3>
@@ -103,28 +86,23 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
-                {projectId > 0 && (
-                    <>
-                        <Video
-                        key={projectId}
-                        elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
-                        elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
-                        thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
-                        videowidth={ProjectData[projectId].deeperDiveContent.videowidth}
+                <Video
+                key={projectId}
+                elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
+                elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
+                thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
                         />
-                        <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
-                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
-                        </div>
-                    </>
-                )}
-                {projectId == 3 && (
+                <div className="w-full space-y-2 self-start">
+                    <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                    <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                </div>
+                {projectId == 1 && (
                     <>
                         <Video
                         key={projectId}
-                        elementHighlightLink={"/caseImages/nespresso/nespresso.webm"}
-                        elementHighlightFallbackLink={"/caseImages/nespresso/nespresso.mp4"}
-                        thumbnail={"/caseImages/nespresso/hero.webp"}
+                        elementHighlightLink={"/caseAssets/nespresso/nespresso.webm"}
+                        elementHighlightFallbackLink={"/caseAssets/nespresso/nespresso.mp4"}
+                        thumbnail={"/caseAssets/nespresso/hero.webp"}
                         />
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-2xl font-bold">Landingpage</h3>

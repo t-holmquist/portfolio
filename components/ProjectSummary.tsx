@@ -17,7 +17,7 @@ const ProjectSummary = ({
 }
 ) => {
 
-    const [projectId, setProjectId ] = useState(3);
+    const [projectId, setProjectId ] = useState(0);
 
     // Animation states
     const parentListVariant = {
@@ -83,7 +83,7 @@ const ProjectSummary = ({
                                 <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
                             </Link>
                         </motion.div>
-                        {projectId != 4 && (
+                        {projectId != 0 && (
                         <motion.div
                         initial={{x: -10, opacity: 0}}
                         animate={{x: 0, opacity: 1}}
