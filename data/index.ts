@@ -84,7 +84,7 @@ export const navItems = [
       id: 2,
       title: "Portfolio",
       des: "The creation of this portfolio",
-      img: "/caseImages/portfolio/hero.webp",
+      img: "/caseAssets/portfolio/hero.webp",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/figma-icon.svg"],
       link: "/cases",
     },
