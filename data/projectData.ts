@@ -73,4 +73,39 @@ export const ProjectData = [
                                   We might have kept it even more on brand than Nespresso itself, since some of their pages were oddly off brand, which might be due to an upcoming update of their visual identity`,
     }
     },
+    {
+    id: 2,
+    projectLink: "https://www.figma.com/design/pcAVAIk1tBH2ANcKuNVIlL/Sola-kontor-design?node-id=0-1&t=0Xz0M4imnJZd6scp-1",
+    imageLink: "/caseAssets/sola/hero.webp",
+    content: {
+        title: "SOLA",
+        Purpose: `Website for a co-working space & café. The goal was to create a modern and inviting website that would attract new customers to the co-working space.`,
+        keyFeatures: "Website concept and design, React.js development.",
+        learnings: `Implementing the contact formular logic with Next.js server actions took some iterations to get right.`,
+        technologies: "Figma, React.js, Next.js, Tailwind, Motion",
+        },
+    deeperDiveContent: {
+        aboutProjectHeader: "About the SOLA project",
+        aboutProjectDescription: `I was approached by a friend who owns a café and co-working space to create a new website for them. They wanted a modern and inviting design that would attract new customers to their co-working space.
+                                Based on information from the target audience about what they were looking for in a co-working space, I created the website with a focus showing the community, facilities and backstory of how SOLA came to be.`,
+        sketchLink: "/caseAssets/sola/sketch.webp",
+        designLink: "/caseAssets/sola/hero.webp",
+        sketchToDesignTitle: "Community section sketch and final design",
+        sketchToDesignHeader: "Creating the vibe",
+        sketchToDesignDescription: `I wanted to create a section that showed the community aspect of SOLA. I used images to show the people and the vibe of the place. 
+                                    To give it a unique touch, I implemented custom made illustrations that became a part of the SOLA brand, both on the digital interface,
+                                    but also on the interior design of the café and merchandise.`,
+        sketchToDesignSize: 600,
+        elementHightlightLink: "",
+        elementHightlightFallBackLink: "",
+        thumbnail: "",
+        elementHightlightHeader: "",
+        elementHighlightDescription: ``, 
+        illustrationLink: "/caseAssets/sola/kontaktformular.webp",
+        illustrationHeader: "Contact formular logic",
+        illustrationDescription: `I wanted to create my own contact formular logic without any unnecessary overhead of a third party service. I added
+                                    client-side validation with Zod and a server action with Next.js to send the email via a provider called Resend. I did that to make sure it was safe and to catch the mail in a database, so that it 
+                                    didnt get lost if any error occured. It was a fun challenge to get it right.`,
+    }
+    },
   ];

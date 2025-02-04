@@ -80,10 +80,10 @@ const ProjectSummary = ({
                             href={ProjectData[projectId].projectLink}
                             className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
                                 <p className="text-xs font-sourceSans">See Figma prototype</p>
-                                <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="key features"/>
+                                <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="figma prototype"/>
                             </Link>
                         </motion.div>
-                        {projectId != 0 && (
+                        {projectId == 1 && (
                         <motion.div
                         initial={{x: -10, opacity: 0}}
                         animate={{x: 0, opacity: 1}}
@@ -95,6 +95,26 @@ const ProjectSummary = ({
                             className="flex gap-1 items-center w-fit border border-brandSecondary cursor-default py-1 px-3 rounded-xl">
                                 <p className="text-xs font-sourceSans">School project</p>
                             </div>
+                        </motion.div>
+                        )}
+                        {projectId == 2 && (
+                        <motion.div
+                        initial={{x: -10, opacity: 0}}
+                        animate={{x: 0, opacity: 1}}
+                        transition={{
+                        duration: 1,
+                        }}
+                        >
+                            <Link 
+                            href={"https://www.solacph.dk/"}
+                            target="_blank"
+                            >
+                                <div
+                                className="flex gap-1 items-center w-fit border border-brandAccent py-1 px-3 rounded-xl hover:bg-brandPrimary">
+                                    <p className="text-xs font-sourceSans">See live site</p>
+                                    <Image src={"/projectIcons/link-solid.svg"} width={15} height={15} alt="figma prototype"/>
+                                </div>
+                            </Link>
                         </motion.div>
                         )}
                     </div>

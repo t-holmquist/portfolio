@@ -86,16 +86,20 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
-                <Video
-                key={projectId}
-                elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
-                elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
-                thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
+                {projectId < 2 && (
+                    <>
+                        <Video
+                        key={projectId}
+                        elementHighlightLink={ProjectData[projectId].deeperDiveContent.elementHightlightLink}
+                        elementHighlightFallbackLink={ProjectData[projectId].deeperDiveContent.elementHightlightFallBackLink}
+                        thumbnail={ProjectData[projectId].deeperDiveContent.thumbnail}
                         />
-                <div className="w-full space-y-2 self-start">
-                    <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
-                    <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
-                </div>
+                        <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.elementHightlightHeader}</h3>
+                            <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.elementHighlightDescription}</p>
+                        </div>
+                    </>
+                )}
                 {projectId == 1 && (
                     <>
                         <Video
