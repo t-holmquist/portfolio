@@ -100,6 +100,12 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
+                {projectId == 2 && (
+                <div className="w-full space-y-2 self-start">
+                        <h3 className="font-oswald text-2xl font-bold">Test</h3>
+                        <p className="font-sourceSans text-lg">Test</p>
+                </div>
+                )}
                 {projectId == 1 && (
                     <>
                         <Video
