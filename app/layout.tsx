@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "./provider";
 import { GoogleAnalytics } from '@next/third-parties/google';
 
 const oswald = Oswald({
@@ -27,16 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={`${oswald.variable} ${sourceSans3.variable} antialiased`}>
-        <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
+        {children}
       </body>
       <GoogleAnalytics gaId="G-1WBHZKETK5" />
     </html>
