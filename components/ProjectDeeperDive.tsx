@@ -5,6 +5,7 @@ import { ProjectData } from "@/data/projectData";
 import { Video } from "./ui/video";
 import Link from "next/link";
 import MagicButton from "./ui/MagicButton";
+import PagetransitionSola from "./ui/pagetransitionSola";
 
 const ProjectDeeperDive = ( { className, projectId } : 
     {
@@ -100,11 +101,16 @@ const ProjectDeeperDive = ( { className, projectId } :
                         </div>
                     </>
                 )}
+                {/* Page transition SOLA */}
                 {projectId == 2 && (
-                <div className="w-full space-y-2 self-start">
-                        <h3 className="font-oswald text-2xl font-bold">Test</h3>
-                        <p className="font-sourceSans text-lg">Test</p>
-                </div>
+                <>
+                    <PagetransitionSola />
+                    <div className="w-full space-y-2 self-start">
+                            <h3 className="font-oswald text-2xl font-bold">Custom page transition</h3>
+                            <p className="font-sourceSans text-lg">I made a page transition with the setTimeout webAPI. It works by adding a CSS-animation to the body HTML element to animate the color change, 
+                                then setTimeout for a reasonable amount of ms, change the URL-route and remove the animation from the body.</p>
+                    </div>
+                </>
                 )}
                 {projectId == 1 && (
                     <>
