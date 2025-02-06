@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oswald, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const oswald = Oswald({
   subsets: ['latin'],
@@ -37,6 +38,7 @@ export default function RootLayout({
             {children}
           </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-1WBHZKETK5" />
     </html>
   );
 }

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.6",
     "@radix-ui/react-dialog": "^1.1.1",
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.16.6",
@@ -16,7 +17,7 @@
     "lucide-react": "^0.408.0",
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^11.18.0",
-    "next": "^14.2.20",
+    "next": "^15.1.6",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
