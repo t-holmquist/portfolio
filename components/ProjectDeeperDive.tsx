@@ -39,10 +39,10 @@ const ProjectDeeperDive = ( { className, projectId } :
                         <div className="w-full space-y-2 self-start">
                             <h3 className="font-oswald text-2xl font-bold">Our process</h3>
                             <p className="font-sourceSans text-lg">
-                                Initially we considered that Nespresso could have invented a new reusable capsule that could be swapped at a local return points.
-                                Another idea was to upgrade their machines with a recyclable feature to refill a reusable, so the user only had to buy the coffee
-                                and Nespresso didn&apos;t have to produce all those aluminium capsules. Ultimately we decided that it would be too unrealistic unviable, so instead
-                                we chose to promote their existing solution in a better may with the introduction of the aforementioned Nespresso points reward system.
+                                Initially I was considering if Nespresso could have invented a new reusable capsule that could be swapped at a local return point.
+                                Another idea was to upgrade their machines with a recyclable feature to refill a reusable capsule, so the user only had to buy the coffee
+                                and Nespresso didn&apos;t have to produce all those aluminium capsules. Ultimately I decided that it would be too unrealistic, so instead
+                                I chose to promote their existing solution in a better may with the introduction of the aforementioned Nespresso points reward system.
                             </p>
                         </div>
                     </>

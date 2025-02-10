@@ -33,11 +33,11 @@ export function CardGradient() {
       <CardGradientSource className="flex flex-col gap-5 items-center rounded-[22px] max-w-sm md:max-w-xl p-4 sm:p-10 bg-brandBackgroundBlack">
         <Image id="portrait" className="hidden sm:block rounded-3xl" src="/portrait-tjalfe2.webp" alt="portrait" width={350} height={350}/>
         <Image id="portrait" className="mt-6 sm:hidden rounded-3xl" src="/portrait-tjalfe2.webp" alt="portrait" width={220} height={220}/>
-        <p className="text-lg sm:text-3xl text-black dark:text-neutral-200 font-oswald">
+        <h2 className="text-xl lg:text-2xl font-bold text-white font-oswald">
           About me
-        </p>
+        </h2>
 
-        <p className="mb-8 sm:mb-0 text-lg text-neutral-600 dark:text-neutral-400 font-sourceSans">
+        <p className="mb-8 sm:mb-0 text-lg text-white-200 font-sourceSans">
         I have a huge passion for and a lot of experience working with visual communication. In my prior work, creating commercials through storytelling for multiple companies, I discovered that the most exciting place to work is where the user interacts and feels empowered to take action.
         <br></br>
         <br></br>

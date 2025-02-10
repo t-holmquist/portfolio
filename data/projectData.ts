@@ -50,11 +50,11 @@ export const ProjectData = [
         },
     deeperDiveContent: {
         aboutProjectHeader: "In depth about the Nespresso project",
-        aboutProjectDescription: `Our team of students were assigned to choose a company that had, or could have had, a circular product and economy, so we chose Nespresso.
-                                  Nespresso wants to recycle their coffee capsules and have specific goals they want to achieve. So we created a set of advertisements and redesigned their recycling webpage
-                                  to create a significant better user experience. We also invented a new Nespresso points reward system targeted and incentivized towards users already in the Nespresso ecosystem.
-                                  The more you return and recycle, the more points and discount you get off your favorite products - that was the idea. With a better UX-design and specific ads that leads to our redesigned landingpage, 
-                                  the last step was to test our product against real users. This was out of scope for the current school project, although we did adjust our design and ads based on internal feedback.`,
+        aboutProjectDescription: `In this fictive project, I was assigned to choose a company that had, or could have had, a circular product and economy, so we chose Nespresso.
+                                  Nespresso wants to recycle their coffee capsules and have specific goals they want to achieve. So I created a set of advertisements and redesigned their recycling webpage
+                                  to create a significantly better user experience. I also came up with a new Nespresso points reward system targeted and incentivized towards users already in the Nespresso ecosystem.
+                                  The more you return and recycle, the more points and discount you get off your favorite products - that was the idea. With a better UX-design and specific ads that leads to the redesigned landingpage, 
+                                  the last step was to test the product against real users. This was out of scope for the current school project, although I did adjust our design and ads based on internal feedback.`,
         sketchLink: "/caseAssets/nespresso/nespressoflow.png",
         designLink: "/caseAssets/nespresso/nespressoflow_finaldesign.png",
         sketchToDesignTitle: "Guide to return capsules",
@@ -66,11 +66,11 @@ export const ProjectData = [
         elementHightlightFallBackLink: "/caseAssets/nespresso/Nespresso_5sek.mp4",
         thumbnail: "/caseAssets/nespresso/thumbnailNespresso.webp",
         elementHightlightHeader: "Video campaign",
-        elementHighlightDescription: `This 5 second ad were boiled down to the essential message to the Nespresso users. Recycle, get points, get discount. We also created 30 and 15 second versions showing the decision process of choosing to recycle the capsules.`, 
+        elementHighlightDescription: `This 5 second ad were boiled down to the essential message to the Nespresso users. Recycle, get points, get discount. I also created 30 and 15 second versions showing the decision process of choosing to recycle the capsules.`, 
         illustrationLink: "/caseAssets/nespresso/styleGuide.webp",
         illustrationHeader: "Style guide",
-        illustrationDescription: `We needed to get the visual concept right, so our landingpage felt on brand for the Nespresso fans. We made our designs strictly following the design guide from Nespresso. 
-                                  We might have kept it even more on brand than Nespresso itself, since some of their pages were oddly off brand, which might be due to an upcoming update of their visual identity`,
+        illustrationDescription: `I needed to get the visual concept right, so our landingpage felt on brand for the Nespresso fans. I made our designs strictly following the design guide from Nespresso. 
+                                  I might have kept it even more on brand than Nespresso itself, since some of their pages were oddly off brand, which might be due to an upcoming update of their visual identity`,
     }
     },
     {
@@ -87,14 +87,14 @@ export const ProjectData = [
     deeperDiveContent: {
         aboutProjectHeader: "About the SOLA project",
         aboutProjectDescription: `I was approached by a friend who owns a café and co-working space to create a new website for them. They wanted a modern and inviting design that would attract new customers to their co-working space.
-                                Based on information from the target audience about what they were looking for in a co-working space, I created the website with a focus showing the community, facilities and backstory of how SOLA came to be.`,
+                                Based on information from the target audience about what they were looking for in a co-working space, I created the website with a focus on showing the community, facilities and backstory of how SOLA came to be.`,
         sketchLink: "/caseAssets/sola/sketch.webp",
         designLink: "/caseAssets/sola/hero.webp",
         sketchToDesignTitle: "Community section sketch and final design",
         sketchToDesignHeader: "Creating the vibe",
         sketchToDesignDescription: `I wanted to create a section that showed the community aspect of SOLA. I used images to show the people and the vibe of the place. 
-                                    To give it a unique touch, I implemented custom made illustrations that became a part of the SOLA brand, both on the digital interface,
-                                    but also on the interior design of the café and merchandise.`,
+                                    To give it a unique touch, I implemented custom made illustrations that became a part of the SOLA brand, both in the digital interface,
+                                    but also in the interior design of the café and merchandise.`,
         sketchToDesignSize: 600,
         elementHightlightLink: "",
         elementHightlightFallBackLink: "",
