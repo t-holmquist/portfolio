@@ -50,7 +50,7 @@ export const ProjectData = [
         },
     deeperDiveContent: {
         aboutProjectHeader: "In depth about the Nespresso project",
-        aboutProjectDescription: `In this fictive project, I was assigned to choose a company that had, or could have had, a circular product and economy, so we chose Nespresso.
+        aboutProjectDescription: `In this fictive project, I was assigned to choose a company that had, or could have had, a circular product and economy, so I chose Nespresso.
                                   Nespresso wants to recycle their coffee capsules and have specific goals they want to achieve. So I created a set of advertisements and redesigned their recycling webpage
                                   to create a significantly better user experience. I also came up with a new Nespresso points reward system targeted and incentivized towards users already in the Nespresso ecosystem.
                                   The more you return and recycle, the more points and discount you get off your favorite products - that was the idea. With a better UX-design and specific ads that leads to the redesigned landingpage, 

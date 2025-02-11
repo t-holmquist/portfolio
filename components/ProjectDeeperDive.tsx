@@ -37,7 +37,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                             <Image src={"/caseAssets/nespresso/brainstorm.webp"} width={600} height={450} alt="illustration" className="rounded-xl"/>
                         </div>
                         <div className="w-full space-y-2 self-start">
-                            <h3 className="font-oswald text-2xl font-bold">Our process</h3>
+                            <h3 className="font-oswald text-2xl font-bold">My process</h3>
                             <p className="font-sourceSans text-lg">
                                 Initially I was considering if Nespresso could have invented a new reusable capsule that could be swapped at a local return point.
                                 Another idea was to upgrade their machines with a recyclable feature to refill a reusable capsule, so the user only had to buy the coffee
