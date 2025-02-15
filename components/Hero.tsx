@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-6'>
             <TextGenerateEffect 
             className='text-[40px] md:text-5xl lg:text-5xl font-oswald'
-            words='Need help designing & implementing front-end solutions?'
+            words='Passionate about designing and developing user-centered front-end applications'
             />
             <p className='mb-4 text-small md:text-lg lg:max-w-lg font-sourceSans text-brandTextWhite'>
                I&apos;m Tjalfe Holmquist. A Front-end & Digital Design student based in Copenhagen.
