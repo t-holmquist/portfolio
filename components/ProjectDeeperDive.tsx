@@ -19,14 +19,14 @@ const ProjectDeeperDive = ( { className, projectId } :
     return (
         <section className={cn("space-y-6 mt-6", className)}>
             {/* A deeper dive section */}
-            <div className="relative overflow-hidden flex flex-col justify-center items-center border border-brandBorder rounded-xl p-4 gap-2 bg-brandBackgroundBlack">
+            <div className="relative overflow-hidden flex flex-col justify-center items-center border border-slate-600 rounded-xl p-4 gap-2 custom-blur bg-gradient-to-r from-brandSecondary/20 to-brandAccent/20 ">
                 <h2 className="font-oswald text-4xl font-bold">A deeper dive</h2>
                 <p className="font-sourceSans">And a few project highlights</p>
                 <Image src={"/floatingillustrations/line.svg"} width={200} height={200} alt="illustration" className="absolute left-0 opacity-10"/>
                 <Image src={"/floatingillustrations/diamond.svg"} width={200} height={200} alt="illustration" className="absolute -right-20 md:right-0 opacity-10"/>
             </div>
             {/* Content */}
-            <div className="bg-brandBackgroundBlack border border-brandBorder rounded-xl flex flex-col items-center justify-center p-6 md:py-8 md:px-10 gap-12">
+            <div className="custom-blur bg-gradient-to-r from-brandSecondary/20 to-brandAccent/20 border border-slate-600 rounded-xl flex flex-col items-center justify-center p-6 md:py-8 md:px-10 gap-12">
                 <div className="space-y-2 self-start">
                     <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>
                     <p className="font-sourceSans text-lg">{ProjectData[projectId].deeperDiveContent.aboutProjectDescription}</p>

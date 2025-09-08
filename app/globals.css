@@ -102,3 +102,10 @@
 #portrait {
 animation: portrait-animation 4s ease-in-out 0s infinite alternate none;
 }
+
+
+/* Transparent background styles */
+
+.custom-blur {
+  backdrop-filter: blur(12px);
+}

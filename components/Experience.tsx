@@ -68,7 +68,7 @@ const Experience = () => {
                 variants={childItemVariant}
                 key={card.id}
                 borderRadius="1.75rem"
-                className="flex-1 text-white border-neutral-200 dark:border-slate-800 bg-brandBackgroundBlack">
+                className="flex-1 text-white border-brandBorder bg-brandBackgroundBlack">
                     <div className="flex items-center rounded-lg p-3 bg-brandBackgroundGrey border border-slate-700">
                         <p className="text-brandTextWhite font-sourceSans text-xs">{card.year}</p>
                     </div>

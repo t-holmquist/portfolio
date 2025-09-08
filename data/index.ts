@@ -93,6 +93,16 @@ export const navItems = [
   
   export const workExperience = [
     {
+      id: 0,
+      title: "Center for IT og Medicoteknologi",
+      desc: "Working as a Student assistant - improving the user experience of Min Sundhedsplatform and working with application testing of Sundhedsplatformen. Gaining experience working in an agile organization using the Scaled Agile Framework (SAFe)",
+      className: "md:col-span-2",
+      thumbnail: "/b4.svg",
+      year: "Current",
+      hasCertificate: false,
+      certificate: '',
+    },
+    {
       id: 1,
       title: "Multimedia Design, CPH Business Academy",
       desc: "Front-end development, React, UI/UX design, Figma, Project management",

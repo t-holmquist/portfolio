@@ -52,7 +52,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        `row-span-1  ${id === 2 ? "bg-brandBackgroundBlack" : "bg-brandBackgroundBlack"} relative overflow-hidden rounded-3xl group/bento transition duration-200 justify-between flex flex-col space-y-4 border border-white/0.1`,
+        `row-span-1 custom-blur bg-gradient-to-r from-brandSecondary/5 to-brandAccent/5 relative overflow-hidden rounded-3xl group/bento transition duration-200 justify-between flex flex-col space-y-4 border border-slate-600`,
         className
       )}
     >

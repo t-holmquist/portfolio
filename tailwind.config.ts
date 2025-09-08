@@ -44,7 +44,7 @@ const config = {
         },
         brandPrimary: "#2A1E7F",
         brandSecondary: "#86B2CE",
-        brandBorder: "#2D4453",
+        brandBorder: "#42596a",
         brandAccent: "#9353FF",
         brandBackgroundBlack: "#07161F",
         brandBackgroundGrey: "#2D4453",

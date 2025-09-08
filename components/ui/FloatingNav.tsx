@@ -20,7 +20,7 @@ export const FloatingNav = ({
   return (
     <div
       className={cn(
-        "flex max-w-fit sticky mt-8 top-2 mx-auto border rounded-xl z-[5000] items-center justify-center border-brandBorder bg-brandBackgroundBlack",
+        "flex max-w-fit sticky mt-8 top-2 mx-auto border rounded-xl z-[5000] items-center justify-center border-slate-500 custom-blur bg-gradient-to-r from-brandSecondary/20 to-brandSecondary/20",
         className
       )}
     >

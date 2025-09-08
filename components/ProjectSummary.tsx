@@ -142,7 +142,7 @@ const ProjectSummary = ({
                 transition={{
                     duration: 1,
                 }}
-                className="flex flex-col justify-center w-full bg-brandPrimary rounded-xl p-6 md:p-8 gap-6">
+                className="flex flex-col justify-center w-full custom-blur bg-brandPrimary/50 rounded-xl p-6 md:p-8 gap-6">
                     <motion.div 
                     variants={childItemVariant}
                     className="flex gap-2">
