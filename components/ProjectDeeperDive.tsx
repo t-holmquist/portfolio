@@ -26,6 +26,7 @@ const ProjectDeeperDive = ( { className, projectId } :
                 <Image src={"/floatingillustrations/diamond.svg"} width={200} height={200} alt="illustration" className="absolute -right-20 md:right-0 opacity-10"/>
             </div>
             {/* Content */}
+            {/* TODO: Replace with project components based on projectId */}
             <div className="custom-blur bg-gradient-to-r from-brandSecondary/20 to-brandAccent/20 border border-slate-600 rounded-xl flex flex-col items-center justify-center p-6 md:py-8 md:px-10 gap-12">
                 <div className="space-y-2 self-start">
                     <h3 className="font-oswald text-2xl font-bold">{ProjectData[projectId].deeperDiveContent.aboutProjectHeader}</h3>

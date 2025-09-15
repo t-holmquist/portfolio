@@ -15,6 +15,7 @@ import {
 import { motion } from "motion/react"
 import { useInView } from "motion/react"
 import { useRef } from "react"
+import CurrentEmployment from "./currentemployment"
   
 
 const Experience = () => {
@@ -52,10 +53,13 @@ const Experience = () => {
     <div id="experience" className="mt-20 lg:mt-28">
         <h2 className="heading">
             My
-            <span className="text-brandAccent"> qualifications</span>
+            <span className="text-brandAccent"> experience & qualifications</span>
         </h2>
-        <p className="text-white-200 mt-6 max-w-lg font-sourceSans text-lg">Here is an overview of my prior experience and my certificates within front-end development.</p>
+        <p className="text-white-200 mt-6 max-w-lg font-sourceSans text-lg">An overview of current employment, prior experience and certificates within front-end development.</p>
+        {/* Current employment section */}
+        <CurrentEmployment/>
 
+        {/* Experience card section */}
         <motion.div className="w-full mt-20 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 gap-10"
         ref={ref}
         variants={parentListVariant}

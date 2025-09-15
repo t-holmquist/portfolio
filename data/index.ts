@@ -9,6 +9,19 @@ export const funFacts = [
 ];
 
 
+// Skills data
+export const skillsData = [
+  {id: 0, title: 'Agile teamwork'},
+  {id: 1, title: 'Application testing'},
+  {id: 2, title: 'UX & Figma prototyping'},
+  {id: 3, title: 'ServiceNow project management'},
+  {id: 4, title: 'User testing with patients'},
+  {id: 5, title: 'Data migration workflows'},
+  {id: 6, title: 'Data Viz creation'},
+  {id: 7, title: 'Task automation'},
+];
+
+
 export const floatingItems = [
   { id: 1, imagePath: "/floatingillustrations/diamond.svg", className: "absolute left-20 top-60 opacity-50"},
   { id: 2, imagePath: "/floatingillustrations/diamond.svg", className: "absolute right-20 top-80 opacity-50"},
@@ -92,16 +105,6 @@ export const navItems = [
   
   
   export const workExperience = [
-    {
-      id: 0,
-      title: "Center for IT og Medicoteknologi",
-      desc: "Working as a Student assistant - improving the user experience of Min Sundhedsplatform and working with application testing of Sundhedsplatformen. Gaining experience working in an agile organization using the Scaled Agile Framework (SAFe)",
-      className: "md:col-span-2",
-      thumbnail: "/b4.svg",
-      year: "Current",
-      hasCertificate: false,
-      certificate: '',
-    },
     {
       id: 1,
       title: "Multimedia Design, CPH Business Academy",

@@ -47,6 +47,7 @@ const ProjectSummary = ({
 
     return (
         // key prop gives React info about which element to render and passes to framer motion to trigger animation when projectId changes
+        // TODO: Refactor to instead create individual project summary components
         <>
             <section className={cn("flex flex-col gap-6 text-brandTextWhite", className)} key={projectId}>
                 <div className="flex gap-4 flex-wrap">
